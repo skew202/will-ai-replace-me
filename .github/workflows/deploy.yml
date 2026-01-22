@@ -36,11 +36,11 @@ jobs:
         run: pnpm build
 
       - name: Create Cloudflare Pages Project
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages project create will-ai-replace-me --production-branch main || true
+        id: create-project
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: pnpm exec wrangler pages project create will-ai-replace-me --production-branch main || true
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
