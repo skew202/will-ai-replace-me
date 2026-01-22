@@ -3,45 +3,38 @@ import { getJobById } from '@/lib/data';
 import satori from 'satori';
 import { html } from 'satori-html';
 import { Resvg, initWasm } from '@resvg/resvg-wasm';
+import resvgWasm from '@resvg/resvg-wasm/index_bg.wasm';
+
+// Initialize WASM globally once
+try {
+  await initWasm(resvgWasm);
+} catch (e) {
+  console.error('Resvg WASM initialization failed:', e);
+}
 
 const fontUrl = 'https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff';
 
-let wasmInitialized = false;
-
 export const GET: APIRoute = async ({ params }) => {
-    const { id } = params;
+  const { id } = params;
 
-    if (!id) {
-        return new Response('Missing ID', { status: 400 });
-    }
+  if (!id) {
+    return new Response('Missing ID', { status: 400 });
+  }
 
-    const job = getJobById(id);
+  const job = getJobById(id);
 
-    if (!job) {
-        return new Response('Job not found', { status: 404 });
-    }
+  if (!job) {
+    return new Response('Job not found', { status: 404 });
+  }
 
-    // Initialize WASM
-    if (!wasmInitialized) {
-        try {
-            // @ts-ignore
-            const wasm = await import('@resvg/resvg-wasm/index_bg.wasm');
-            await initWasm(wasm.default);
-            wasmInitialized = true;
-        } catch (e) {
-            console.error('Failed to initialize Resvg WASM:', e);
-            // Fallback or better error handling might be needed
-        }
-    }
+  // Load font
+  const fontData = await fetch(fontUrl).then((res) => res.arrayBuffer());
 
-    // Load font
-    const fontData = await fetch(fontUrl).then((res) => res.arrayBuffer());
+  // Determine colors based on risk
+  const riskColor = job.riskPercent > 70 ? '#EF4444' : job.riskPercent > 40 ? '#EAB308' : '#22C55E';
 
-    // Determine colors based on risk
-    const riskColor = job.riskPercent > 70 ? '#EF4444' : job.riskPercent > 40 ? '#EAB308' : '#22C55E';
-
-    // Template
-    const markup = html`
+  // Template
+  const markup = html`
     <div
       style="display: flex; flex-direction: column; width: 1200px; height: 630px; background-color: #09090b; color: #fff; padding: 60px; justify-content: space-between; font-family: 'Inter';"
     >
@@ -68,36 +61,36 @@ export const GET: APIRoute = async ({ params }) => {
     </div>
   `;
 
-    // Generate SVG
-    const svg = await satori(markup, {
-        width: 1200,
-        height: 630,
-        fonts: [
-            {
-                name: 'Inter',
-                data: fontData,
-                weight: 400,
-                style: 'normal',
-            },
-        ],
-    });
+  // Generate SVG
+  const svg = await satori(markup, {
+    width: 1200,
+    height: 630,
+    fonts: [
+      {
+        name: 'Inter',
+        data: fontData,
+        weight: 400,
+        style: 'normal',
+      },
+    ],
+  });
 
-    // Convert to PNG
-    const resvg = new Resvg(svg, {
-        fitTo: {
-            mode: 'width',
-            value: 1200,
-        },
-    });
+  // Convert to PNG
+  const resvg = new Resvg(svg, {
+    fitTo: {
+      mode: 'width',
+      value: 1200,
+    },
+  });
 
-    const image = resvg.render();
-    const png = image.asPng();
+  const image = resvg.render();
+  const png = image.asPng();
 
-    return new Response(png, {
-        headers: {
-            'Content-Type': 'image/png',
-            // Cache for 1 day at edge, 1 year if immutable
-            'Cache-Control': 'public, max-age=86400, s-maxage=31536000',
-        },
-    });
+  return new Response(png, {
+    headers: {
+      'Content-Type': 'image/png',
+      // Cache for 1 day at edge, 1 year if immutable
+      'Cache-Control': 'public, max-age=86400, s-maxage=31536000',
+    },
+  });
 };

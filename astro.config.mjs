@@ -3,6 +3,9 @@ import cloudflare from '@astrojs/cloudflare';
 import preact from '@astrojs/preact';
 import tailwindcss from '@tailwindcss/vite';
 
+import wasm from 'vite-plugin-wasm';
+import topLevelAwait from 'vite-plugin-top-level-await';
+
 export default defineConfig({
     site: 'https://will-ai-replace.me',
     output: 'server',
@@ -13,6 +16,10 @@ export default defineConfig({
     }),
     integrations: [preact({ compat: true })],
     vite: {
-        plugins: [tailwindcss()],
+        plugins: [
+            tailwindcss(),
+            wasm(),
+            topLevelAwait()
+        ],
     },
 });
