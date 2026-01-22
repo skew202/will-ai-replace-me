@@ -1,45 +1,69 @@
-import { useState, useMemo, useCallback } from 'preact/hooks';
-import type { Job, Location } from '@/types';
+import { useState, useEffect, useMemo, useCallback } from 'preact/hooks';
+import type { Job } from '@/types';
+import MiniSearch from 'minisearch';
 
 interface Props {
     detectedCountry: string;
     detectedCountryName: string;
 }
 
-// Jobs data will be injected at build time
-declare const __JOBS_DATA__: Job[];
-declare const __LOCATIONS_DATA__: Array<{ value: string; label: string; tier: number }>;
+interface SearchResult {
+    id: string;
+    title: string;
+    category: string;
+    riskPercent: number;
+}
 
 export default function JobSearch({ detectedCountry, detectedCountryName }: Props) {
     const [query, setQuery] = useState('');
-    const [selectedCountry, setSelectedCountry] = useState(detectedCountry);
+    const [selectedCountry] = useState(detectedCountry);
     const [showDropdown, setShowDropdown] = useState(false);
+    const [searchEngine, setSearchEngine] = useState<MiniSearch<SearchResult> | null>(null);
+    const [isLoading, setIsLoading] = useState(true);
+
+    // Load the search index on mount
+    useEffect(() => {
+        async function loadIndex() {
+            try {
+                const response = await fetch('/search-index.json');
+                const data = await response.json();
+
+                const miniSearch = MiniSearch.loadJSON<SearchResult>(JSON.stringify(data), {
+                    fields: ['title', 'category', 'quip', 'exposureFactors'],
+                    storeFields: ['title', 'category', 'riskPercent', 'id'],
+                    searchOptions: {
+                        boost: { title: 2 },
+                        fuzzy: 0.2,
+                        prefix: true
+                    }
+                });
+
+                setSearchEngine(miniSearch);
+                setIsLoading(false);
+            } catch (error) {
+                console.error('Failed to load search index:', error);
+                setIsLoading(false);
+            }
+        }
+
+        loadIndex();
+    }, []);
 
     // Filter jobs based on query
     const filteredJobs = useMemo(() => {
-        if (!query || query.length < 2) return [];
+        if (!query || query.length < 2 || !searchEngine) return [];
 
-        const lowerQuery = query.toLowerCase();
-        // This would be populated from build-time data
-        const allJobs: Job[] = [
-            { id: 'software_developer', title: 'Software Developer', category: 'technology', riskPercent: 72, timeline: { minYears: 3, maxYears: 7 }, exposureFactors: [], quip: '', sources: [] },
-            { id: 'copywriter', title: 'Copywriter', category: 'marketing', riskPercent: 85, timeline: { minYears: 0, maxYears: 3 }, exposureFactors: [], quip: '', sources: [] },
-            { id: 'financial_analyst', title: 'Financial Analyst', category: 'finance', riskPercent: 75, timeline: { minYears: 2, maxYears: 5 }, exposureFactors: [], quip: '', sources: [] },
-            { id: 'graphic_designer', title: 'Graphic Designer', category: 'creative', riskPercent: 75, timeline: { minYears: 1, maxYears: 4 }, exposureFactors: [], quip: '', sources: [] },
-            { id: 'paralegal', title: 'Paralegal', category: 'legal', riskPercent: 80, timeline: { minYears: 2, maxYears: 5 }, exposureFactors: [], quip: '', sources: [] },
-            { id: 'data_analyst', title: 'Data Analyst', category: 'technology', riskPercent: 68, timeline: { minYears: 2, maxYears: 5 }, exposureFactors: [], quip: '', sources: [] },
-            { id: 'customer_service_rep', title: 'Customer Service Representative', category: 'admin', riskPercent: 88, timeline: { minYears: 0, maxYears: 3 }, exposureFactors: [], quip: '', sources: [] },
-            { id: 'translator', title: 'Translator', category: 'creative', riskPercent: 85, timeline: { minYears: 0, maxYears: 3 }, exposureFactors: [], quip: '', sources: [] },
-        ];
+        const results = searchEngine.search(query, {
+            boost: { title: 3 },
+            fuzzy: 0.2,
+            prefix: true
+        });
 
-        return allJobs
-            .filter((job) => job.title.toLowerCase().includes(lowerQuery))
-            .slice(0, 6);
-    }, [query]);
+        return results.slice(0, 8);
+    }, [query, searchEngine]);
 
-    const handleSelect = useCallback((job: Job) => {
-        // Navigate to result page
-        window.location.href = `/result?job=${job.id}&country=${selectedCountry}`;
+    const handleSelect = useCallback((result: SearchResult) => {
+        window.location.href = `/result?job=${result.id}&country=${selectedCountry}`;
     }, [selectedCountry]);
 
     const handleSubmit = useCallback((e: Event) => {
@@ -65,29 +89,45 @@ export default function JobSearch({ detectedCountry, detectedCountryName }: Prop
                         setShowDropdown(true);
                     }}
                     onFocus={() => setShowDropdown(true)}
+                    onBlur={() => setTimeout(() => setShowDropdown(false), 200)}
                     placeholder="e.g., Software Developer, Copywriter, Accountant..."
                     class="w-full rounded-xl border border-surface-700 bg-surface-900 px-6 py-4 text-lg text-surface-100 placeholder-surface-500 transition-all focus:border-danger-500 focus:outline-none focus:ring-2 focus:ring-danger-500/20"
                     autocomplete="off"
+                    disabled={isLoading}
                 />
+
+                {/* Loading indicator */}
+                {isLoading && (
+                    <div class="absolute right-4 top-1/2 -translate-y-1/2">
+                        <div class="h-5 w-5 animate-spin rounded-full border-2 border-surface-600 border-t-danger-500" />
+                    </div>
+                )}
 
                 {/* Dropdown results */}
                 {showDropdown && filteredJobs.length > 0 && (
-                    <ul class="absolute z-20 mt-2 w-full rounded-xl border border-surface-700 bg-surface-900 py-2 shadow-2xl">
-                        {filteredJobs.map((job) => (
-                            <li key={job.id}>
+                    <ul class="absolute z-20 mt-2 w-full rounded-xl border border-surface-700 bg-surface-900 py-2 shadow-2xl max-h-80 overflow-y-auto">
+                        {filteredJobs.map((result) => (
+                            <li key={result.id}>
                                 <button
                                     type="button"
-                                    onClick={() => handleSelect(job)}
+                                    onMouseDown={() => handleSelect(result)}
                                     class="w-full px-6 py-3 text-left transition-colors hover:bg-surface-800"
                                 >
-                                    <span class="font-medium text-surface-100">{job.title}</span>
+                                    <span class="font-medium text-surface-100">{result.title}</span>
                                     <span class="ml-2 text-sm text-danger-400">
-                                        {job.riskPercent}% risk
+                                        {result.riskPercent}% risk
                                     </span>
                                 </button>
                             </li>
                         ))}
                     </ul>
+                )}
+
+                {/* No results message */}
+                {showDropdown && query.length >= 2 && filteredJobs.length === 0 && !isLoading && (
+                    <div class="absolute z-20 mt-2 w-full rounded-xl border border-surface-700 bg-surface-900 py-4 px-6 text-surface-400">
+                        No jobs found matching "{query}"
+                    </div>
                 )}
             </div>
 
@@ -103,7 +143,7 @@ export default function JobSearch({ detectedCountry, detectedCountryName }: Prop
             {/* Submit */}
             <button
                 type="submit"
-                disabled={filteredJobs.length === 0}
+                disabled={filteredJobs.length === 0 || isLoading}
                 class="w-full rounded-xl bg-gradient-to-r from-danger-600 to-danger-500 px-8 py-4 text-lg font-semibold text-white transition-all hover:from-danger-500 hover:to-danger-400 focus:outline-none focus:ring-2 focus:ring-danger-500 focus:ring-offset-2 focus:ring-offset-surface-900 disabled:opacity-50 disabled:cursor-not-allowed"
             >
                 See My Fate
