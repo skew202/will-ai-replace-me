@@ -7,8 +7,8 @@ import { getJobById, getLocationByCode, getAllQuotes } from '@lib/data';
 import { calculatePrediction, formatTimeline, getRiskLevel, getTargetYear } from '@lib/prediction';
 
 // Get query params
-const jobId = Astro.url.searchParams.get('job');
-const countryCode = Astro.url.searchParams.get('country') || 'US';
+const jobId = Astro.url.searchParams.get('as');
+const countryCode = Astro.url.searchParams.get('in') || 'US';
 
 // Fetch data
 const job = jobId ? getJobById(jobId) : null;

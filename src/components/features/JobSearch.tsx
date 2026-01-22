@@ -63,7 +63,7 @@ export default function JobSearch({ detectedCountry, detectedCountryName }: Prop
     }, [query, searchEngine]);
 
     const handleSelect = useCallback((result: SearchResult) => {
-        window.location.href = `/result?job=${result.id}&country=${selectedCountry}`;
+        window.location.href = `/soon?as=${result.id}&in=${selectedCountry}`;
     }, [selectedCountry]);
 
     const handleSubmit = useCallback((e: Event) => {
