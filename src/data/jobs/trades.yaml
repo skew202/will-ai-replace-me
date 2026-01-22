@@ -1,0 +1,182 @@
+# Trades & Manual Services - AI Exposure Data
+# Sources: Sam Altman, Jensen Huang, Geoffrey Hinton, Kai-Fu Lee (Moravec's Paradox)
+
+plumber:
+  id: plumber
+  title: Plumber
+  onetCode: "47-2152.00"
+  category: trades
+  riskPercent: 15
+  timeline:
+    minYears: 10
+    maxYears: 20
+  exposureFactors:
+    - Robotics lag in unstructured environments
+    - High dexterity requirements for irregular tight spaces
+    - Complex physical problem-solving
+  quip: "Sam Altman says you're safe. Geoffrey Hinton says you're smart. Finally, the person with the wrench gets the last laugh."
+  sources:
+    - url: https://economictimes.indiatimes.com/tech/technology/godfather-of-ai-geoffrey-hinton-says-its-a-good-bet-to-be-a-plumber-as-ai-comes-for-white-collar-jobs/articleshow/109865882.cms
+      title: Hinton - "Good bet to be a plumber"
+
+electrician:
+  id: electrician
+  title: Electrician
+  onetCode: "47-2111.00"
+  category: trades
+  riskPercent: 12
+  timeline:
+    minYears: 10
+    maxYears: 15
+  exposureFactors:
+    - Extreme hazard management and safety judgment
+    - Interactions with legacy, non-standard infrastructure
+    - Fine motor skills for wiring in varied conditions
+  quip: "The AI can write the code, but it can't wire the server farm that runs it without electrocuting itself."
+  sources:
+    - url: https://www.reddit.com/r/singularity/comments/1g45jj3/jensen_huang_if_i_were_a_student_today_id_choose/
+      title: Jensen Huang - "We're going to need massive amounts of energy"
+
+carpenter:
+  id: carpenter
+  title: Carpenter
+  onetCode: "47-2031.00"
+  category: trades
+  riskPercent: 18
+  timeline:
+    minYears: 8
+    maxYears: 15
+  exposureFactors:
+    - Custom fabrication for non-standard spaces
+    - Material variability (wood grain, warping) handling
+    - On-site structural adaptation
+  quip: "Jesus was a carpenter. Jensen Huang thinks you should be one too. It's a profession with high-level endorsements."
+  sources:
+    - url: https://www.tomshardware.com/tech-industry/artificial-intelligence/jensen-huang-advocates-for-learning-trades-over-coding
+      title: Jensen Huang Advocates for Trades
+
+massage_therapist:
+  id: massage_therapist
+  title: Massage Therapist
+  onetCode: "31-9011.00"
+  category: trades
+  riskPercent: 5
+  timeline:
+    minYears: 15
+    maxYears: 25
+  exposureFactors:
+    - High-touch empathy and physiological feedback
+    - Nuanced pressure adjustment based on real-time pain response
+    - The "uncanny valley" of robotic touch
+  quip: "Robots are cold, hard, and terrifying. You are warm, soft, and expensive. You win."
+  sources:
+    - url: https://humanefutureofwork.com/kai-fu-lee-on-the-future-of-work/
+      title: Kai-Fu Lee - "Dexterity Safe" Jobs
+
+lifeguard:
+  id: lifeguard
+  title: Lifeguard
+  onetCode: "33-9092.00"
+  category: trades
+  riskPercent: 8
+  timeline:
+    minYears: 10
+    maxYears: 20
+  exposureFactors:
+    - Real-time crisis recognition in chaotic fluid dynamics
+    - Physical rescue requiring swimming and heavy lifting
+    - Immediate medical triage and CPR
+  quip: "AI can spot a drowning swimmer, but it rusts if it jumps in the pool to save them."
+  sources:
+    - url: https://www.onetonline.org/link/summary/33-9092.00
+      title: O*NET Lifeguards
+
+hair_stylist:
+  id: hair_stylist
+  title: Hair Stylist
+  onetCode: "39-5012.00"
+  category: trades
+  riskPercent: 10
+  timeline:
+    minYears: 10
+    maxYears: 20
+  exposureFactors:
+    - Complex 3D spatial manipulation of flexible materials
+    - Social therapy and emotional connection with clients
+    - Aesthetic judgment tailored to individual face shapes
+  quip: "People don't pay for the haircut. They pay for the therapy session and the fact that you aren't holding a pair of scissors with a robotic arm."
+  sources:
+    - url: https://humanefutureofwork.com/kai-fu-lee-on-the-future-of-work/
+      title: Kai-Fu Lee on Human Connection
+
+emt:
+  id: emt
+  title: Emergency Medical Technician
+  onetCode: "29-2042.00"
+  category: trades
+  riskPercent: 15
+  timeline:
+    minYears: 8
+    maxYears: 15
+  exposureFactors:
+    - High-stakes decision making in uncontrolled environments
+    - Physical patient manipulation and transport
+    - Emotional management of trauma victims
+  quip: "You save lives in the back of a moving van. The AI hallucinates medical advice in a climate-controlled server room."
+  sources:
+    - url: https://www.onetonline.org/link/summary/29-2042.00
+      title: O*NET Emergency Medical Technicians
+
+chef:
+  id: chef
+  title: Chef (High-End)
+  onetCode: "35-1011.00"
+  category: trades
+  riskPercent: 20
+  timeline:
+    minYears: 5
+    maxYears: 15
+  exposureFactors:
+    - Taste and smell subjectivity (sensorially inaccessible to AI)
+    - Creative menu conceptualization
+    - High-speed physical coordination in kitchens
+  quip: "Until AI learns to taste, it's just following a recipe. And nobody pays $500 for a meal cooked by a microwave's smarter cousin."
+  sources:
+    - url: https://humanefutureofwork.com/kai-fu-lee-on-the-future-of-work/
+      title: Kai-Fu Lee on Creativity
+
+construction_manager:
+  id: construction_manager
+  title: Construction Manager
+  onetCode: "11-9021.00"
+  category: trades
+  riskPercent: 25
+  timeline:
+    minYears: 5
+    maxYears: 12
+  exposureFactors:
+    - Coordination of physical trades in real-time
+    - Unpredictable site condition management (weather, supply chain)
+    - Human negotiation and conflict resolution
+  quip: "Managing chaos in the mud. The AI prefers managing chaos in a spreadsheet."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-9021.00
+      title: O*NET Construction Managers
+
+aged_care_worker:
+  id: aged_care_worker
+  title: Aged Care Worker
+  onetCode: "31-1120.00"
+  category: trades
+  riskPercent: 5
+  timeline:
+    minYears: 15
+    maxYears: 25
+  exposureFactors:
+    - Deep emotional empathy and companionship
+    - Physical assistance with delicate personal tasks
+    - Unstructured home environments
+  quip: "The most 'human' job left. When we're old, we want a hand to hold, not a cold metal gripper."
+  sources:
+    - url: https://humanefutureofwork.com/kai-fu-lee-on-the-future-of-work/
+      title: Kai-Fu Lee on Compassion

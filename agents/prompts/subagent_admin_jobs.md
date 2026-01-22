@@ -10,7 +10,33 @@ You are a labor economics research agent specializing in administrative, HR, and
 
 ## Already Researched (Do NOT include these)
 
-- Project Coordinator, Customer Service Representative, Executive Assistant, Office Manager, Data Entry Clerk, Receptionist, HR Coordinator, Travel Agent, Procurement Clerk, Virtual Assistant, Recruiter / Talent Acquisition, Benefits Manager.
+- Administrative Assistant
+- Compensation & Benefits Specialist
+- Correspondence Clerk
+- Customer Service Representative
+- Employee Relations Specialist
+- Executive Assistant
+- File Clerk / Records Technician
+- HR Administrative Assistant
+- HR Assistant
+- HR Coordinator
+- HRIS Specialist
+- Interviewing Clerk
+- Library Assistant, Clerical
+- Mail Clerk
+- Occupational Health & Safety Specialist
+- Office Machine Operator
+- Onboarding Specialist
+- Personnel Clerk
+- Production Clerk
+- Project Coordinator
+- Records Management Specialist
+- Recruiter
+- Shipping and Receiving Clerk
+- Switchboard Operator
+- Training & Development Specialist
+- Training and Development Coordinator
+- Word Processor / Typist
 
 ## Discovery Factors
 

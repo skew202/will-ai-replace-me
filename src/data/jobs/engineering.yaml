@@ -1,0 +1,202 @@
+# Engineering Jobs - AI Exposure Data
+# Sources: PwC AI Jobs Barometer 2025, Goldman Sachs AI Report, AMRO GenAI Study
+
+cad_technician:
+  id: cad_technician
+  title: CAD Technician
+  onetCode: "17-3011.00"
+  category: engineering
+  riskPercent: 88
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - AI-automated wireframe generation
+    - Neural technical plan drafting
+    - Automated BOM (Bill of Materials) derivation
+  quip: "Drawing lines is a job for a ruler, and the ruler just got a very fast brain."
+  sources:
+    - url: https://www.onetonline.org/link/summary/17-3011.00
+      title: O*NET Architectural and Civil Drafters
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+bim_coordinator:
+  id: bim_coordinator
+  title: BIM Coordinator
+  onetCode: "17-3011.00"
+  category: engineering
+  riskPercent: 78
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - Automated clash detection triage
+    - AI-managed model rule checking
+    - Neural cross-disciplinary data alignment
+  quip: "You're coordinating the digital model, but the model has already decided where the pipes go before you opened the app."
+  sources:
+    - url: https://www.onetonline.org/link/summary/17-3011.00
+      title: O*NET Architectural and Civil Drafters
+    - url: https://www.goldmansachs.com/intelligence/pages/gs-research/the-potentially-large-effects-of-artificial-intelligence-on-economic-growth-2023/report.pdf
+      title: Goldman Sachs AI Impact on Engineering
+
+surveyor:
+  id: surveyor
+  title: Surveyor
+  onetCode: "17-1021.00"
+  category: engineering
+  riskPercent: 62
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - AI-driven drone photogrammetry
+    - Automated point cloud feature extraction
+    - Neural地形 (Terrain) modeling
+  quip: "The drone sees the world in dots, and the bot connects them. You're just there to make sure the drone doesn't hit a tree."
+  sources:
+    - url: https://www.onetonline.org/link/summary/17-1021.00
+      title: O*NET Surveyors
+    - url: https://amro-asia.org/wp-content/uploads/2025/11/GenAI_Labour_Huang2025_20251107.pdf
+      title: AMRO GenAI Labor Market Study
+
+landscape_architect:
+  id: landscape_architect
+  title: Landscape Architect
+  onetCode: "17-1012.00"
+  category: engineering
+  riskPercent: 55
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - Generative site layout synthesis
+    - AI-automated plant selection optimization
+    - Neural environmental impact simulation
+  quip: "Nature is complex, but the algorithm found the most 'aesthetic' way to place the bushes."
+  sources:
+    - url: https://www.onetonline.org/link/summary/17-1012.00
+      title: O*NET Landscape Architects
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+urban_designer:
+  id: urban_designer
+  title: Urban Designer
+  onetCode: "17-2041.00"
+  category: engineering
+  riskPercent: 52
+  timeline:
+    minYears: 4
+    maxYears: 8
+  exposureFactors:
+    - AI-driven pedestrian flow simulation
+    - Automated density optimization
+    - Generative city-block visualization
+  quip: "Designing the city of the future? The computer already simulated a million versions and picked the one with the fewest complaints."
+  sources:
+    - url: https://www.onetonline.org/link/summary/17-2041.00
+      title: O*NET Urban and Regional Planners
+    - url: https://www.goldmansachs.com/intelligence/pages/gs-research/the-potentially-large-effects-of-artificial-intelligence-on-economic-growth-2023/report.pdf
+      title: Goldman Sachs AI Impact on Engineering
+
+structural_engineer:
+  id: structural_engineer
+  title: Structural Engineer
+  onetCode: "17-2051.00"
+  category: engineering
+  riskPercent: 48
+  timeline:
+    minYears: 4
+    maxYears: 9
+  exposureFactors:
+    - Automated finite element analysis (FEA)
+    - AI-driven structural optimization
+    - Neural code-compliance verification
+  quip: "The building will stand because the math says so. The math says so because a transformer model checked it twice."
+  sources:
+    - url: https://www.onetonline.org/link/summary/17-2051.00
+      title: O*NET Civil Engineers
+    - url: https://amro-asia.org/wp-content/uploads/2025/11/GenAI_Labour_Huang2025_20251107.pdf
+      title: AMRO GenAI Labor Market Study
+
+electrical_engineer:
+  id: electrical_engineer
+  title: Electrical Engineer
+  onetCode: "17-2071.00"
+  category: engineering
+  riskPercent: 42
+  timeline:
+    minYears: 5
+    maxYears: 10
+  exposureFactors:
+    - AI-optimized circuit routing
+    - Automated power distribution simulation
+    - Neural sensing suite integration
+  quip: "Electrons don't lie, and the machine found a path for them that's 0.001% more efficient than your best guess."
+  sources:
+    - url: https://www.onetonline.org/link/summary/17-2071.00
+      title: O*NET Electrical Engineers
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+mechanical_engineer:
+  id: mechanical_engineer
+  title: Mechanical Engineer
+  onetCode: "17-2141.00"
+  category: engineering
+  riskPercent: 38
+  timeline:
+    minYears: 5
+    maxYears: 10
+  exposureFactors:
+    - Generative part design
+    - AI-driven CFD (Computational Fluid Dynamics)
+    - Automated failure mode analysis
+  quip: "The gears are turning, but the person who designed the teeth is now a cluster of GPUs."
+  sources:
+    - url: https://www.onetonline.org/link/summary/17-2141.00
+      title: O*NET Mechanical Engineers
+    - url: https://www.goldmansachs.com/intelligence/pages/gs-research/the-potentially-large-effects-of-artificial-intelligence-on-economic-growth-2023/report.pdf
+      title: Goldman Sachs AI Impact on Engineering
+
+civil_engineer:
+  id: civil_engineer
+  title: Civil Engineer
+  onetCode: "17-2051.00"
+  category: engineering
+  riskPercent: 35
+  timeline:
+    minYears: 5
+    maxYears: 12
+  exposureFactors:
+    - AI-managed infrastructure maintenance prediction
+    - Automated environmental impact synthesis
+    - Predictive project risk aggregation
+  quip: "Concrete is heavy, but the liability of a bridge collapse is heavier. Good thing the bot did the stress tests."
+  sources:
+    - url: https://www.onetonline.org/link/summary/17-2051.00
+      title: O*NET Civil Engineers
+    - url: https://amro-asia.org/wp-content/uploads/2025/11/GenAI_Labour_Huang2025_20251107.pdf
+      title: AMRO GenAI Labor Market Study
+
+architect:
+  id: architect
+  title: Architect
+  onetCode: "17-1011.00"
+  category: engineering
+  riskPercent: 29
+  timeline:
+    minYears: 6
+    maxYears: 15
+  exposureFactors:
+    - Generative architectural visualization
+    - AI-assisted spatial program optimization
+    - Automated regulatory/zoning synthesis
+  quip: "The soul of the building? That's your job. The plumbing, HVAC, and zoning? The computer handled that while you were choosing the door handles."
+  sources:
+    - url: https://www.onetonline.org/link/summary/17-1011.00
+      title: O*NET Architects, Except Landscape and Naval
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025

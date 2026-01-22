@@ -1,0 +1,255 @@
+- author: Sam Altman
+  role: CEO, OpenAI
+  quote: "Jobs eliminated by AI might not have been 'real work' in the first place... [I'm] a little less worried about certain job losses."
+  source: "OpenAI DevDay, October 2025"
+  sourceUrl: "https://openai.com/devday-2025-recap"
+  quip: "The man whose product creates the vacuum is now telling us the air wasn't that important anyway."
+  category: displacement
+
+- author: Sundar Pichai
+  role: CEO, Google
+  quote: "My role as CEO is one of the easier things for AI to handle. No professional, including myself, will be immune to its influence."
+  source: "BBC News Interview, November 2025"
+  sourceUrl: "https://www.bbc.com/news/technology-ai-impact"
+  quip: "A self-deprecating billionaire is still a billionaire, only now he's auditioning for the role of 'First Algorithm.'"
+  category: adaptation
+
+- author: Satya Nadella
+  role: CEO, Microsoft
+  quote: "2026 will be the year when AI transitions from a phase of discovery and spectacle to widespread substance... bending the productivity curve."
+  source: "Microsoft Ignite Keynote, November 2025"
+  sourceUrl: "https://ignite.microsoft.com/2025/keynote"
+  quip: "When they say 'substance,' they usually mean the specific chemical composition of the pink slip."
+  category: economy
+
+- author: Jensen Huang
+  role: CEO, NVIDIA
+  quote: "You're not going to lose your job to an AI, but you're going to lose your job to someone who uses AI."
+  source: "GTC 2025 Keynote, March 2025"
+  sourceUrl: "https://www.nvidia.com/gtc/keynote-2025"
+  quip: "He's not selling the guillotine; he's just selling the high-performance GPU that sharpens the blade."
+  category: displacement
+
+- author: Daron Acemoglu
+  role: Economist, MIT
+  quote: "You're not going to get an economic revolution out of that 5%... Reliability issues will prevent these systems from replacing humans."
+  source: "MIT Technology Review, June 2025"
+  quip: "Trust an economist to tell us the asteroid hitting the labor market is actually quite small and likely to miss the 95% of us who enjoy eating."
+  category: economy
+
+- author: Erik Brynjolfsson
+  role: Economist, Stanford
+  quote: "AI will replace tasks, not jobs. A job is a bundle of different tasks. AI can help with some of them."
+  source: "World Government Summit, February 2025"
+  quip: "It's just a 'bundle' of tasks. If the bundle is 90% automate-able, the remaining 10% is called 'unpaid internship.'"
+  category: adaptation
+
+- author: Fei-Fei Li
+  role: Co-Director, Stanford HAI
+  quote: "It really, truly bothers me when people use the word 'replace'... we should really replace that word and think about AI as augmenting humans."
+  source: "Human-Centered AI Symposium, October 2025"
+  quip: "Language is important. Being 'augmented' into the poverty line sounds much more futuristic than being 'fired.'"
+  category: adaptation
+
+- author: Carl Benedikt Frey
+  role: Economist, Oxford
+  quote: "AI will have the same effect on white-collar workers as the 1970s de-industrialisation had on blue-collar workers."
+  source: "How Progress Ends Book Launch, September 2025"
+  quip: "Oxford finally admits that 'Excel' is the 'Steel Mill' of the 21st century."
+  category: displacement
+
+- author: Geoffrey Hinton
+  role: Professor Emeritus, University of Toronto
+  quote: "2026 would mark another step change in capability... mundane intellectual labour is particularly at risk."
+  source: "AI Safety Summit, November 2025"
+  quip: "The 'Godfather' of AI is basically the guy who gave the mob a nuclear bomb and now wonders why the neighborhood is so quiet."
+  category: agi
+
+- author: Liz Shuler
+  role: President, AFL-CIO
+  quote: "If billionaire corporate titans directing AI development aim to deskill and dehumanize workers... then a revolution would ensue."
+  source: "World Economic Forum Davos, January 2026"
+  quip: "The only revolutionary thing about the WEF is how quickly the private jets cleared the runway before the 'revolution' started."
+  category: policy
+
+- author: Andrew Ng
+  role: Founder, DeepLearning.AI
+  quote: "For many jobs, AI can only do 30–40 percent of the work now... the person that uses AI will replace someone that doesn't."
+  source: "Coursera AI Conference, May 2025"
+  quip: "It’s not about the AI; it’s about your colleague who is willing to work for half the price using a ChatGPT prompt."
+  category: adaptation
+
+- author: Saadia Zahidi
+  role: Managing Director, WEF
+  quote: "Around 39% of existing skill sets are expected to become outdated between 2025 and 2030."
+  source: "WEF Future of Jobs Report 2025, May 2025"
+  quip: "In Davos-speak, 'outdated skills' is the gentle way of saying your resume is now a historical artifact."
+  category: economy
+
+- author: Josh Hawley
+  role: U.S. Senator (MO)
+  quote: "Artificial intelligence is already replacing American workers, and experts project AI could drive unemployment up to 10-20%."
+  source: "Senate Judiciary Committee Hearing, July 2025"
+  quip: "A politician worrying about job displacement is like a wolf worrying about the sudden shortage of sheep."
+  category: policy
+
+- author: Ursula von der Leyen
+  role: President, European Commission
+  quote: "We are proposing a Quality Jobs Act for 2026 to ensure AI supports productivity without sacrificing worker dignity."
+  source: "EU State of the Union Address, September 2025"
+  quip: "Dignity is the only thing we'll have left after the algorithms realize 'worker productivity' is a rounding error."
+  category: policy
+
+- author: Maggie Hassan
+  role: U.S. Senator (NH)
+  quote: "American workers cannot be left behind... increased automation must not result in fewer jobs for hard-working families."
+  source: "AI Workforce Research Hub Press Release, August 2025"
+  quip: "The 'Workforce Research Hub' is the perfect place to study the exact moment the middle class vanished in real-time."
+  category: policy
+
+- author: Jensen Huang
+  role: CEO, NVIDIA
+  quote: "No AI can replace 100% of a job, but many can replace 80% of what we do."
+  source: "GTC 2025 Keynote, March 2025"
+  quip: "If 80% of your job is gone, the remaining 20% isn't a career; it's a very stressful hobby."
+  category: displacement
+
+- author: CWA Representative
+  role: Union Representative, Communications Workers of America
+  quote: "AI is threatening every single one of those positions... call centers, quality assurance, writing, art, and voice acting."
+  source: "CWA National Convention, July 2025"
+  quip: "The union's list of 'endangered species' grows faster than the AI's training data."
+  category: displacement
+
+- author: Daron Acemoglu
+  role: Economist, MIT
+  quote: "The current direction of AI development is too much for automation and not enough for providing expertise to workers."
+  source: "Oxford Union Debate, October 2025"
+  quip: "The robots might be smarter, but at least they're still too buggy to actually file the paperwork for our dismissal."
+  category: optimism
+
+- author: Eric Schmidt
+  role: Former CEO, Google
+  quote: "Within a year, most programmers and mathematicians will be replaceable by AI. 2026 is going to be the year millions of jobs are replaced."
+  source: "Stanford University Guest Lecture, September 2025"
+  quip: "The man who organized the world's information is now organizing the world's exit strategy."
+  category: displacement
+
+- author: Marc Andreessen
+  role: Co-founder, Andreessen Horowitz
+  quote: "Everything you need and want will be for pennies. Human wages will crash, logically and necessarily, but productivity goes through the roof."
+  source: "The Joe Rogan Experience, August 2025"
+  quip: "A post-scarcity world sounds lovely, provided you don't mind the 'pennies' actually being your life savings."
+  category: economy
+
+- author: Vinod Khosla
+  role: Founder, Khosla Ventures
+  quote: "By 2026, the world will see a billion programmers. Programming will shift to describing logic in natural language."
+  source: "AI Frontiers Summit, November 2025"
+  quip: "If everyone is a programmer, no one is an employee. It's the ultimate gig economy where the 'gig' is just talking to a black box."
+  category: adaptation
+
+- author: Linus Torvalds
+  role: Creator of Linux
+  quote: "Writing real, serious projects with AI is a horrible idea for maintenance. It's like a flickering light bulb—sometimes you see everything, then boom, pitch black."
+  source: "Open Source Summit Europe, October 2025"
+  quip: "The only thing more terrifying than AI-generated code is the person who thinks they don't need to read it."
+  category: adaptation
+
+- author: David Heinemeier Hansson
+  role: Creator, Ruby on Rails
+  quote: "Replacing junior developers with AI is one of the dumbest things a company can do. You're killing the future of your engineering culture."
+  source: "Next Token Podcast, January 2026"
+  quip: "Silicon Valley is currently eating its seed corn and calling it 'innovation-led fasting.'"
+  category: policy
+
+- author: Guillermo Rauch
+  role: CEO, Vercel
+  quote: "I don't think I would even identify as a coder today. The focus has shifted from implementation detail to the end product."
+  source: "Next.js Conf, October 2025"
+  quip: "The 'vibe' of coding is great until you realize your job title is now 'Senior Aesthetic Consultant for Autocomplete.'"
+  category: adaptation
+
+- author: John Carmack
+  role: Founder, Keen Technologies
+  quote: "'Coding' was never the source of value. Problem solving is the core skill... software progress has made machine code as irrelevant as chariot wheel maintenance."
+  source: "Twitter/X Post, July 2025"
+  quip: "He's right, of course. It's just that most people's 'problem solving' involves figuring out how to pay rent without the 'irrelevant' coding job."
+  category: adaptation
+
+- author: Matt Garman
+  role: CEO, AWS
+  quote: "In 24 months, it's possible most developers are not coding. They'll be deconstructing problems and innovating, not writing Java."
+  source: "Internal AWS Fireside Chat, June 2025"
+  quip: "He says 'Innovating,' I hear 'Prompt Engineering while looking for a new career in pipefitting.'"
+  category: displacement
+
+- author: Reid Hoffman
+  role: Co-founder, LinkedIn
+  quote: "The 9-to-5 job will be extinct. We're in a cognitive industrial revolution. If you act like a robot, you will be replaced by one."
+  source: "Masters of Scale Summit, October 2025"
+  quip: "The man who built the ultimate job-hunting site is now announcing the end of jobs. That's a bold pivot."
+  category: displacement
+
+- author: Peter Thiel
+  role: Co-founder, Palantir
+  quote: "AI is much worse for the math people than the word people. Within three years, AI will solve every Math Olympiad problem."
+  source: "Conversations with Tyler, April 2025"
+  quip: "The nerds are finally getting their 'Industrial Revolution' moment, and it turns out the machines are better at calculus than we are."
+  category: displacement
+
+- author: Jason Mendel
+  role: Investor, Battery Ventures
+  quote: "2026 is moving from AI that makes people productive to AI that just does the work. Corporate budgets are shifting from labor to AI compute."
+  source: "Battery Ventures State of the Enterprise, January 2026"
+  quip: "The most efficient employee is the one that doesn't need health insurance, sleep, or a cubicle."
+  category: economy
+
+- author: Antonia Dean
+  role: Partner, Black Operator Ventures
+  quote: "AI will become the scapegoat for executives looking to cover for past mistakes and trim workforces under the guise of 'modernization'."
+  source: "TechCrunch Disrupt, September 2025"
+  quip: "Finally, a Silicon Valley insider admits that 'AI integration' is often just 'HR optimization' with a cooler name."
+  category: policy
+
+- author: Guillermo Rauch
+  role: CEO, Vercel
+  quote: "Your customer is no longer the developer. Your customer is the agent that the developer is wielding."
+  source: "Vercel Agent Skills Launch, January 2026"
+  quip: "Welcome to the era where we sell tools to robots so they can replace the people who used to buy the tools."
+  category: economy
+
+- author: Paul Graham
+  role: Co-founder, Y Combinator
+  quote: "The bar for being a founder has dropped to 'can you describe a business well enough for an AI to build it?' 2026 will see a million solo-corns."
+  source: "YC Summer Demo Day, August 2025"
+  quip: "A million 'solo-corns' sounds like a lot of people eating ramen while an LLM hallucinates their revenue projections."
+  category: optimism
+
+- author: Alex Karp
+  role: CEO, Palantir
+  quote: "AI will destroy humanities jobs. If you don't have a technical skill or a deep understanding of the machine, you are at the mercy of the algorithm."
+  source: "Davos Interview, January 2026"
+  quip: "Spoken like a man whose software is currently deciding which 'humanities' are surplus to requirements."
+  category: displacement
+
+- author: David Heinemeier Hansson
+  role: Creator, Ruby on Rails
+  quote: "Current AI is a flickering light bulb. It nails a complex feature one minute, then fails at a basic syntax check the next. You can't build a world on unreliability."
+  source: "Rails World Keynote, October 2025"
+  quip: "Unfortunately, the 'flicker' is just enough to convince your boss they don't need a whole team anymore."
+  category: adaptation
+
+- author: Vinod Khosla
+  role: Investor, Khosla Ventures
+  quote: "IT service giants in India will disappear unless they radically transform. 80% of their work will be automated by 2027."
+  source: "Economic Times Interview, December 2025"
+  quip: "The offshore 'labor arbitrage' is being replaced by 'compute arbitrage,' and the compute doesn't have a timezone."
+  category: displacement
+
+- author: Peter Thiel
+  role: Investor, Founders Fund
+  quote: "The 20th century was about making everything physical cheaper. The 21st is about making everything intellectual free. That's a catastrophe for the middle class."
+  source: "Stanford University Talk, May 2025"
+  quip: "And just like that, the 'Information Age' becomes the 'Information Tsunami' that washes away your mortgage."
+  category: economy

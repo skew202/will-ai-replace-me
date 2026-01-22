@@ -456,3 +456,509 @@ LU:
   modifierYears: -0.5
   label: Early Adopter
   adoptionIndex: 0.68
+
+# EU Additional (Tier 3 & 4)
+EE:
+  code: EE
+  name: Estonia
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.68
+
+LT:
+  code: LT
+  name: Lithuania
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.62
+
+SI:
+  code: SI
+  name: Slovenia
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.60
+
+IS:
+  code: IS
+  name: Iceland
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.64
+
+MT:
+  code: MT
+  name: Malta
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.58
+
+LV:
+  code: LV
+  name: Latvia
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.58
+
+SK:
+  code: SK
+  name: Slovakia
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.52
+
+CY:
+  code: CY
+  name: Cyprus
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.56
+
+# Middle East Additional
+BH:
+  code: BH
+  name: Bahrain
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.58
+
+KW:
+  code: KW
+  name: Kuwait
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.54
+
+OM:
+  code: OM
+  name: Oman
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.52
+
+# Americas Additional (Tier 3)
+UY:
+  code: UY
+  name: Uruguay
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.52
+
+CR:
+  code: CR
+  name: Costa Rica
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.48
+
+# Asia-Pacific Additional (Tier 3)
+BN:
+  code: BN
+  name: Brunei
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.48
+
+# Tier 4 Additional (Europe)
+BG:
+  code: BG
+  name: Bulgaria
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.44
+
+HR:
+  code: HR
+  name: Croatia
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.42
+
+RS:
+  code: RS
+  name: Serbia
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.40
+
+ME:
+  code: ME
+  name: Montenegro
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.36
+
+AL:
+  code: AL
+  name: Albania
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.35
+
+MK:
+  code: MK
+  name: North Macedonia
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.34
+
+BY:
+  code: BY
+  name: Belarus
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.32
+
+BA:
+  code: BA
+  name: Bosnia and Herzegovina
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.30
+
+# Tier 4 Additional (Middle East)
+JO:
+  code: JO
+  name: Jordan
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.40
+
+IR:
+  code: IR
+  name: Iran
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.38
+
+LB:
+  code: LB
+  name: Lebanon
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.25
+
+IQ:
+  code: IQ
+  name: Iraq
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.20
+
+# Tier 4 Additional (Asia-Pacific)
+MN:
+  code: MN
+  name: Mongolia
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.35
+
+LK:
+  code: LK
+  name: Sri Lanka
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.32
+
+MV:
+  code: MV
+  name: Maldives
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.30
+
+NP:
+  code: NP
+  name: Nepal
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.24
+
+KH:
+  code: KH
+  name: Cambodia
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.25
+
+LA:
+  code: LA
+  name: Laos
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.22
+
+MM:
+  code: MM
+  name: Myanmar
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.18
+
+# Tier 4 Additional (Africa)
+MA:
+  code: MA
+  name: Morocco
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.38
+
+TN:
+  code: TN
+  name: Tunisia
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.36
+
+RW:
+  code: RW
+  name: Rwanda
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.35
+
+GH:
+  code: GH
+  name: Ghana
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.32
+
+SN:
+  code: SN
+  name: Senegal
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.30
+
+CI:
+  code: CI
+  name: Ivory Coast
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.28
+
+TZ:
+  code: TZ
+  name: Tanzania
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.25
+
+UG:
+  code: UG
+  name: Uganda
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.24
+
+ET:
+  code: ET
+  name: Ethiopia
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.22
+
+CM:
+  code: CM
+  name: Cameroon
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.20
+
+AO:
+  code: AO
+  name: Angola
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.18
+
+ZW:
+  code: ZW
+  name: Zimbabwe
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.15
+
+# Tier 4 Additional (Americas)
+PA:
+  code: PA
+  name: Panama
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.42
+
+DO:
+  code: DO
+  name: Dominican Republic
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.38
+
+TT:
+  code: TT
+  name: Trinidad and Tobago
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.35
+
+JM:
+  code: JM
+  name: Jamaica
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.34
+
+EC:
+  code: EC
+  name: Ecuador
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.32
+
+PY:
+  code: PY
+  name: Paraguay
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.30
+
+GT:
+  code: GT
+  name: Guatemala
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.28
+
+BO:
+  code: BO
+  name: Bolivia
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.25
+
+CU:
+  code: CU
+  name: Cuba
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.22
+
+VE:
+  code: VE
+  name: Venezuela
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.15
+
+# Central Asia & Caucasus
+KZ:
+  code: KZ
+  name: Kazakhstan
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.137
+
+UZ:
+  code: UZ
+  name: Uzbekistan
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.112
+
+GE:
+  code: GE
+  name: Georgia
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.125
+
+AZ:
+  code: AZ
+  name: Azerbaijan
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.108
+
+AM:
+  code: AM
+  name: Armenia
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.142
+
+TJ:
+  code: TJ
+  name: Tajikistan
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.055
+
+KG:
+  code: KG
+  name: Kyrgyzstan
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.072

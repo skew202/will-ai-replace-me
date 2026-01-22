@@ -19,60 +19,6 @@ graphic_designer:
     - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
       title: PwC AI Jobs Barometer 2025
 
-video_editor:
-  id: video_editor
-  title: Video Editor
-  onetCode: "27-4032.00"
-  category: creative
-  riskPercent: 68
-  timeline:
-    minYears: 2
-    maxYears: 5
-  exposureFactors:
-    - Auto-editing AI
-    - Color grading automation
-    - B-roll generation
-  quip: "You told stories with cuts. AI just cut your story short."
-  sources:
-    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
-      title: PwC AI Jobs Barometer 2025
-
-translator:
-  id: translator
-  title: Translator
-  onetCode: "27-3091.00"
-  category: creative
-  riskPercent: 85
-  timeline:
-    minYears: 0
-    maxYears: 3
-  exposureFactors:
-    - Neural machine translation
-    - Context-aware translation
-    - Real-time interpretation
-  quip: "Lost in translation? So is your job."
-  sources:
-    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
-      title: PwC AI Jobs Barometer 2025
-
-journalist:
-  id: journalist
-  title: Journalist
-  onetCode: "27-3023.00"
-  category: creative
-  riskPercent: 65
-  timeline:
-    minYears: 2
-    maxYears: 6
-  exposureFactors:
-    - News article generation
-    - Data journalism automation
-    - Summary writing AI
-  quip: "You broke stories. AI just broke your budget."
-  sources:
-    - url: https://amro-asia.org/wp-content/uploads/2025/11/GenAI_Labour_Huang2025_20251107.pdf
-      title: AMRO GenAI Labor Market Study
-
 illustrator:
   id: illustrator
   title: Illustrator
@@ -108,3 +54,267 @@ presentation_designer:
   sources:
     - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
       title: PwC AI Jobs Barometer 2025
+
+interior_designer:
+  id: interior_designer
+  title: Interior Designer
+  onetCode: "27-1025.00"
+  category: creative
+  riskPercent: 62
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - AI-generated mood boards
+    - Automated spatial optimization
+    - Photorealistic render generation
+  quip: "The AI has perfect taste, but it still can't tell your client that their rug is ugly."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-1025.00
+      title: O*NET Interior Designers
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+fashion_designer:
+  id: fashion_designer
+  title: Fashion Designer
+  onetCode: "27-1022.00"
+  category: creative
+  riskPercent: 68
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Algorithmic pattern cutting
+    - AI-generated textile prints
+    - Predictive trend modeling
+  quip: "You spent years learning drape. The AI just learned how to steal your silhouette."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-1022.00
+      title: O*NET Fashion Designers
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+art_director:
+  id: art_director
+  title: Art Director
+  onetCode: "27-1011.00"
+  category: creative
+  riskPercent: 48
+  timeline:
+    minYears: 4
+    maxYears: 8
+  exposureFactors:
+    - Prompt-based concepting
+    - Automated campaign layout
+    - Real-time asset iteration
+  quip: "Directing humans was hard. Directing a machine is cheaper and it doesn't talk back."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-1011.00
+      title: O*NET Art Directors
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+creative_director:
+  id: creative_director
+  title: Creative Director
+  onetCode: "27-1011.00"
+  category: creative
+  riskPercent: 38
+  timeline:
+    minYears: 5
+    maxYears: 10
+  exposureFactors:
+    - AI-driven creative strategy
+    - Large-scale campaign orchestration
+    - Synthetic focus groups
+  quip: "You're the master of the big idea. Too bad the big idea is now a prompt."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-1011.00
+      title: O*NET Art Directors
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+ux_designer:
+  id: ux_designer
+  title: UX Designer
+  onetCode: "15-1255.00"
+  category: creative
+  riskPercent: 64
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI-generated UI kits
+    - Automated usability prediction
+    - Dynamic personalization engines
+  quip: "User experience is key. But the user is now training your replacement."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1255.00
+      title: O*NET Web and Digital Interface Designers
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+industrial_designer:
+  id: industrial_designer
+  title: Industrial Designer
+  onetCode: "27-1021.00"
+  category: creative
+  riskPercent: 18
+  timeline:
+    minYears: 4
+    maxYears: 9
+  exposureFactors:
+    - Generative design for engineering
+    - Topological optimization
+    - Synthetic material simulation
+  quip: "Form follows function, and function is now an optimization problem with no soul."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-1021.00
+      title: O*NET Commercial and Industrial Designers
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+video_game_designer:
+  id: video_game_designer
+  title: Video Game Designer
+  onetCode: "15-1255.01"
+  category: creative
+  riskPercent: 68
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI-generated level geometry
+    - Neural NPC dialogue and behavior
+    - Automated quest balancing
+  quip: "You spent months designing the world. The AI just procedural-generated a balanced, infinite universe while you were in a sprint planning meeting."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1255.01
+      title: O*NET Video Game Designers
+
+set_exhibit_designer:
+  id: set_exhibit_designer
+  title: Set and Exhibit Designer
+  onetCode: "27-1027.00"
+  category: creative
+  riskPercent: 55
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - AI-generated spatial renderings
+    - Automated lighting and acoustics simulation
+    - Neural material interaction modeling
+  quip: "Building stages for the stars? The stars are now virtual, and the stage is a GPU-accelerated voxelscape."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-1027.00
+      title: O*NET Set and Exhibit Designers
+
+vfx_artist:
+  id: vfx_artist
+  title: VFX Artist
+  onetCode: "27-1014.00"
+  category: creative
+  riskPercent: 82
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - AI-driven rotoscoping and prep
+    - Neural fluid and fire simulation
+    - Automated matchmoving and tracking
+  quip: "You made the impossible look real. Now the machine makes the impossible look cheap."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-1014.00
+      title: O*NET Special Effects Artists and Animators (VFX focus)
+
+technical_illustrator:
+  id: technical_illustrator
+  title: Technical Illustrator
+  onetCode: "17-3012.02"
+  category: creative
+  riskPercent: 78
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - AI-automated 3D-to-2D assembly drawing
+    - Neural callout and labeling
+    - Automated schematic generation from CAD
+  quip: "Drawing the manual for the machine? The machine just read its own blue-prints and wrote the manual in 50 languages."
+  sources:
+    - url: https://www.onetonline.org/link/summary/17-3012.02
+      title: O*NET Electrical Drafters (Technical Illustration)
+
+floral_designer:
+  id: floral_designer
+  title: Floral Designer
+  onetCode: "27-1023.00"
+  category: creative
+  riskPercent: 25
+  timeline:
+    minYears: 8
+    maxYears: 15
+  exposureFactors:
+    - AI-suggested palette and arrangement composition
+    - Automated inventory life-cycle prediction
+    - Neural event-thematic design synthesis
+  quip: "Flowers have a soul, they said. Then they built a robotic arm with a better aesthetic sense for lilies than you ever had."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-1023.00
+      title: O*NET Floral Designers
+
+merchandise_displayer:
+  id: merchandise_displayer
+  title: Merchandise Displayer
+  onetCode: "27-1026.00"
+  category: creative
+  riskPercent: 42
+  timeline:
+    minYears: 4
+    maxYears: 9
+  exposureFactors:
+    - AI-optimized floor plan layout
+    - Neural consumer eye-tracking simulation
+    - Automated display theme generation
+  quip: "Dressing the mannequins? The shoppers are all online now, and the AI is A/B testing their 'desire' in real-time."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-1026.00
+      title: O*NET Merchandise Displayers and Window Trimmers
+
+curator:
+  id: curator
+  title: Curator
+  onetCode: "25-4012.00"
+  category: creative
+  riskPercent: 45
+  timeline:
+    minYears: 4
+    maxYears: 8
+  exposureFactors:
+    - AI-driven exhibit narrative synthesis
+    - Neural archive categorization and tagging
+    - Automated provenance verification
+  quip: "The museum is a place for human history. Which is fitting, because you're about to become part of the exhibit."
+  sources:
+    - url: https://www.onetonline.org/link/summary/25-4012.00
+      title: O*NET Curators
+
+talent_director:
+  id: talent_director
+  title: Talent Director
+  onetCode: "27-2012.04"
+  category: creative
+  riskPercent: 32
+  timeline:
+    minYears: 6
+    maxYears: 12
+  exposureFactors:
+    - AI-screened audition analysis
+    - Neural character-to-performer matching
+    - Automated schedule optimization for production
+  quip: "You had an eye for talent. The AI has a database of 10 million digital actors who never demand a trailer or a points on the backend."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-2012.04
+      title: O*NET Talent Directors

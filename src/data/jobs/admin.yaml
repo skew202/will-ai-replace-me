@@ -109,3 +109,383 @@ customer_service_rep:
   sources:
     - url: https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth
       title: Wharton Budget Model
+
+hr_assistant:
+  id: hr_assistant
+  title: HR Assistant
+  onetCode: "43-4161.00"
+  category: admin
+  riskPercent: 83
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - Automated employee file management
+    - AI-driven onboarding workflows
+    - Benefit inquiry chatbots
+  quip: "You were the friendly face of the company. Now you're a standard-issue support ticket."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-4161.00
+      title: O*NET Human Resources Assistants
+    - url: https://edsmart.org/ai-automation-risk-report/
+      title: EDsmart AI Automation Risk Report
+
+comp_and_benefits_specialist:
+  id: comp_and_benefits_specialist
+  title: Compensation & Benefits Specialist
+  onetCode: "13-1141.00"
+  category: admin
+  riskPercent: 55
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - AI-driven market benchmark synthesis
+    - Automated pay-equity audits
+    - Benefits enrollment agents
+  quip: "Calculating fair pay is easy when the AI knows exactly how little you're willing to work for."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1141.00
+      title: O*NET Compensation and Benefits Specialists
+
+training_specialist:
+  id: training_specialist
+  title: Training & Development Specialist
+  onetCode: "13-1151.00"
+  category: admin
+  riskPercent: 45
+  timeline:
+    minYears: 4
+    maxYears: 7
+  exposureFactors:
+    - AI-generated training modules
+    - Personalized learning pathways
+    - Automated progress tracking
+  quip: "Teaching humans how to work. Soon, you'll just be downloading the manual into their neural links."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1151.00
+      title: O*NET Training and Development Specialists
+
+file_clerk:
+  id: file_clerk
+  title: File Clerk / Records Technician
+  onetCode: "43-4071.00"
+  category: admin
+  riskPercent: 96
+  timeline:
+    minYears: 0
+    maxYears: 2
+  exposureFactors:
+    - Intelligent document categorization
+    - Automated retention policy enforcement
+    - OCR search indexing
+  quip: "You spent years looking for a needle in a haystack. The AI just moved the haystack to the trash."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-4071.00
+      title: O*NET Office Machine Operators, Except Computer
+
+employee_relations:
+  id: employee_relations
+  title: Employee Relations Specialist
+  onetCode: "13-1075.00"
+  category: admin
+  riskPercent: 30
+  timeline:
+    minYears: 5
+    maxYears: 10
+  exposureFactors:
+    - AI-assisted grievance sentiment analysis
+    - Automated compliance documentation
+    - Policy variation flagging
+  quip: "Human conflict is messy. AI keeps the paperwork clean so the mess doesn't cost the company money."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1075.00
+      title: O*NET Labor Relations Specialists
+
+hris_specialist:
+  id: hris_specialist
+  title: HRIS Specialist
+  onetCode: "13-1071.00"
+  category: admin
+  riskPercent: 74
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI-driven employee data integrity and auditing
+    - Automated report generation and workforce analytics
+    - LLM-powered system support and training documentation
+  quip: "Managing the system that manages the people. The AI just optimized you out of the flow chart."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1071.00
+      title: O*NET Human Resources Specialists
+
+records_mgmt_specialist:
+  id: records_mgmt_specialist
+  title: Records Management Specialist
+  onetCode: "15-1299.03"
+  category: admin
+  riskPercent: 92
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - AI-powered document classification and metadata tagging
+    - Automated retention and disposal scheduling
+    - Intelligent OCR and semantic search indexing
+  quip: "Protecting the company's memory. The AI has a photographic memory and it never misplaces a folder."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1299.03
+      title: O*NET Document Management Specialists
+
+personnel_clerk:
+  id: personnel_clerk
+  title: Personnel Clerk
+  onetCode: "43-9061.00"
+  category: admin
+  riskPercent: 88
+  timeline:
+    minYears: 1
+    maxYears: 2
+  exposureFactors:
+    - Automated updating of employee status and records
+    - AI-assisted verification of personnel documentation
+    - Standardized internal communication automation
+  quip: "Filing the humans. The AI doesn't need a cabinet or a sense of professional boundaries."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-9061.00
+      title: O*NET Office Clerks, General
+
+training_coordinator:
+  id: training_coordinator
+  title: Training and Development Coordinator
+  onetCode: "13-1151.00"
+  category: admin
+  riskPercent: 52
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - AI-driven training needs assessment and scheduling
+    - Automated content curation and personalized learning paths
+    - Algorithmic assessment and progress tracking
+  quip: "Organizing the classroom. The AI is the teacher, the proctor, and the one who decides you failed."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1151.00
+      title: O*NET Training and Development Specialists
+
+occ_health_safety_spec:
+  id: occ_health_safety_spec
+  title: Occupational Health & Safety Specialist
+  onetCode: "19-5011.00"
+  category: admin
+  riskPercent: 32
+  timeline:
+    minYears: 5
+    maxYears: 10
+  exposureFactors:
+    - AI-assisted hazard identification using computer vision
+    - Predictive risk modeling for workplace accidents
+    - Automated compliance reporting and documentation
+  quip: "Keeping the workplace safe. The AI just pointed out that the most dangerous thing in the office is your caffeine intake."
+  sources:
+    - url: https://www.onetonline.org/link/summary/19-5011.00
+      title: O*NET Occupational Health and Safety Specialists
+
+hr_admin_assistant:
+  id: hr_admin_assistant
+  title: HR Administrative Assistant
+  onetCode: "43-4161.00"
+  category: admin
+  riskPercent: 90
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Automated background check and reference coordination
+    - AI-assisted interview scheduling and logistics
+    - LLM-powered response generation for routine HR inquiries
+  quip: "Assisting the assistant to the regional manager. The machine just promoted itself to boss."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-4161.00
+      title: O*NET Human Resources Assistants
+
+mail_clerk:
+  id: mail_clerk
+  title: Mail Clerk
+  onetCode: "43-9051.00"
+  category: admin
+  riskPercent: 92
+  timeline:
+    minYears: 1
+    maxYears: 2
+  exposureFactors:
+    - AI-automated mail sorting and categorization
+    - Neural OCR for handwriting recognition
+    - Automated delivery route optimization
+  quip: "Snail mail was already dying. The AI just finished the job and automated the obituary."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-9051.00
+      title: O*NET Mail Clerks and Mail Machine Operators
+
+switchboard_operator:
+  id: switchboard_operator
+  title: Switchboard Operator
+  onetCode: "43-2011.00"
+  category: admin
+  riskPercent: 96
+  timeline:
+    minYears: 0
+    maxYears: 1
+  exposureFactors:
+    - Neural-based call routing
+    - AI-driven voice recognition for automated transfers
+    - Synthetic voice answering services
+  quip: "The 'operator' is now a few lines of Python running on a server that never gets tired of hearing you scream 'Agent!'"
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-2011.00
+      title: O*NET Switchboard Operators
+
+word_processor:
+  id: word_processor
+  title: Word Processor / Typist
+  onetCode: "43-9022.00"
+  category: admin
+  riskPercent: 94
+  timeline:
+    minYears: 0
+    maxYears: 2
+  exposureFactors:
+    - LLM-based document drafting from shorthand
+    - Automated formatting and style alignment
+    - Neural-assisted transcription of audio recordings
+  quip: "You typed at 120 words per minute. The AI just typed the entire corporate library in the time it took you to press 'Shift'."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-9022.00
+      title: O*NET Word Processors and Typists
+
+interviewing_clerk:
+  id: interviewing_clerk
+  title: Interviewing Clerk
+  onetCode: "43-4111.00"
+  category: admin
+  riskPercent: 82
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - AI-driven initial screening interviews
+    - Neural sentiment analysis of applicant responses
+    - Automated eligibility verification orchestration
+  quip: "The first round of interviews is now a conversation with a machine that knows you're lying before you even open your mouth."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-4111.00
+      title: O*NET Interviewers, Except Eligibility and Loan
+
+correspondence_clerk:
+  id: correspondence_clerk
+  title: Correspondence Clerk
+  onetCode: "43-4041.00"
+  category: admin
+  riskPercent: 88
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - AI-generated formal correspondence drafting
+    - Neural template mapping for legal/regulatory responses
+    - Automated tone and policy compliance checking
+  quip: "The pen is mightier than the sword, but the LLM is more efficient than both at writing a generic 'No' to your inquiry."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-4041.00
+      title: O*NET Credit Authorizers, Checkers, and Clerks (Correspondence focus)
+
+production_clerk:
+  id: production_clerk
+  title: Production Clerk
+  onetCode: "43-5061.00"
+  category: admin
+  riskPercent: 78
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI-optimized production scheduling
+    - Neural inventory flow prediction
+    - Automated work order orchestration
+  quip: "Keeping the factory floor running smoothly is a mathematical problem that the AI solved while you were counting clipboards."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-5061.00
+      title: O*NET Production, Planning, and Expediting Clerks
+
+shipping_clerk:
+  id: shipping_clerk
+  title: Shipping and Receiving Clerk
+  onetCode: "43-5071.00"
+  category: admin
+  riskPercent: 85
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - AI-automated manifests and label generation
+    - Neural stock discrepancy detection
+    - Automated carrier negotiation and scheduling
+  quip: "If it fits, it ships. If it's your job, it's been shipped to a data center."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-5071.00
+      title: O*NET Shipping, Receiving, and Inventory Clerks
+
+office_machine_operator:
+  id: office_machine_operator
+  title: Office Machine Operator
+  onetCode: "43-9071.00"
+  category: admin
+  riskPercent: 95
+  timeline:
+    minYears: 0
+    maxYears: 2
+  exposureFactors:
+    - AI-driven maintenance diagnostics
+    - Automated print/scan/sort orchestration
+    - Neural-assisted error recovery
+  quip: "The copier is now smarter than the person standing next to it. Also, it doesn't jam when you're in a hurry."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-9071.00
+      title: O*NET Office Machine Operators, Except Computer
+
+library_assistant:
+  id: library_assistant
+  title: Library Assistant, Clerical
+  onetCode: "43-4121.00"
+  category: admin
+  riskPercent: 80
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - AI-automated cataloging and indexing
+    - Neural search and retrieval optimization
+    - Automated shelf-management and inventory
+  quip: "Silence is golden. And so is the efficiency of a database that doesn't need a Dewey Decimal System to find your replacement."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-4121.00
+      title: O*NET Library Assistants, Clerical
+
+onboarding_specialist:
+  id: onboarding_specialist
+  title: Onboarding Specialist
+  onetCode: "43-4161.00"
+  category: admin
+  riskPercent: 65
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - AI-driven orientation orchestration
+    - Automated document collection and verification
+    - Neural-based training path recommendations
+  quip: "Welcome to the company! Your orientation will be led by a chatbot that knows your employee ID and your browsing history."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-4161.00
+      title: O*NET Human Resources Assistants (Onboarding focus)

@@ -1,0 +1,146 @@
+# Public Sector & Government Jobs - AI Exposure Data
+# Sources: EIG AI and Jobs Report, PwC AI Jobs Barometer 2025, O*NET
+
+administrative_law_judge:
+  id: administrative_law_judge
+  title: Administrative Law Judge
+  onetCode: "23-1021.00"
+  category: government
+  riskPercent: 78
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI-assisted legal brief synthesis
+    - Automated evidence review and pattern matching
+    - Draft opinion generation from hearing transcripts
+  quip: "The gavel is still wood, but the mind behind it is silicon. Justice is blind, and now it's also 0.0003 seconds fast."
+  sources:
+    - url: https://eig.org/wp-content/uploads/2025/08/EIG-AI-and-Jobs.pdf
+      title: EIG AI and Jobs Report
+
+tax_examiner:
+  id: tax_examiner
+  title: Tax Examiner and Collector
+  onetCode: "13-1141.00"
+  category: government
+  riskPercent: 88
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Algorithmic audit selection and fraud detection
+    - Automated income and asset reconciliation
+    - AI-driven collection prioritization
+  quip: "There are two certainties in life: death and taxes. The AI just automated the collection of the latter so it can focus on the paperwork for the former."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1141.00
+      title: O*NET Tax Examiners
+
+legislative_assistant:
+  id: legislative_assistant
+  title: Legislative Assistant
+  onetCode: "27-3091.00"
+  category: government
+  riskPercent: 72
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI-generated constituent response drafting
+    - Automated policy research and bill comparison
+    - Legislative narrative and brief synthesis
+  quip: "The Representative still shakes the hands, but the bot writes the laws. Democracy 2.0: Now with more efficient lobbyists."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-3091.00
+      title: O*NET Interpreters and Translators
+
+public_policy_analyst:
+  id: public_policy_analyst
+  title: Public Policy Analyst
+  onetCode: "19-3094.00"
+  category: government
+  riskPercent: 72
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - Large-scale social data synthesis and modeling
+    - AI-driven program evaluation and impact analysis
+    - Automated policy brief and white-paper drafting
+  quip: "We analyzed the data and concluded that the best policy is to have a machine analyze the data from now on."
+  sources:
+    - url: https://www.onetonline.org/link/summary/19-3094.00
+      title: O*NET Political Scientists
+
+regulatory_affairs_spec:
+  id: regulatory_affairs_spec
+  title: Regulatory Affairs Specialist
+  onetCode: "11-9199.01"
+  category: government
+  riskPercent: 68
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Multi-jurisdictional compliance monitoring AI
+    - Automated regulatory document mapping
+    - AI-assisted permit and license review
+  quip: "Cutting the red tape is finally possible. The AI just ate the paper, the tape, and the person holding the scissors."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-9199.01
+      title: O*NET Regulatory Affairs Specialists
+
+social_service_case_mgr:
+  id: social_service_case_mgr
+  title: Social Service Case Manager
+  onetCode: "21-1093.00"
+  category: government
+  riskPercent: 62
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - Automated eligibility verification systems
+    - AI-assisted risk screening for vulnerable populations
+    - Documentation and reporting automation
+  quip: "You have a heart of gold. The AI has a database of gold. Guess which one is better at ensuring the benefits forms are filed correctly?"
+  sources:
+    - url: https://www.onetonline.org/link/summary/21-1093.00
+      title: O*NET Social and Human Service Assistants
+
+eligibility_interviewer:
+  id: eligibility_interviewer
+  title: Eligibility Interviewer (Gov. Programs)
+  onetCode: "43-4061.00"
+  category: government
+  riskPercent: 95
+  timeline:
+    minYears: 1
+    maxYears: 2
+  exposureFactors:
+    - AI-driven application processing and verification
+    - Automated initial interview chatbots
+    - Intelligent fraud detection algorithms
+  quip: "Your interview was brief. The AI's decision was instantaneous. You're eligible for unemployment—apply online, where another bot will reject you."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-4061.00
+      title: O*NET Eligibility Interviewers
+
+grants_specialist:
+  id: grants_specialist
+  title: Grants Management Specialist
+  onetCode: "13-2061.00"
+  category: government
+  riskPercent: 78
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - AI-assisted grant application review and scoring
+    - Automated post-award compliance monitoring
+    - Fin-tech integration for grant disbursement
+  quip: "Giving away money shouldn't be this hard. The AI is much more efficient at deciding who gets the funding and who gets the standardized apology letter."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-2061.00
+      title: O*NET Financial Examiners

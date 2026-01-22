@@ -72,3 +72,335 @@ compliance_analyst:
   sources:
     - url: https://eig.org/wp-content/uploads/2025/08/EIG-AI-and-Jobs.pdf
       title: EIG AI and Jobs Report
+
+junior_lawyer:
+  id: junior_lawyer
+  title: Junior Associate (Law)
+  onetCode: "23-1011.00"
+  category: legal
+  riskPercent: 74
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Document discovery automation
+    - AI case law synthesis
+    - Automated contract drafting
+  quip: "The good news: no more billable hours for document review. The bad news: no more job."
+  sources:
+    - url: https://www.onetonline.org/link/summary/23-1011.00
+      title: O*NET Lawyers
+
+legal_secretary:
+  id: legal_secretary
+  title: Legal Secretary
+  onetCode: "43-6012.00"
+  category: legal
+  riskPercent: 88
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Automated document formatting
+    - Transcription of meeting notes
+    - Calendar and billing automation
+  quip: "You used to be the gatekeeper. Now the gate is a chatbot and it doesn't need to 'check with the partner' before saying no."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-6012.00
+      title: O*NET Legal Secretaries
+    - url: https://www.pwc.com/gx/en/issues/artificial-intelligence/ai-jobs-barometer.html
+      title: PwC AI Jobs Barometer 2025
+
+mediator:
+  id: mediator
+  title: Mediator
+  onetCode: "23-1022.00"
+  category: legal
+  riskPercent: 45
+  timeline:
+    minYears: 5
+    maxYears: 10
+  exposureFactors:
+    - Settlement outcome prediction
+    - Emotion-neutral communication analysis
+    - Dispute resolution pattern mapping
+  quip: "Peace on earth, goodwill to men, and a 94.2% statistical probability of settlement if you just sign on the digital line."
+  sources:
+    - url: https://www.onetonline.org/link/summary/23-1022.00
+      title: O*NET Mediators
+
+court_reporter:
+  id: court_reporter
+  title: Court Reporter
+  onetCode: "27-3092.00"
+  category: legal
+  riskPercent: 96
+  timeline:
+    minYears: 1
+    maxYears: 2
+  exposureFactors:
+    - Real-time ASR transcription
+    - Automated speaker identification
+    - Court record digitisation
+  quip: "Recording the transcript of justice, one GPU-accelerated syllable at a time. Turns out, the record never forgets, but it does forget you."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-3092.00
+      title: O*NET Court Reporters
+
+patent_agent:
+  id: patent_agent
+  title: Patent Agent
+  onetCode: "23-1011.00"
+  category: legal
+  riskPercent: 68
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - Prior art search automation
+    - Legal claim drafting
+    - Technical disclosure summarization
+  quip: "You spent years learning how to describe a better mousetrap. The AI just built one that catches patent agents too."
+  sources:
+    - url: https://www.onetonline.org/link/summary/23-1011.00
+      title: O*NET Lawyers
+
+law_clerk:
+  id: law_clerk
+  title: Judicial Law Clerk
+  onetCode: "23-2091.00"
+  category: legal
+  riskPercent: 78
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - Legal memorandum automation
+    - Case law precedent mapping
+    - Judicial opinion synthesis
+  quip: "Writing the first draft of the law for a judge who now prefers the 'Concise' setting on their clerk's LLM."
+  sources:
+    - url: https://www.onetonline.org/link/summary/23-2091.00
+      title: O*NET Judicial Law Clerks
+    - url: https://amro-asia.org/wp-content/uploads/2025/11/GenAI_Labour_Huang2025_20251107.pdf
+      title: AMRO GenAI Labor Market Study
+
+forensic_accountant:
+  id: forensic_accountant
+  title: Forensic Accountant
+  onetCode: "13-2011.00"
+  category: legal
+  riskPercent: 54
+  timeline:
+    minYears: 4
+    maxYears: 8
+  exposureFactors:
+    - Large-scale ledger anomaly detection
+    - Hidden network analysis for money laundering
+    - Automated audit trail reconstruction
+  quip: "You were trained to find the needle in the haystack. The AI just burned the haystack and sorted the ashes by dollar value."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-2011.00
+      title: O*NET Accountants and Auditors
+    - url: https://www.pwc.com/gx/en/issues/artificial-intelligence/ai-jobs-barometer.html
+      title: PwC AI Jobs Barometer 2025
+
+senior_compliance_officer:
+  id: senior_compliance_officer
+  title: Senior Compliance Officer
+  onetCode: "13-1041.00"
+  category: legal
+  riskPercent: 62
+  timeline:
+    minYears: 4
+    maxYears: 7
+  exposureFactors:
+    - Multi-jurisdictional regulatory mapping
+    - Real-time transaction monitoring
+    - Policy alignment automation
+  quip: "Ensuring the firm stays within the lines of the law. Unfortunately, the lines were just redrawn to exclude your office."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1041.00
+      title: O*NET Compliance Officers
+    - url: https://eig.org/wp-content/uploads/2025/08/EIG-AI-and-Jobs.pdf
+      title: EIG AI and Jobs Report
+
+adm_law_judge:
+  id: adm_law_judge
+  title: Administrative Law Judge
+  onetCode: "23-1021.00"
+  category: legal
+  riskPercent: 35
+  timeline:
+    minYears: 5
+    maxYears: 12
+  exposureFactors:
+    - AI-assisted evidence synthesis
+    - Automated precedent screening
+    - Neural draft opinion generation
+  quip: "Justice is blind, but the AI just read all 10,000 pages of the appeal in four milliseconds and found a typo that voids your entire argument."
+  sources:
+    - url: https://www.onetonline.org/link/summary/23-1021.00
+      title: O*NET Administrative Law Judges, Adjudicators, and Hearing Officers
+
+compliance_manager:
+  id: compliance_manager
+  title: Compliance Manager
+  onetCode: "11-9199.02"
+  category: legal
+  riskPercent: 58
+  timeline:
+    minYears: 4
+    maxYears: 8
+  exposureFactors:
+    - Automated regulatory change mapping
+    - AI-driven internal audit orchestration
+    - Neural policy alignment verification
+  quip: "Managing compliance is easy when the machine already knows you broke the rules before you even finished breaking them."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-9199.02
+      title: O*NET Compliance Managers
+
+reg_affairs_specialist:
+  id: reg_affairs_specialist
+  title: Regulatory Affairs Specialist
+  onetCode: "13-1041.07"
+  category: legal
+  riskPercent: 62
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - AI-automated regulatory filing preparation
+    - Neural compliance status monitoring
+    - Automated technical documentation parsing
+  quip: "Filing paperwork with three-letter agencies used to be a full-time job. Now it's just a Slack notification from an AI agent."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1041.07
+      title: O*NET Regulatory Affairs Specialists
+
+court_clerk:
+  id: court_clerk
+  title: Court Clerk
+  onetCode: "43-4031.00"
+  category: legal
+  riskPercent: 88
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - AI-automated docket management
+    - Neural case file indexing
+    - Automated court scheduling orchestration
+  quip: "The 'scales of justice' are now a load balancer in a Northern Virginia data center."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-4031.00
+      title: O*NET Court Clerks
+
+legal_transcriptionist:
+  id: legal_transcriptionist
+  title: Legal Transcriptionist
+  onetCode: "23-2099.00"
+  category: legal
+  riskPercent: 92
+  timeline:
+    minYears: 1
+    maxYears: 2
+  exposureFactors:
+    - Neural speech-to-text for legal proceedings
+    - AI-driven speaker disambiguation
+    - Automated legal formatting of transcripts
+  quip: "Every word you say will be held against you, primarily by a transformer model that doesn't need to take a bathroom break."
+  sources:
+    - url: https://www.onetonline.org/link/summary/23-2099.00
+      title: O*NET Legal Support Workers, All Other
+
+abstractor:
+  id: abstractor
+  title: Abstractor
+  onetCode: "23-2093.00"
+  category: legal
+  riskPercent: 85
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - AI-automated record searching
+    - Neural summary of legal descriptions
+    - Automated chain-of-title verification
+  quip: "Abstracting property history used to be a scavenger hunt. Now it's just a 'Select *' query into a database that remembers everything."
+  sources:
+    - url: https://www.onetonline.org/link/summary/23-2093.00
+      title: O*NET Title Examiners, Abstractors, and Searchers
+
+contract_administrator:
+  id: contract_administrator
+  title: Contract Administrator
+  onetCode: "13-1199.05"
+  category: legal
+  riskPercent: 70
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI-driven contract performance tracking
+    - Automated renewal notification orchestration
+    - Neural compliance risk flagging in active contracts
+  quip: "Managing the agreement? The AI already finished the audit and decided you were in breach of the 'Human Relevance' clause."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1199.05
+      title: O*NET Purchasing Agents, Except Wholesale, Retail, and Farm Products (Contract focus)
+
+ediscovery_analyst:
+  id: ediscovery_analyst
+  title: E-Discovery Analyst
+  onetCode: "23-2011.00"
+  category: legal
+  riskPercent: 78
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - AI-automated document relevance scoring
+    - Neural privilege review orchestration
+    - Automated conceptual clustering of evidence
+  quip: "Searching for the 'smoking gun' is easier when the gun is a line of code and the AI already ran the ballistic simulation."
+  sources:
+    - url: https://www.onetonline.org/link/summary/23-2011.00
+      title: O*NET Paralegals and Legal Assistants (E-Discovery focus)
+
+conflicts_analyst:
+  id: conflicts_analyst
+  title: Conflicts Analyst
+  onetCode: "13-1041.00"
+  category: legal
+  riskPercent: 65
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - AI-driven ethical wall monitoring
+    - Automated conflict-of-interest screening
+    - Neural client relationship mapping
+  quip: "The only conflict of interest left is between your career and the firm's new AI license agreement."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1041.00
+      title: O*NET Compliance Officers (Conflicts focus)
+
+notary_public:
+  id: notary_public
+  title: Notary Public
+  onetCode: "43-9199.00"
+  category: legal
+  riskPercent: 25
+  timeline:
+    minYears: 8
+    maxYears: 15
+  exposureFactors:
+    - AI-driven identity verification verification
+    - Automated digital signature orchestration
+    - Neural fraud pattern detection in documentation
+  quip: "Verify the signature all you want; the AI already ran a biometrics check on the thumbprint and knows the ink is still wet."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-9199.00
+      title: O*NET Office and Administrative Support Workers, All Other (Notary focus)

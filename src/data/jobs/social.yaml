@@ -1,0 +1,182 @@
+# Social & Community Service Jobs - AI Exposure Data
+# Sources: Oxford Economics, PwC AI Jobs Barometer 2025, AMRO GenAI Study
+
+social_work_assistant:
+  id: social_work_assistant
+  title: Social Work Assistant
+  onetCode: "21-1093.00"
+  category: other
+  riskPercent: 45
+  timeline:
+    minYears: 4
+    maxYears: 8
+  exposureFactors:
+    - AI-assisted case documentation and care plan drafting
+    - Automated eligibility screening and resource matching
+    - Real-time client sentiment and risk monitoring
+  quip: "Helping those in need. The AI is great at the 'paperwork' part of empathy; it just lacks the soul to actually care."
+  sources:
+    - url: https://www.onetonline.org/link/summary/21-1093.00
+      title: O*NET Social and Human Service Assistants
+
+community_service_manager:
+  id: community_service_manager
+  title: Community Service Manager
+  onetCode: "11-9151.00"
+  category: other
+  riskPercent: 28
+  timeline:
+    minYears: 5
+    maxYears: 10
+  exposureFactors:
+    - AI-driven community needs assessment and impact prediction
+    - Automated program outreach and engagement tracking
+    - Algorithmic budget and policy optimization
+  quip: "Leading the village. The AI just optimized the village for maximum 'social capital' and zero 'human error'."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-9151.00
+      title: O*NET Social and Community Service Managers
+
+grant_coordinator_social:
+  id: grant_coordinator_social
+  title: Grant Coordinator (Social)
+  onetCode: "13-1131.00"
+  category: other
+  riskPercent: 62
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI-assisted grant writing and foundation matching
+    - Automated outcome reporting and compliance auditing
+    - Predictive success modeling for funding applications
+  quip: "Searching for the money to do good. The AI found the money, but it also found 400 reasons why your project isn't 'scalable'."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1131.00
+      title: O*NET Fundraisers
+
+housing_counselor:
+  id: housing_counselor
+  title: Housing Counselor
+  onetCode: "13-2071.00"
+  category: other
+  riskPercent: 52
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - AI-driven financial counseling and mortgage eligibility modeling
+    - Automated screening for Fair Housing Act compliance
+    - LLM-powered client inquiry handling and guidance
+  quip: "Helping people find a home. The AI just realized that most people are 'sub-optimal' tenants."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-2071.00
+      title: O*NET Credit Counselors
+
+volunteer_coordinator:
+  id: volunteer_coordinator
+  title: Volunteer Coordinator
+  onetCode: "13-1071.00"
+  category: other
+  riskPercent: 35
+  timeline:
+    minYears: 4
+    maxYears: 9
+  exposureFactors:
+    - AI-automated scheduling and shift coordination
+    - Algorithmic volunteer matching based on skills and interest
+    - Automated background check and certificate tracking
+  quip: "Managing the people who work for free. The AI is even cheaper; it doesn't even want a 'thank you' at the end of the year."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1071.00
+      title: O*NET Human Resources Specialists
+
+probation_officer:
+  id: probation_officer
+  title: Probation Officer
+  onetCode: "21-1092.00"
+  category: other
+  riskPercent: 22
+  timeline:
+    minYears: 6
+    maxYears: 10
+  exposureFactors:
+    - AI-driven recidivism risk prediction and monitoring
+    - Automated check-in and compliance tracking bots
+    - Algorithmic sentencing and parole recommendation support
+  quip: "Keeping the peace. The AI just predicted your 3 PM relapse with 98% accuracy. Don't worry, it's already notified the judge's server."
+  sources:
+    - url: https://www.onetonline.org/link/summary/21-1092.00
+      title: O*NET Probation Officers and Correctional Treatment Specialists
+
+rehabilitation_counselor:
+  id: rehabilitation_counselor
+  title: Rehabilitation Counselor
+  onetCode: "21-1015.00"
+  category: other
+  riskPercent: 38
+  timeline:
+    minYears: 5
+    maxYears: 9
+  exposureFactors:
+    - AI-assisted personalized intervention and treatment planning
+    - Automated job placement and skill-matching analysis
+    - Real-time client progress and engagement tracking
+  quip: "Helping people get back on their feet. The software just designed a 12-step program for people who have been replaced by software."
+  sources:
+    - url: https://www.onetonline.org/link/summary/21-1015.00
+      title: O*NET Rehabilitation Counselors
+
+religious_edu_coordinator:
+  id: religious_edu_coordinator
+  title: Religious Education Coordinator
+  onetCode: "21-2021.00"
+  category: other
+  riskPercent: 25
+  timeline:
+    minYears: 7
+    maxYears: 10
+  exposureFactors:
+    - AI-assisted scripture study and curriculum generation
+    - Automated youth and community engagement logistics
+    - LLM-powered response to standard theological queries
+  quip: "Guiding the soul. The ironic bit is that the AI doesn't have one, but it still knows the scripture better than you do."
+  sources:
+    - url: https://www.onetonline.org/link/summary/21-2021.00
+      title: O*NET Directors, Religious Activities and Education
+
+social_service_case_manager:
+  id: social_service_case_manager
+  title: Social Service Case Manager
+  onetCode: "21-1021.00"
+  category: other
+  riskPercent: 48
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - AI-driven case history synthesis and risk assessment
+    - Automated multi-agency coordination and data exchange
+    - LLM-powered client communication and update handling
+  quip: "Managing the crisis. The AI just reduced the crisis to a series of manageable, non-human-interfered-with data points."
+  sources:
+    - url: https://www.onetonline.org/link/summary/21-1021.00
+      title: O*NET Child, Family, and School Social Workers
+
+nonprofit_program_associate:
+  id: nonprofit_program_associate
+  title: Nonprofit Program Associate
+  onetCode: "11-9151.00"
+  category: other
+  riskPercent: 55
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI-assisted program monitoring and evaluation (M&E)
+    - Automated donor and beneficiary communication
+    - Predictive impact modeling for social initiatives
+  quip: "Doing good on a budget. The budget just got cut because the AI realized it could do your job for the price of a GPU lease."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-9151.00
+      title: O*NET Social and Community Service Managers

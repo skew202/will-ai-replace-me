@@ -7,14 +7,27 @@ import { parse } from 'yaml';
 import type { Job, Location, Quote, JobCategory } from '@/types';
 
 // Import raw YAML files
-import techJobsRaw from '@data/jobs/technology.yaml?raw';
-import financeJobsRaw from '@data/jobs/finance.yaml?raw';
-import legalJobsRaw from '@data/jobs/legal.yaml?raw';
-import marketingJobsRaw from '@data/jobs/marketing.yaml?raw';
 import adminJobsRaw from '@data/jobs/admin.yaml?raw';
 import creativeJobsRaw from '@data/jobs/creative.yaml?raw';
+import educationJobsRaw from '@data/jobs/education.yaml?raw';
+import engineeringJobsRaw from '@data/jobs/engineering.yaml?raw';
+import financeJobsRaw from '@data/jobs/finance.yaml?raw';
+import governmentJobsRaw from '@data/jobs/government.yaml?raw';
+import healthcareJobsRaw from '@data/jobs/healthcare.yaml?raw';
+import legalJobsRaw from '@data/jobs/legal.yaml?raw';
+import logisticsJobsRaw from '@data/jobs/logistics.yaml?raw';
+import marketingJobsRaw from '@data/jobs/marketing.yaml?raw';
+import mediaJobsRaw from '@data/jobs/media.yaml?raw';
+import realestateJobsRaw from '@data/jobs/realestate.yaml?raw';
+import researchJobsRaw from '@data/jobs/research.yaml?raw';
+import salesJobsRaw from '@data/jobs/sales.yaml?raw';
+import socialJobsRaw from '@data/jobs/social.yaml?raw';
+import technologyJobsRaw from '@data/jobs/technology.yaml?raw';
+import tradesJobsRaw from '@data/jobs/trades.yaml?raw';
+
 import countriesRaw from '@data/locations/countries.yaml?raw';
 import quotesRaw from '@data/quotes/davos_2026.yaml?raw';
+import techQuotesRaw from '@data/quotes/tech_leaders_2026.yaml?raw';
 import quipsRaw from '@data/quips/one_liners.yaml?raw';
 
 // Parse YAML data
@@ -89,12 +102,23 @@ export function getAllJobs(): Job[] {
     if (_jobs) return _jobs;
 
     const allJobsRaw = [
-        techJobsRaw,
-        financeJobsRaw,
-        legalJobsRaw,
-        marketingJobsRaw,
         adminJobsRaw,
         creativeJobsRaw,
+        educationJobsRaw,
+        engineeringJobsRaw,
+        financeJobsRaw,
+        governmentJobsRaw,
+        healthcareJobsRaw,
+        legalJobsRaw,
+        logisticsJobsRaw,
+        marketingJobsRaw,
+        mediaJobsRaw,
+        realestateJobsRaw,
+        researchJobsRaw,
+        salesJobsRaw,
+        socialJobsRaw,
+        technologyJobsRaw,
+        tradesJobsRaw,
     ];
 
     _jobs = allJobsRaw.flatMap((raw) => Object.values(parseJobsYaml(raw)));
@@ -161,7 +185,7 @@ export function getLocationByCode(code: string): Location | undefined {
 export function getAllQuotes(): Quote[] {
     if (_quotes) return _quotes;
 
-    _quotes = parseQuotesYaml(quotesRaw);
+    _quotes = [...parseQuotesYaml(quotesRaw), ...parseQuotesYaml(techQuotesRaw)];
     return _quotes;
 }
 

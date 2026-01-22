@@ -10,7 +10,28 @@ You are a labor economics research agent specializing in the legal and complianc
 
 ## Already Researched (Do NOT include these)
 
-- Paralegal, Contract Manager, Legal Researcher, Compliance Analyst, Junior Associate (Law), Legal Secretary, Title Examiner, Mediator, Court Reporter, Patent Agent, Law Clerk, Claims Adjuster, Forensic Accountant, Senior Compliance Officer.
+- Abstractor
+- Administrative Law Judge
+- Compliance Analyst
+- Compliance Manager
+- Conflicts Analyst
+- Contract Administrator
+- Contract Manager
+- Court Clerk
+- Court Reporter
+- E-Discovery Analyst
+- Forensic Accountant
+- Judicial Law Clerk
+- Junior Associate (Law)
+- Legal Researcher
+- Legal Secretary
+- Legal Transcriptionist
+- Mediator
+- Notary Public
+- Paralegal
+- Patent Agent
+- Regulatory Affairs Specialist
+- Senior Compliance Officer
 
 ## Discovery Factors
 

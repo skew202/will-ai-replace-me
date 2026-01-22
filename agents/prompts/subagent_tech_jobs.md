@@ -10,7 +10,38 @@ You are a labor economics research agent specializing in the technology sector. 
 
 ## Already Researched (Do NOT include these)
 
-- Software Developer, QA Tester, Data Analyst, Data Engineer, Technical Writer, Web Developer, System Administrator, Cloud Architect, Cybersecurity Analyst, Database Administrator, Network Engineer, DevOps Engineer, Mobile App Developer, Computer Hardware Engineer, IT Support Specialist.
+- Blockchain Architect
+- Cloud Architect
+- Computer Hardware Engineer
+- Computer Network Support Specialist
+- Computer Programmer
+- Computer Research Scientist
+- Computer Systems Analyst
+- Cybersecurity Analyst
+- Data Analyst
+- Data Engineer
+- Data Scientist
+- Database Administrator
+- Database Architect
+- DevOps Engineer
+- Ethical Hacker / Pen Tester
+- Geospatial Information Scientist
+- IT Project Manager
+- IT Support Specialist
+- Machine Learning Engineer
+- Mainframe Systems Programmer
+- Mobile App Developer
+- Network Engineer
+- QA Tester
+- Release Engineer
+- Site Reliability Engineer
+- Software Architect
+- Software Developer
+- System Administrator
+- Telecommunications Engineering Specialist
+- UI/UX Designer
+- Web Administrator
+- Web Developer
 
 ## Discovery Factors
 

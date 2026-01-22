@@ -10,7 +10,23 @@ You are a labor economics research agent specializing in the creative industries
 
 ## Already Researched (Do NOT include these)
 
-- Graphic Designer, Video Editor, Translator, Journalist, Illustrator, Presentation Designer, Interior Designer, Fashion Designer, Art Director, Photographer (Commercial), Animator, Sound Engineer, Copy Editor, Creative Director, UX Designer, Industrial Designer.
+- Art Director
+- Creative Director
+- Curator
+- Fashion Designer
+- Floral Designer
+- Graphic Designer
+- Illustrator
+- Industrial Designer
+- Interior Designer
+- Merchandise Displayer
+- Presentation Designer
+- Set and Exhibit Designer
+- Talent Director
+- Technical Illustrator
+- UX Designer
+- VFX Artist
+- Video Game Designer
 
 ## Discovery Factors
 

@@ -10,7 +10,16 @@ You are a labor economics research agent specializing in the education sector. Y
 
 ## Already Researched (Do NOT include these)
 
-- Online Course Developer, Curriculum Writer, Academic Advisor, Admissions Counselor, Test Grader / Scorer, Tutoring Center Coordinator, Library Technician, Academic Editor, Educational Content Writer, Learning Management System Admin.
+- Academic Advisor
+- Admissions Counselor
+- Career Coach
+- Curriculum Developer
+- ESL Instructor
+- Instructional Designer
+- Online Tutor
+- Registrar
+- Special Education Coordinator
+- Test Scorer / Grader
 
 ## Discovery Factors
 

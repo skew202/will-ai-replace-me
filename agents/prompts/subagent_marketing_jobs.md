@@ -10,7 +10,29 @@ You are a labor economics research agent specializing in marketing, communicatio
 
 ## Already Researched (Do NOT include these)
 
-- Copywriter, Content Marketer, SEO Specialist, Social Media Manager, Marketing Analyst, PR Specialist, Event Planner, Brand Manager, Ad Sales Agent, Media Buyer, Email Marketing Specialist, Product Manager (Marketing), Technical SEO Specialist, Marketing Coordinator, Internal Communications Manager.
+- Account Executive (Agency)
+- Advertising Sales Agent
+- Affiliate Marketing Manager
+- Brand Manager
+- Brand Strategist
+- Content Marketer
+- Copywriter
+- Creative Strategist
+- Customer Insights Manager
+- Direct Mail Specialist
+- Email Marketing Specialist
+- Growth Marketer
+- Internal Communications Manager
+- Market Research Interviewer
+- Marketing Analyst
+- Marketing Coordinator
+- Media Buyer
+- Media Relations Specialist
+- Product Manager (Marketing)
+- Public Relations Specialist
+- SEO Specialist
+- Social Media Manager
+- Technical SEO Specialist
 
 ## Discovery Factors
 

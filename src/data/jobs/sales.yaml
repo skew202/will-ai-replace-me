@@ -1,0 +1,184 @@
+# Sales Jobs - AI Exposure Data
+# Sources: PwC AI Jobs Barometer 2025, Wharton Budget Model GenAI Study, AMRO GenAI Study
+
+telemarketer:
+  id: telemarketer
+  title: Telemarketer
+  onetCode: "41-9041.00"
+  category: sales
+  riskPercent: 96
+  timeline:
+    minYears: 1
+    maxYears: 2
+  exposureFactors:
+    - AI-generated script optimization
+    - Automated voice synthesis (deepfake agents)
+    - Predictive dialers with real-time sentiment analysis
+  quip: "You were told to smile and wave through the phone. Now the phone is doing both, and it doesn't need to cry in the breakroom."
+  sources:
+    - url: https://www.onetonline.org/link/summary/41-9041.00
+      title: O*NET Telemarketers
+    - url: https://www.pwc.com/gx/en/issues/artificial-intelligence/ai-jobs-barometer.html
+      title: PwC AI Jobs Barometer 2025
+
+sales_order_processor:
+  id: sales_order_processor
+  title: Sales Order Processor
+  onetCode: "43-4151.00"
+  category: sales
+  riskPercent: 95
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Automated order entry from unstructured text/voice
+    - Intelligent inventory matching
+    - Direct ERP integration without manual verification
+  quip: "Data entry is only a 'skill' until the computer learns how to read the messy handwriting of your customers better than you can."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-4151.00
+      title: O*NET Order Clerks
+
+sales_support_specialist:
+  id: sales_support_specialist
+  title: Sales Support Specialist
+  onetCode: "43-6014.00"
+  category: sales
+  riskPercent: 85
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - Automated quote and RFP generation
+    - AI-assisted lead qualification
+    - Meeting scheduling and CRM automation
+  quip: "You used to be the engine room of the sales team. Now the engine is electric, and it doesn't need a mechanic."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-6014.00
+      title: O*NET Secretaries and Administrative Assistants
+
+inside_sales_rep:
+  id: inside_sales_rep
+  title: Inside Sales Representative
+  onetCode: "41-4012.00"
+  category: sales
+  riskPercent: 70
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI-driven hyper-personalized outreach
+    - Automated objection handling in chat/email
+    - Dynamic sales playbooks
+  quip: "Coffee is for closers. Unfortunately, the AI is always awake, never sleeps, and doesn't even like coffee."
+  sources:
+    - url: https://www.onetonline.org/link/summary/41-4012.00
+      title: O*NET Sales Representatives
+
+ecommerce_merchandiser:
+  id: ecommerce_merchandiser
+  title: E-commerce Merchandiser
+  onetCode: "13-1199.06"
+  category: sales
+  riskPercent: 75
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - Algorithmic product placement and cross-selling
+    - AI-generated product descriptions and imagery
+    - Real-time demand forecasting and stock allocation
+  quip: "Curation is just a fancy word for 'math the algorithm hasn't mastered yet.' Key word: *yet*."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1199.06
+      title: O*NET Online Merchants
+
+sales_ops_analyst:
+  id: sales_ops_analyst
+  title: Sales Operations Analyst
+  onetCode: "13-1111.00"
+  category: sales
+  riskPercent: 65
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - Automated pipeline health forecasting
+    - Territory optimization algorithms
+    - AI-driven sales incentive modeling
+  quip: "You spent years building dashboards. Now the CEO just asks a chatbot for the ROI, and it doesn't mention your department."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1111.00
+      title: O*NET Management Analysts
+
+account_representative:
+  id: account_representative
+  title: Account Representative
+  onetCode: "41-4012.00"
+  category: sales
+  riskPercent: 50
+  timeline:
+    minYears: 4
+    maxYears: 8
+  exposureFactors:
+    - Automated relationship health monitoring
+    - Upsell opportunity prediction
+    - AI-assisted renewal negotiation
+  quip: "Maintaining the relationship is the hard part. Luckily, the AI is very good at pretending to care about your client's weekend."
+  sources:
+    - url: https://www.onetonline.org/link/summary/41-4012.00
+      title: O*NET Sales Representatives
+
+crm_administrator:
+  id: crm_administrator
+  title: CRM Administrator
+  onetCode: "15-1299.08"
+  category: sales
+  riskPercent: 60
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Automated data cleaning and deduplication
+    - Self-configuring CRM workflows
+    - AI-assisted schema mapping
+  quip: "You were the keeper of the data. Now the data is keeping itself clean, and it finds your manual entry... messy."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1299.08
+      title: O*NET Business Intelligence Analysts
+
+business_development_rep:
+  id: business_development_rep
+  title: Business Development Representative
+  onetCode: "41-3091.00"
+  category: sales
+  riskPercent: 72
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - AI lead scoring and prospecting
+    - Automated sequence generation and optimization
+    - Real-time call coaching algorithms
+  quip: "You're the tip of the spear. Too bad the spear is now being thrown by a machine that never misses or gets rejected."
+  sources:
+    - url: https://www.onetonline.org/link/summary/41-3091.00
+      title: O*NET Sales Representatives
+
+sales_data_researcher:
+  id: sales_data_researcher
+  title: Sales Data Researcher
+  onetCode: "15-2051.00"
+  category: sales
+  riskPercent: 80
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Automated web scraping and intent detection
+    - Large-scale lead list synthesis
+    - Predictive churn and acquisition modeling
+  quip: "Finding the needle in the haystack is easy when you have a magnet. The AI is the magnet. You're just the one holding the hay."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-2051.00
+      title: O*NET Data Scientists

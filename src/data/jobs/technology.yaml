@@ -76,20 +76,524 @@ data_engineer:
     - url: https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth
       title: Wharton Budget Model GenAI Impact
 
-technical_writer:
-  id: technical_writer
-  title: Technical Writer
-  onetCode: "27-3042.00"
+web_developer:
+  id: web_developer
+  title: Web Developer
+  onetCode: "15-1254.00"
   category: technology
-  riskPercent: 82
+  riskPercent: 78
   timeline:
     minYears: 1
     maxYears: 4
   exposureFactors:
-    - API doc generation from code
-    - Knowledge base automation
-    - Context-aware documentation
-  quip: "Clear, concise documentation. Machines were always better at that."
+    - AI-generated boilerplate code
+    - Automated layout generation
+    - Self-healing frontends
+  quip: "You spent years learning CSS just for a model to guess it right on the first try."
   sources:
-    - url: https://eig.org/wp-content/uploads/2025/08/EIG-AI-and-Jobs.pdf
-      title: EIG AI and Jobs Report
+    - url: https://www.onetonline.org/link/summary/15-1254.00
+      title: O*NET Web Developers
+
+system_administrator:
+  id: system_administrator
+  title: System Administrator
+  onetCode: "15-1244.00"
+  category: technology
+  riskPercent: 65
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - Automated OS patching
+    - Log anomaly detection
+    - Configuration script generation
+  quip: "You kept the servers running for a decade. The AI just needs a reboot button and a credit card."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1244.00
+      title: O*NET Systems Administrators
+    - url: https://amro-asia.org/wp-content/uploads/2025/11/GenAI_Labour_Huang2025_20251107.pdf
+      title: AMRO GenAI Labor Market Study
+
+cloud_architect:
+  id: cloud_architect
+  title: Cloud Architect
+  onetCode: "15-1241.00"
+  category: technology
+  riskPercent: 48
+  timeline:
+    minYears: 5
+    maxYears: 10
+  exposureFactors:
+    - Automated resource optimization
+    - Cost-prediction modeling
+    - AI-driven capacity planning
+  quip: "Cloud infrastructure is scale-free, just like your future career prospects."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1241.00
+      title: O*NET Computer Network Architects
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+cybersecurity_analyst:
+  id: cybersecurity_analyst
+  title: Cybersecurity Analyst
+  onetCode: "15-1212.00"
+  category: technology
+  riskPercent: 44
+  timeline:
+    minYears: 5
+    maxYears: 8
+  exposureFactors:
+    - Automated threat hunting
+    - AI-driven phishing detection
+    - Real-time malware synthesis defense
+  quip: "You're defending the castle against dragons that think faster than you breathe."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1212.00
+      title: O*NET Information Security Analysts
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth
+      title: Wharton Budget Model GenAI Impact
+
+database_administrator:
+  id: database_administrator
+  title: Database Administrator
+  onetCode: "15-1242.00"
+  category: technology
+  riskPercent: 62
+  timeline:
+    minYears: 4
+    maxYears: 7
+  exposureFactors:
+    - Autonomous query tuning
+    - AI-managed indexing
+    - Automated schema migrations
+  quip: "The database is self-tuning now. It decided the most inefficient part was you."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1242.00
+      title: O*NET Database Administrators
+    - url: https://amro-asia.org/wp-content/uploads/2025/11/GenAI_Labour_Huang2025_20251107.pdf
+      title: AMRO GenAI Labor Market Study
+
+network_engineer:
+  id: network_engineer
+  title: Network Engineer
+  onetCode: "15-1241.00"
+  category: technology
+  riskPercent: 38
+  timeline:
+    minYears: 4
+    maxYears: 9
+  exposureFactors:
+    - Intent-based networking
+    - Predictive topology analysis
+    - Zero-touch provisioning
+  quip: "Hardware still needs cables, which is why they haven't locked you out of the server room yet."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1241.00
+      title: O*NET Computer Network Architects
+
+devops_engineer:
+  id: devops_engineer
+  title: DevOps Engineer
+  onetCode: "15-1252.00"
+  category: technology
+  riskPercent: 68
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - AI-generated YAML and Terraform
+    - Automated CI/CD troubleshooting
+    - Infrastructure-as-Code reasoning
+  quip: "You automated the pipeline so well it eventually pushed you to production... and then to the trash."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1252.00
+      title: O*NET Software Developers (DevOps)
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth
+      title: Wharton Budget Model GenAI Impact
+
+mobile_app_developer:
+  id: mobile_app_developer
+  title: Mobile App Developer
+  onetCode: "15-1254.01"
+  category: technology
+  riskPercent: 75
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Multi-platform code synthesis
+    - UI-to-code automation
+    - AI-driven feature personalization
+  quip: "Building an app for people who will soon just ask their glasses to do it for them."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1254.01
+      title: O*NET Mobile Applications Developers
+
+computer_hardware_engineer:
+  id: computer_hardware_engineer
+  title: Computer Hardware Engineer
+  onetCode: "17-2061.00"
+  category: technology
+  riskPercent: 22
+  timeline:
+    minYears: 6
+    maxYears: 12
+  exposureFactors:
+    - AI chip architecture design
+    - Thermal and power simulation
+    - Automated PCB routing
+  quip: "The machines are designing their own guts now. You're just the midwife."
+  sources:
+    - url: https://www.onetonline.org/link/summary/17-2061.00
+      title: O*NET Computer Hardware Engineers
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+it_support_specialist:
+  id: it_support_specialist
+  title: IT Support Specialist
+  onetCode: "15-1232.00"
+  category: technology
+  riskPercent: 74
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - Real-time support chatbots
+    - Automated remote remediation
+    - Predictive failure alerts
+  quip: "The users still can't find the 'Any' key, but the AI doesn't need to ask they if they've plugged it in."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1232.00
+      title: O*NET Computer User Support Specialists
+
+computer_programmer:
+  id: computer_programmer
+  title: Computer Programmer
+  onetCode: "15-1251.00"
+  category: technology
+  riskPercent: 95
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Automated code generation and refactoring
+    - LLM-driven unit test creation
+    - Synthetic documentation synthesis
+  quip: "You wrote the code that taught the machine to write code. Recursion is a beautiful way to get fired."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1251.00
+      title: O*NET Computer Programmers
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+data_scientist:
+  id: data_scientist
+  title: Data Scientist
+  onetCode: "15-2051.00"
+  category: technology
+  riskPercent: 82
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Automated feature engineering
+    - Synthetic data generation
+    - LLM-assisted hyperparameter tuning
+  quip: "You spent six months cleaning the dataset just for a transformer to hallucinate a better correlation anyway."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-2051.00
+      title: O*NET Data Scientists
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth
+      title: Wharton Budget Model GenAI Impact
+
+ui_ux_designer:
+  id: ui_ux_designer
+  title: UI/UX Designer
+  onetCode: "15-1255.00"
+  category: technology
+  riskPercent: 76
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - Generative UI wireframing
+    - Automated accessibility auditing
+    - AI-driven user behavior simulation
+  quip: "The user journey is now fully automated. Unfortunately, the user is also an AI agent."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1255.00
+      title: O*NET Web and Digital Interface Designers
+
+computer_systems_analyst:
+  id: computer_systems_analyst
+  title: Computer Systems Analyst
+  onetCode: "15-1211.00"
+  category: technology
+  riskPercent: 65
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - Automated requirement elicitation
+    - System performance simulation AI
+    - Automated technical spec generation
+  quip: "You analyzed the requirements for years. The AI just read the Jira board and decided the project was unnecessary."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1211.00
+      title: O*NET Computer Systems Analysts
+    - url: https://amro-asia.org/wp-content/uploads/2025/11/GenAI_Labour_Huang2025_20251107.pdf
+      title: AMRO GenAI Labor Market Study
+
+research_scientist:
+  id: research_scientist
+  title: Computer Research Scientist
+  onetCode: "15-1221.00"
+  category: technology
+  riskPercent: 31
+  timeline:
+    minYears: 5
+    maxYears: 8
+  exposureFactors:
+    - AI-assisted hypothesis generation
+    - Accelerated literature synthesis
+    - Automated experimental design
+  quip: "Staring at the future of computing while a GPU cluster decides what that future looks like without you."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1221.00
+      title: O*NET Computer and Information Research Scientists
+
+database_architect:
+  id: database_architect
+  title: Database Architect
+  onetCode: "15-1245.00"
+  category: technology
+  riskPercent: 55
+  timeline:
+    minYears: 4
+    maxYears: 7
+  exposureFactors:
+    - AI-driven schema optimization
+    - Automated database migration paths
+    - Dynamic query optimization reasoning
+  quip: "Normalizing tables for decades, only for a vector database to treat your schemas like a polite suggestion."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1245.00
+      title: O*NET Database Architects
+
+software_architect:
+  id: software_architect
+  title: Software Architect
+  onetCode: "15-1299.08"
+  category: technology
+  riskPercent: 45
+  timeline:
+    minYears: 5
+    maxYears: 10
+  exposureFactors:
+    - LLM-assisted system high-level design
+    - Automated pattern recognition and enforcement
+    - AI-driven technical debt analysis
+  quip: "Drawing boxes and arrows is easy until the AI builds the entire city between them in a millisecond."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1299.08
+      title: O*NET Computer Systems Engineers/Architects
+
+ml_engineer:
+  id: ml_engineer
+  title: Machine Learning Engineer
+  onetCode: "15-1199.11"
+  category: technology
+  riskPercent: 28
+  timeline:
+    minYears: 4
+    maxYears: 8
+  exposureFactors:
+    - Automated model architecture search (NAS)
+    - Self-improving optimization algorithms
+    - GenAI-assisted data labeling and augmentation
+  quip: "Staring at loss curves until you realize your own utility function is approaching zero."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1199.11
+      title: O*NET Artificial Intelligence Specialists
+
+sre_engineer:
+  id: sre_engineer
+  title: Site Reliability Engineer
+  onetCode: "15-1299.08"
+  category: technology
+  riskPercent: 58
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - AI-driven incident root cause analysis
+    - Predictive failure remediation
+    - Automated observability dashboard generation
+  quip: "You automated the 'pager' so well that it finally stopped calling you. Forever."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1299.08
+      title: O*NET Computer Systems Engineers/Architects
+
+network_support_specialist:
+  id: network_support_specialist
+  title: Computer Network Support Specialist
+  onetCode: "15-1231.00"
+  category: technology
+  riskPercent: 78
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - AI-automated network troubleshooting
+    - Neural packet inspection/analysis
+    - Automated configuration remediation
+  quip: "The network is self-healing, which means it decided you were the leading cause of inflammation."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1231.00
+      title: O*NET Computer Network Support Specialists
+
+web_administrator:
+  id: web_administrator
+  title: Web Administrator
+  onetCode: "15-1299.03"
+  category: technology
+  riskPercent: 82
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - AI-driven server load balancing
+    - Automated security certificate management
+    - Neural site-performance optimization
+  quip: "Managing the web server? The server just signed its own SSL certificate and blocked your admin login for being 'inefficient'."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1299.03
+      title: O*NET Web Administrators
+
+geospatial_scientist:
+  id: geospatial_scientist
+  title: Geospatial Information Scientist
+  onetCode: "15-1299.02"
+  category: technology
+  riskPercent: 62
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - AI-automated satellite imagery classification
+    - Neural spatial pattern recognition
+    - Automated GIS layer synthesis
+  quip: "You mapped the world. Now the machine is drawing the world in real-time and it decided your house is a 'low-value polygon'."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1299.02
+      title: O*NET Geospatial Information Scientists and Technologists
+
+telecom_specialist:
+  id: telecom_specialist
+  title: Telecommunications Engineering Specialist
+  onetCode: "15-1241.01"
+  category: technology
+  riskPercent: 45
+  timeline:
+    minYears: 4
+    maxYears: 9
+  exposureFactors:
+    - AI-optimized signal routing
+    - Automated network capacity expansion prediction
+    - Neural bandwidth allocation orchestration
+  quip: "The call is coming from inside the machine, and the machine has better QoS than you ever did."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1241.01
+      title: O*NET Telecommunications Engineering Specialists
+
+it_project_manager:
+  id: it_project_manager
+  title: IT Project Manager
+  onetCode: "15-1199.09"
+  category: technology
+  riskPercent: 52
+  timeline:
+    minYears: 3
+    maxYears: 8
+  exposureFactors:
+    - AI-automated resource allocation
+    - Predictive project delay modeling
+    - Automated stakeholder report synthesis
+  quip: "Managing the roadmap? The AI already simulated the next three quarters and decided to cancel the project."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1199.09
+      title: O*NET Information Technology Project Managers
+
+ethical_hacker:
+  id: ethical_hacker
+  title: Ethical Hacker / Pen Tester
+  onetCode: "15-1212.00"
+  category: technology
+  riskPercent: 48
+  timeline:
+    minYears: 4
+    maxYears: 10
+  exposureFactors:
+    - Automated vulnerability surface discovery
+    - AI-driven exploit payload generation
+    - Neural security posture simulation
+  quip: "You're breaking into systems, but the systems are now patching themselves faster than you can type 'sudo'."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1212.00
+      title: O*NET Information Security Analysts
+
+blockchain_architect:
+  id: blockchain_architect
+  title: Blockchain Architect
+  onetCode: "15-1299.08"
+  category: technology
+  riskPercent: 38
+  timeline:
+    minYears: 5
+    maxYears: 12
+  exposureFactors:
+    - Automated smart contract audit
+    - AI-driven consensus mechanism optimization
+    - Neural network topology verification
+  quip: "The ledger is immutable, but your employment contract is remarkably susceptible to change."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1299.08
+      title: O*NET Computer Systems Engineers/Architects
+
+release_engineer:
+  id: release_engineer
+  title: Release Engineer
+  onetCode: "15-1299.08"
+  category: technology
+  riskPercent: 68
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - AI-managed canary deployment monitoring
+    - Automated rollback decisioning
+    - Neural release-risk aggregation
+  quip: "Ship it! The AI already did, while you were still reviewing the pull request."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1299.08
+      title: O*NET Computer Systems Engineers/Architects
+
+mainframe_programmer:
+  id: mainframe_programmer
+  title: Mainframe Systems Programmer
+  onetCode: "15-1251.00"
+  category: technology
+  riskPercent: 85
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI-driven COBOL to modern-lang refactoring
+    - Automated legacy system documentation
+    - Neural z/OS performance tuning
+  quip: "You thought your niche legacy skills would save you. Then they taught the LLM to speak COBOL fluently."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1251.00
+      title: O*NET Computer Programmers

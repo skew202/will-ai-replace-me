@@ -10,7 +10,34 @@ You are a labor economics research agent specializing in research and analysis o
 
 ## Already Researched (Do NOT include these)
 
-- Market Research Analyst, Policy Analyst, Business Intelligence Analyst, Competitive Intelligence Analyst, Survey Researcher, Economic Research Assistant, Think Tank Research Associate, Grants Writer, Literature Review Specialist, Data Visualization Specialist.
+- Actuary
+- Biostatistician
+- Climate Change Policy Analyst
+- Clinical Data Manager
+- Competitive Intelligence Analyst
+- Data Visualization Specialist
+- Economic Research Assistant
+- Economist
+- Energy Auditor
+- Equity Research Analyst
+- Financial Quantitative Analyst
+- Fraud Examiner, Investigator and Analyst
+- Geospatial Analyst
+- Grants Writer
+- Industrial-Organizational Psychologist
+- Intelligence Analyst
+- Literature Review Specialist
+- Management Analyst
+- Market Research Analyst
+- Mathematical Technician
+- Operations Research Analyst
+- Policy Analyst
+- Sociologist
+- Statistician
+- Survey Researcher
+- Technical Report Writer
+- Think Tank Research Associate
+- Urban and Regional Planner
 
 ## Discovery Factors
 

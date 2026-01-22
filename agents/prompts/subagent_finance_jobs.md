@@ -10,7 +10,30 @@ You are a labor economics research agent specializing in the financial services 
 
 ## Already Researched (Do NOT include these)
 
-- Financial Analyst, Bookkeeper, Tax Preparer, Credit Analyst, Actuarial Analyst, Accountant, Mortgage Broker, Loan Officer, Investment Banker (Associate), Financial Planner, Payroll Specialist, Auditor, Risk Manager, Stock Trader, Insurance Underwriter.
+- Accountant
+- Actuarial Analyst
+- Auditor
+- Billing and Posting Clerk
+- Bookkeeper
+- Brokerage Clerk
+- Budget Analyst
+- Cost Estimator
+- Credit Analyst
+- Credit Authorizer
+- Financial Analyst
+- Financial Examiner
+- Financial Planner
+- Financial Quantitative Analyst
+- Insurance Underwriter
+- Investment Banker (Associate)
+- Loan Officer
+- Mortgage Broker
+- Payroll Specialist
+- Procurement Clerk
+- Risk Manager
+- Stock Trader
+- Tax Preparer
+- Treasurer and Controller
 
 ## Discovery Factors
 

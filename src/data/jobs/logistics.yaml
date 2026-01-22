@@ -1,0 +1,182 @@
+# Logistics Jobs - AI Exposure Data
+# Sources: PwC AI Jobs Barometer 2025, Oxford Economics AI Impact Report, AMRO GenAI Study
+
+procurement_manager:
+  id: procurement_manager
+  title: Procurement Manager
+  onetCode: "11-3061.00"
+  category: logistics
+  riskPercent: 55
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - Automated supplier evaluation and risk scoring
+    - AI-assisted contract negotiation and clause optimization
+    - Real-time global supply chain visibility and spend analytics
+  quip: "You spent a career building supplier relationships. The AI just built a matrix that evaluates loyalty in basis points."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-3061.00
+      title: O*NET Purchasing Managers
+
+supply_chain_analyst:
+  id: supply_chain_analyst
+  title: Supply Chain Analyst
+  onetCode: "13-1081.02"
+  category: logistics
+  riskPercent: 70
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI-driven demand forecasting and inventory optimization
+    - Automated network design and logistics simulation
+    - Real-time anomaly detection in global trade flows
+  quip: "Predicting the future of the supply chain is easy for a machine. It doesn't get surprised by a boat stuck in a canal; it just reroutes."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1081.02
+      title: O*NET Logistics Analysts
+
+logistics_coordinator:
+  id: logistics_coordinator
+  title: Logistics Coordinator
+  onetCode: "13-1081.00"
+  category: logistics
+  riskPercent: 78
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Automated shipment tracking and carrier communication
+    - AI-assisted route planning and load consolidation
+    - Digital freight matching and billing automation
+  quip: "Tracking the truck was your main job. Now the truck tracks itself and the AI handles the complaining when it's late."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1081.00
+      title: O*NET Logisticians
+
+freight_forwarder:
+  id: freight_forwarder
+  title: Freight Forwarder
+  onetCode: "13-1081.00"
+  category: logistics
+  riskPercent: 62
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Automated customs documentation and regulatory filing
+    - AI-driven quote generation and capacity booking
+    - Multi-modal route optimization
+  quip: "The 'magic' of international shipping is just a pile of documents that an AI can read, translate, and file while you're still looking for your stamp."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1081.00
+      title: O*NET Logisticians
+
+inventory_control_manager:
+  id: inventory_control_manager
+  title: Inventory Control Manager
+  onetCode: "11-3071.04"
+  category: logistics
+  riskPercent: 74
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - Real-time stock level monitoring and auto-replenishment
+    - AI-assisted warehouse space optimization
+    - Predictive cycle counting and loss prevention
+  quip: "Counting boxes is for humans. Knowing exactly how many boxes will be needed three weeks from now is for the machine."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-3071.04
+      title: O*NET Supply Chain Managers
+
+customs_broker:
+  id: customs_broker
+  title: Customs Broker
+  onetCode: "13-1041.00"
+  category: logistics
+  riskPercent: 82
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Automated tariff classification using NLP
+    - AI-assisted compliance auditing and risk assessment
+    - Straight-through processing of entry documentation
+  quip: "Navigating the labyrinth of international trade law. Turns out, the Minotaur is just a regular expression."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1041.00
+      title: O*NET Compliance Officers
+
+transportation_planner:
+  id: transportation_planner
+  title: Transportation Planner
+  onetCode: "19-3099.01"
+  category: logistics
+  riskPercent: 58
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - AI-driven traffic pattern simulation and infrastructure planning
+    - Automated multi-modal transit network optimization
+    - Real-time congestion and environmental impact modeling
+  quip: "Planning the city's veins. The AI treats people like blood cells—predictable, numerous, and replaceable."
+  sources:
+    - url: https://www.onetonline.org/link/summary/19-3099.01
+      title: O*NET Transportation Planners
+
+purchasing_agent:
+  id: purchasing_agent
+  title: Purchasing Agent
+  onetCode: "13-1023.00"
+  category: logistics
+  riskPercent: 80
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Automated vendor quote comparison and selection
+    - AI-assisted purchase order generation and tracking
+    - Algorithmic price trend analysis and hedging
+  quip: "Buying things for the company. The AI has all the data and none of the sentimentality about 'Joe from the warehouse.'"
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1023.00
+      title: O*NET Purchasing Agents
+
+warehouse_ops_manager:
+  id: warehouse_ops_manager
+  title: Warehouse Operations Manager
+  onetCode: "11-1021.00"
+  category: logistics
+  riskPercent: 45
+  timeline:
+    minYears: 4
+    maxYears: 9
+  exposureFactors:
+    - AI-orchestrated robotics and automated storage/retrieval (ASRS)
+    - Real-time labor productivity and safety monitoring
+    - Dynamic slotting and warehouse layout simulation
+  quip: "The warehouse is finally quiet. No more humans, just the soft hum of robots moving at 99.8% efficiency."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-1021.00
+      title: O*NET General and Operations Managers
+
+global_sourcing_specialist:
+  id: global_sourcing_specialist
+  title: Global Sourcing Specialist
+  onetCode: "11-3061.00"
+  category: logistics
+  riskPercent: 52
+  timeline:
+    minYears: 4
+    maxYears: 8
+  exposureFactors:
+    - AI-driven geopolitical and market risk assessment
+    - Automated multi-lingual supplier identification
+    - Real-time ESG and compliance verification
+  quip: "Sourcing from the other side of the planet. The AI doesn't need to visit the factory; it has a drone and a data feed."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-3061.00
+      title: O*NET Purchasing Managers

@@ -10,7 +10,16 @@ You are a labor economics research agent specializing in the healthcare sector. 
 
 ## Already Researched (Do NOT include these)
 
-- Medical Coder / Billing Specialist, Radiology Technician, Medical Transcriptionist, Pharmacy Technician, Clinical Research Coordinator, Health Information Technician, Medical Secretary, Insurance Claims Processor, Lab Technician, Nurse (RN).
+- Cardiovascular Technologist
+- Dental Hygienist
+- Health Information Technologist
+- Medical Coder
+- Medical Lab Technician
+- Medical Records Technician
+- Medical Transcriptionist
+- Pharmacy Technician
+- Phlebotomist
+- Radiology Technologist
 
 ## Discovery Factors
 

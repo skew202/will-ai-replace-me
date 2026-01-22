@@ -1,0 +1,162 @@
+# Real Estate Jobs - AI Exposure Data
+# Sources: PwC AI Jobs Barometer 2025, McKinsey Real Estate AI Report, AMRO GenAI Study
+
+title_examiner:
+  id: title_examiner
+  title: Title Examiner
+  onetCode: "23-2093.00"
+  category: realestate
+  riskPercent: 92
+  timeline:
+    minYears: 1
+    maxYears: 2
+  exposureFactors:
+    - AI-managed public record synthesis
+    - Automated lien detection
+    - Neural document anomaly scanning
+  quip: "The history of the home is written in the records. The future of the records is written by a bot that never blinks."
+  sources:
+    - url: https://www.onetonline.org/link/summary/23-2093.00
+      title: O*NET Title Examiners, Abstractors, and Searchers
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+lease_administrator:
+  id: lease_administrator
+  title: Lease Administrator
+  onetCode: "11-9141.00"
+  category: realestate
+  riskPercent: 85
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - Automated lease term extraction
+    - AI-driven compliance auditing
+    - Neural anniversary/renewal tracking
+  quip: "Managing the fine print? The machine just read 1,000 leases while you were still trying to find the 'Save' button."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-9141.00
+      title: O*NET Property, Real Estate, and Community Association Managers
+    - url: https://www.mckinsey.com/industries/real-estate/our-insights/generative-ai-can-unlock-up-to-110-billion-in-value-for-real-estate
+      title: McKinsey Real Estate in the Age of AI
+
+real_estate_appraiser:
+  id: real_estate_appraiser
+  title: Real Estate Appraiser
+  onetCode: "13-2023.00"
+  category: realestate
+  riskPercent: 72
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Automated valuation models (AVMs)
+    - AI-driven market trend analysis
+    - Neural comparative property matching
+  quip: "What's it worth? The market is now a math problem, and the computer doesn't care about your sentimental attachment to the fireplace."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-2023.00
+      title: O*NET Appraisers and Assessors of Real Estate
+    - url: https://www.mckinsey.com/industries/real-estate/our-insights/generative-ai-can-unlock-up-to-110-billion-in-value-for-real-estate
+      title: McKinsey Real Estate in the Age of AI
+
+mortgage_loan_officer:
+  id: mortgage_loan_officer
+  title: Mortgage Loan Officer
+  onetCode: "13-2072.00"
+  category: realestate
+  riskPercent: 68
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - AI-automated credit underwriting
+    - Neural income verification synthesis
+    - Automated pre-approval orchestration
+  quip: "Finding a loan for a home? The home is real, but the lender is just an algorithm in a cold server room."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-2072.00
+      title: O*NET Loan Officers
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+real_estate_sales_agent:
+  id: real_estate_sales_agent
+  title: Real Estate Sales Agent
+  onetCode: "41-9022.00"
+  category: realestate
+  riskPercent: 52
+  timeline:
+    minYears: 4
+    maxYears: 8
+  exposureFactors:
+    - AI-driven buyer/seller matching
+    - Automated showing coordination
+    - Neural property description generation
+  quip: "The 'human touch' in sales is now a very convincing chatbot that never gets stuck in traffic."
+  sources:
+    - url: https://www.onetonline.org/link/summary/41-9022.00
+      title: O*NET Real Estate Sales Agents
+    - url: https://www.mckinsey.com/industries/real-estate/our-insights/generative-ai-can-unlock-up-to-110-billion-in-value-for-real-estate
+      title: McKinsey Real Estate in the Age of AI
+
+property_manager:
+  id: property_manager
+  title: Property Manager
+  onetCode: "11-9141.00"
+  category: realestate
+  riskPercent: 58
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - AI-managed tenant screening
+    - Automated maintenance request routing
+    - Neural vacancy forecasting
+  quip: "The building is standing, but the manager is now a dashboard that doesn't hear your complaints."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-9141.00
+      title: O*NET Property, Real Estate, and Community Association Managers
+    - url: https://amro-asia.org/wp-content/uploads/2025/11/GenAI_Labour_Huang2025_20251107.pdf
+      title: AMRO GenAI Labor Market Study
+
+insurance_sales_agent:
+  id: insurance_sales_agent
+  title: Insurance Sales Agent
+  onetCode: "41-3021.00"
+  category: realestate
+  riskPercent: 53
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - AI-automated quote comparisons
+    - Neural policy recommendation engines
+    - Automated client retention prompts
+  quip: "Selling peace of mind? The peace of mind is that you won't have to talk to a human to get it."
+  sources:
+    - url: https://www.onetonline.org/link/summary/41-3021.00
+      title: O*NET Insurance Sales Agents
+    - url: https://www.philadelphiafed.org/the-economy/labor-markets/ai-exposure-across-occupations
+      title: Philadelphia Fed AI Exposure Across Occupations
+
+insurance_actuary_junior:
+  id: insurance_actuary_junior
+  title: Insurance Actuary (Junior)
+  onetCode: "15-2011.00"
+  category: realestate
+  riskPercent: 45
+  timeline:
+    minYears: 5
+    maxYears: 10
+  exposureFactors:
+    - AI-managed data aggregation
+    - Neural risk premium modeling
+    - Automated regulatory report synthesis
+  quip: "Math doesn't have a heart. Neither does the bot that just took your job at the underwriting desk."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-2011.00
+      title: O*NET Actuaries
+    - url: https://amro-asia.org/wp-content/uploads/2025/11/GenAI_Labour_Huang2025_20251107.pdf
+      title: AMRO GenAI Labor Market Study

@@ -1,0 +1,544 @@
+# Research & Analysis Jobs - AI Exposure Data
+# Sources: O*NET OnLine, PwC AI Jobs Barometer 2025, AMRO GenAI Labor Market Study, EIG AI and Jobs Report
+
+market_research_analyst:
+  id: market_research_analyst
+  title: Market Research Analyst
+  onetCode: "13-1161.00"
+  category: research
+  riskPercent: 72
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI literature synthesis
+    - Automated survey analysis
+    - Trend prediction models
+  quip: "You analyzed markets. Now a model analyzes you right out of one."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1161.00
+      title: O*NET Market Research Analysts
+    - url: https://www.pwccn.com/en/issues/generative-ai/global-ai-jobs-barometer-jun2025.html
+      title: PwC Global AI Jobs Barometer
+
+policy_analyst:
+  id: policy_analyst
+  title: Policy Analyst
+  onetCode: "19-3094.00"
+  category: research
+  riskPercent: 78
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Policy impact simulation
+    - Legislative text extraction
+    - Automated brief drafting
+  quip: "You studied the social contract for years. The AI just rewrote it in Python, and you're not in the new version."
+  sources:
+    - url: https://www.onetonline.org/link/summary/19-3094.00
+      title: O*NET Political Scientists
+    - url: https://amro-asia.org/labor-market-exposure-to-ai-from-genai-to-future-agi/
+      title: AMRO GenAI Labor Market Study
+
+competitive_intel_analyst:
+  id: competitive_intel_analyst
+  title: Competitive Intelligence Analyst
+  onetCode: "15-2051.01"
+  category: research
+  riskPercent: 82
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - Competitor pricing scraping
+    - Sentiment analysis of PR
+    - Automated market monitoring
+  quip: "You tracked the competition. Sadly, you didn't notice the algorithm taking your desk."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-2051.01
+      title: O*NET Business Intelligence Analysts
+    - url: https://eig.org/wp-content/uploads/2025/08/EIG-AI-and-Jobs.pdf
+      title: EIG AI and Jobs Report
+
+survey_researcher:
+  id: survey_researcher
+  title: Survey Researcher
+  onetCode: "19-3022.00"
+  category: research
+  riskPercent: 68
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - Synthetic persona panels
+    - Automated questionnaire design
+    - Response bias detection
+  quip: "You spent a decade perfecting the Likert scale. Turns out, 'Strongly Disagree' is the public's opinion on your continued employment."
+  sources:
+    - url: https://www.onetonline.org/link/summary/19-3022.00
+      title: O*NET Survey Researchers
+    - url: https://amro-asia.org/labor-market-exposure-to-ai-from-genai-to-future-agi/
+      title: AMRO GenAI Labor Market Study
+
+economic_research_assistant:
+  id: economic_research_assistant
+  title: Economic Research Assistant
+  onetCode: "19-4061.00"
+  category: research
+  riskPercent: 92
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Dataset cleaning automation
+    - Literature review scraping
+    - Automated regression pipelines
+  quip: "Assisting a lead researcher is a great way to learn. Unfortunately, the lead researcher is now a prompt."
+  sources:
+    - url: https://www.onetonline.org/link/summary/19-4061.00
+      title: O*NET Social Science Research Assistants
+    - url: https://eig.org/wp-content/uploads/2025/08/EIG-AI-and-Jobs.pdf
+      title: EIG AI and Jobs Report
+
+think_tank_associate:
+  id: think_tank_associate
+  title: Think Tank Research Associate
+  onetCode: "19-4061.00"
+  category: research
+  riskPercent: 88
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - Whitepaper drafting
+    - Historical data synthesis
+    - Stakeholder sentiment tracking
+  quip: "You were paid to think. The model is paid in electricity, and it doesn't need health insurance."
+  sources:
+    - url: https://www.onetonline.org/link/summary/19-4061.00
+      title: O*NET Social Science Research Assistants
+    - url: https://amro-asia.org/labor-market-exposure-to-ai-from-genai-to-future-agi/
+      title: AMRO GenAI Labor Market Study
+
+grants_writer:
+  id: grants_writer
+  title: Grants Writer
+  onetCode: "13-1131.00"
+  category: research
+  riskPercent: 86
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Proposal auto-generation
+    - Compliance check automation
+    - Donor priority mapping
+  quip: "You applied for funding to keep the lights on. The AI just automated the application—and the decision to cut your role."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1131.00
+      title: O*NET Fundraisers
+    - url: https://www.pwccn.com/en/issues/generative-ai/global-ai-jobs-barometer-jun2025.html
+      title: PwC Global AI Jobs Barometer
+
+literature_review_specialist:
+  id: literature_review_specialist
+  title: Literature Review Specialist
+  onetCode: "19-4061.00"
+  category: research
+  riskPercent: 96
+  timeline:
+    minYears: 1
+    maxYears: 2
+  exposureFactors:
+    - Semantic knowledge extraction
+    - Automated abstract summarization
+    - Research gap analysis AI
+  quip: "You summarized the world's knowledge so we wouldn't have to read it. Now, we don't have to read you either."
+  sources:
+    - url: https://www.onetonline.org/link/summary/19-4061.00
+      title: O*NET Social Science Research Assistants
+    - url: https://amro-asia.org/labor-market-exposure-to-ai-from-genai-to-future-agi/
+      title: AMRO GenAI Labor Market Study
+
+data_viz_specialist:
+  id: data_viz_specialist
+  title: Data Visualization Specialist
+  onetCode: "15-2051.00"
+  category: research
+  riskPercent: 74
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Natural language to viz generation
+    - Automated narrative storytelling
+    - Dynamic layout optimization
+  quip: "You made the data beautiful. It's a shame the most elegant chart you ever made was your own redundancy report."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-2051.00
+      title: O*NET Data Scientists
+    - url: https://www.pwccn.com/en/issues/generative-ai/global-ai-jobs-barometer-jun2025.html
+      title: PwC Global AI Jobs Barometer
+
+equity_research_analyst:
+  id: equity_research_analyst
+  title: Equity Research Analyst
+  onetCode: "13-2051.00"
+  category: research
+  riskPercent: 78
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - Automated earnings call analysis
+    - Valuation model generation
+    - Sentiment scraping of market news
+  quip: "You spent years learning to value companies. Now a GPU does it for the price of a latte."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-2051.00
+      title: O*NET Financial and Investment Analysts
+    - url: https://www.pwccn.com/en/issues/generative-ai/global-ai-jobs-barometer-jun2025.html
+      title: PwC Global AI Jobs Barometer
+
+financial_quant_analyst:
+  id: financial_quant_analyst
+  title: Financial Quantitative Analyst
+  onetCode: "13-2099.01"
+  category: research
+  riskPercent: 85
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Algorithmic strategy synthesis
+    - Automated risk modeling
+    - Real-time arbitrage detection
+  quip: "Your stochastic calculus was impressive. The AI's brute force is just faster."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-2099.01
+      title: O*NET Financial Quantitative Analysts
+    - url: https://eig.org/wp-content/uploads/2025/08/EIG-AI-and-Jobs.pdf
+      title: EIG AI and Jobs Report
+
+clinical_data_manager:
+  id: clinical_data_manager
+  title: Clinical Data Manager
+  onetCode: "15-2051.02"
+  category: research
+  riskPercent: 82
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Automated query generation
+    - Data anomaly detection AI
+    - CRF mapping automation
+  quip: "Ensuring data integrity was your life's work. The AI ensures it without a lunch break."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-2051.02
+      title: O*NET Clinical Data Managers
+    - url: https://amro-asia.org/labor-market-exposure-to-ai-from-genai-to-future-agi/
+      title: AMRO GenAI Labor Market Study
+
+operations_research_analyst:
+  id: operations_research_analyst
+  title: Operations Research Analyst
+  onetCode: "15-2031.00"
+  category: research
+  riskPercent: 76
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Supply chain optimization AI
+    - Automated simulation modeling
+    - Predictive resource allocation
+  quip: "You optimized the supply chain. The model optimized you out of the loop."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-2031.00
+      title: O*NET Operations Research Analysts
+    - url: https://www.pwccn.com/en/issues/generative-ai/global-ai-jobs-barometer-jun2025.html
+      title: PwC Global AI Jobs Barometer
+
+intelligence_analyst:
+  id: intelligence_analyst
+  title: Intelligence Analyst
+  onetCode: "33-3021.06"
+  category: research
+  riskPercent: 80
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - Multi-source signal synthesis
+    - Automated pattern recognition
+    - Narrative threat drafting
+  quip: "Connecting the dots was your specialty. The machine just sees the whole picture at once."
+  sources:
+    - url: https://www.onetonline.org/link/summary/33-3021.06
+      title: O*NET Intelligence Analysts
+    - url: https://amro-asia.org/labor-market-exposure-to-ai-from-genai-to-future-agi/
+      title: AMRO GenAI Labor Market Study
+
+biostatistician:
+  id: biostatistician
+  title: Biostatistician
+  onetCode: "15-2041.01"
+  category: research
+  riskPercent: 72
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - Trial design automation
+    - Synthetic control arm generation
+    - Complex survival analysis AI
+  quip: "You calculated p-values for a living. The AI just found a more significant correlation: your replacement."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-2041.01
+      title: O*NET Biostatisticians
+    - url: https://eig.org/wp-content/uploads/2025/08/EIG-AI-and-Jobs.pdf
+      title: EIG AI and Jobs Report
+
+geospatial_analyst:
+  id: geospatial_analyst
+  title: Geospatial Analyst
+  onetCode: "15-1299.02"
+  category: research
+  riskPercent: 75
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Automated object detection (imagery)
+    - Predictive terrain analysis
+    - Real-time change detection
+  quip: "You mapped the world. The AI mapped a path to your early retirement."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1299.02
+      title: O*NET Geographic Information Systems Technologists and Technicians
+    - url: https://www.pwccn.com/en/issues/generative-ai/global-ai-jobs-barometer-jun2025.html
+      title: PwC Global AI Jobs Barometer
+
+statistician:
+  id: statistician
+  title: Statistician
+  onetCode: "15-2041.00"
+  category: research
+  riskPercent: 88
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Automated data synthesis
+    - Multi-variate model generation
+    - Pattern identification AI
+  quip: "You were the master of normal distributions. Unfortunately, your job just fell into the tail end of the curve."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-2041.00
+      title: O*NET Statisticians
+    - url: https://eig.org/wp-content/uploads/2025/08/EIG-AI-and-Jobs.pdf
+      title: EIG AI and Jobs Report
+
+climate_policy_analyst:
+  id: climate_policy_analyst
+  title: Climate Change Policy Analyst
+  onetCode: "19-2041.01"
+  category: research
+  riskPercent: 70
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - Carbon impact simulation
+    - Legislative policy synthesis
+    - Automated economic modeling
+  quip: "You modeled the world's end. You just didn't expect it to start with your desk."
+  sources:
+    - url: https://www.onetonline.org/link/summary/19-2041.01
+      title: O*NET Climate Change Policy Analysts
+    - url: https://amro-asia.org/labor-market-exposure-to-ai-from-genai-to-future-agi/
+      title: AMRO GenAI Labor Market Study
+
+technical_report_writer:
+  id: technical_report_writer
+  title: Technical Report Writer
+  onetCode: "27-3042.00"
+  category: research
+  riskPercent: 90
+  timeline:
+    minYears: 1
+    maxYears: 2
+  exposureFactors:
+    - Technical jargon synthesis
+    - Automated reporting pipelines
+    - Documentation generation
+  quip: "You translated complex jargon for humans. Now the machines just talk to each other."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-3042.00
+      title: O*NET Technical Writers
+    - url: https://www.pwccn.com/en/issues/generative-ai/global-ai-jobs-barometer-jun2025.html
+      title: PwC Global AI Jobs Barometer
+
+actuary:
+  id: actuary
+  title: Actuary
+  onetCode: "15-2011.00"
+  category: research
+  riskPercent: 92
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - AI-driven mortality and morbidity modeling
+    - Neural risk premium optimization
+    - Automated regulatory filing validation
+  quip: "You calculated the odds of everyone else losing their jobs. You just forgot to include yourself in the dataset."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-2011.00
+      title: O*NET Actuaries
+
+economist:
+  id: economist
+  title: Economist
+  onetCode: "19-3011.00"
+  category: research
+  riskPercent: 78
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI-generated econometric forecasting
+    - Neural policy simulation models
+    - Automated literature synthesis for market trends
+  quip: "The 'invisible hand' of the market is now a cluster of GPUs running a simulation where you're an outlier that needs to be smoothed."
+  sources:
+    - url: https://www.onetonline.org/link/summary/19-3011.00
+      title: O*NET Economists
+
+sociologist:
+  id: sociologist
+  title: Sociologist
+  onetCode: "19-3041.00"
+  category: research
+  riskPercent: 42
+  timeline:
+    minYears: 4
+    maxYears: 9
+  exposureFactors:
+    - AI-assisted social network analysis
+    - Neural pattern recognition in demographic data
+    - Automated qualitative coding of interview transcripts
+  quip: "Studying the structure of society? The AI just reconfigured the social hierarchy and put 'Silicon' at the top."
+  sources:
+    - url: https://www.onetonline.org/link/summary/19-3041.00
+      title: O*NET Sociologists
+
+io_psychologist:
+  id: io_psychologist
+  title: Industrial-Organizational Psychologist
+  onetCode: "19-3032.00"
+  category: research
+  riskPercent: 35
+  timeline:
+    minYears: 5
+    maxYears: 10
+  exposureFactors:
+    - AI-driven employee engagement prediction
+    - Neural workforce optimization modeling
+    - Automated psychological assessment synthesis
+  quip: "You optimized human performance at work. Now the AI is optimizing the work out of the humans."
+  sources:
+    - url: https://www.onetonline.org/link/summary/19-3032.00
+      title: O*NET Industrial-Organizational Psychologists
+
+urban_planner:
+  id: urban_planner
+  title: Urban and Regional Planner
+  onetCode: "19-3051.00"
+  category: research
+  riskPercent: 58
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - Generative city planning models
+    - AI-driven traffic and utility optimization
+    - Neural land-use impact simulation
+  quip: "City of the future? It's being designed by an algorithm that thinks gridlocked traffic is just a poorly weighted loss function."
+  sources:
+    - url: https://www.onetonline.org/link/summary/19-3051.00
+      title: O*NET Urban and Regional Planners
+
+math_technician:
+  id: math_technician
+  title: Mathematical Technician
+  onetCode: "15-2091.00"
+  category: research
+  riskPercent: 95
+  timeline:
+    minYears: 0
+    maxYears: 2
+  exposureFactors:
+    - Automated numerical analysis
+    - Neural computing of complex equations
+    - AI-driven data verification and validation
+  quip: "Solving for X? X equals the number of minutes until you're escorted from the building."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-2091.00
+      title: O*NET Mathematical Technicians
+
+management_analyst:
+  id: management_analyst
+  title: Management Analyst
+  onetCode: "13-1111.00"
+  category: research
+  riskPercent: 62
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - AI-driven organizational efficiency auditing
+    - Neural workflow bottleneck identification
+    - Automated strategy execution tracking
+  quip: "You were brought in to cut costs. The AI's first recommendation was to fire the consultant."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1111.00
+      title: O*NET Management Analysts
+
+energy_auditor:
+  id: energy_auditor
+  title: Energy Auditor
+  onetCode: "13-1199.01"
+  category: research
+  riskPercent: 48
+  timeline:
+    minYears: 4
+    maxYears: 8
+  exposureFactors:
+    - AI-simulated building energy performance
+    - Neural anomaly detection in utility consumption data
+    - Automated retrofit ROI modeling
+  quip: "Checking for leaks? The biggest drain on the company's energy is your desk light, and the AI just turned it off."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1199.01
+      title: O*NET Energy Auditors
+
+fraud_examiner:
+  id: fraud_examiner
+  title: Fraud Examiner, Investigator and Analyst
+  onetCode: "13-1041.06"
+  category: research
+  riskPercent: 72
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI-driven anomaly detection in financial networks
+    - Neural pattern matching for fraudulent identity detection
+    - Automated forensic trail reconstruction
+  quip: "Finding the deception? The most successful fraud in history was the promise that your degree made you irreplaceable."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1041.06
+      title: O*NET Fraud Examiners, Investigators and Analysts

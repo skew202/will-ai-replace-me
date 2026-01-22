@@ -90,3 +90,345 @@ actuarial_analyst:
   sources:
     - url: https://eig.org/wp-content/uploads/2025/08/EIG-AI-and-Jobs.pdf
       title: EIG AI and Jobs Report
+
+accountant:
+  id: accountant
+  title: Accountant
+  onetCode: "13-2011.00"
+  category: finance
+  riskPercent: 88
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - Automated reconciliation
+    - AI tax law interpretation
+    - Fraud detection algorithms
+  quip: "Numbers don't lie, and now they don't need a human to type them in either."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-2011.00
+      title: O*NET Accountants and Auditors
+
+mortgage_broker:
+  id: mortgage_broker
+  title: Mortgage Broker
+  onetCode: "13-2072.00"
+  category: finance
+  riskPercent: 58
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - Automated document verification
+    - Predictive loan pricing
+    - Lead qualification AI
+  quip: "You sold people their dreams. Now a bot sells them a lower APR."
+  sources:
+    - url: https://www.pwccn.com/en/issues/generative-ai/global-ai-jobs-barometer-jun2025.html
+      title: PwC Global AI Jobs Barometer
+
+loan_officer:
+  id: loan_officer
+  title: Loan Officer
+  onetCode: "13-2072.00"
+  category: finance
+  riskPercent: 68
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Creditors' report analysis
+    - Algorithmic risk profiling
+    - Automated approval workflows
+  quip: "Application denied. By a machine that doesn't need to smile back at you."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-2072.00
+      title: O*NET Loan Officers
+
+investment_banker_associate:
+  id: investment_banker_associate
+  title: Investment Banker (Associate)
+  onetCode: "13-2051.00"
+  category: finance
+  riskPercent: 38
+  timeline:
+    minYears: 5
+    maxYears: 10
+  exposureFactors:
+    - Automated financial modeling
+    - Pitchbook generation
+    - Data room synthesis
+  quip: "Pitchbooks used to take all night. Now it takes all of three seconds. Go home, if you still have one."
+  sources:
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth
+      title: Wharton Budget Model
+
+financial_planner:
+  id: financial_planner
+  title: Financial Planner
+  onetCode: "13-2052.00"
+  category: finance
+  riskPercent: 45
+  timeline:
+    minYears: 4
+    maxYears: 8
+  exposureFactors:
+    - Robo-advisory integration
+    - Estate planning algorithms
+    - Portfolio rebalancing
+  quip: "Your clients wanted a human touch. Until they saw the bot's returns."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-2052.00
+      title: O*NET Personal Financial Advisors
+
+payroll_specialist:
+  id: payroll_specialist
+  title: Payroll Specialist
+  onetCode: "43-3051.00"
+  category: finance
+  riskPercent: 92
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Time-tracking automation
+    - Tax withholding calculation
+    - Direct deposit processing
+  quip: "You made sure everyone got paid. Now the system pays for itself."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-3051.00
+      title: O*NET Payroll and Timekeeping Clerks
+
+auditor:
+  id: auditor
+  title: Auditor
+  onetCode: "13-2011.00"
+  category: finance
+  riskPercent: 84
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Full-ledger anomaly detection
+    - Continuous auditing
+    - Sample-free verification
+  quip: "You were looking for mistakes. The AI found yours first."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-2011.00
+      title: O*NET Accountants and Auditors
+
+risk_manager:
+  id: risk_manager
+  title: Risk Manager
+  onetCode: "13-2054.00"
+  category: finance
+  riskPercent: 62
+  timeline:
+    minYears: 4
+    maxYears: 8
+  exposureFactors:
+    - Real-time risk modeling
+    - Market stress simulation
+    - Automated compliance tracking
+  quip: "You spent your career managing risk. Turns out, your job was the biggest one."
+  sources:
+    - url: https://eig.org/wp-content/uploads/2025/08/EIG-AI-and-Jobs.pdf
+      title: EIG AI and Jobs Report
+
+stock_trader:
+  id: stock_trader
+  title: Stock Trader
+  onetCode: "41-3031.00"
+  category: finance
+  riskPercent: 42
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - High-frequency execution
+    - Sentiment analysis of news
+    - Automated arbitrage
+  quip: "The floor is quiet now. Just the hum of servers taking your commission."
+  sources:
+    - url: https://www.onetonline.org/link/summary/41-3031.00
+      title: O*NET Securities and Financial Services Sales Agents
+
+insurance_underwriter:
+  id: insurance_underwriter
+  title: Insurance Underwriter
+  onetCode: "13-2053.00"
+  category: finance
+  riskPercent: 76
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Policy pricing models
+    - Claims risk prediction
+    - Automated underwriting
+  quip: "Actuarial tables are now actuarial algorithms. You're just a rounding error."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-2053.00
+      title: O*NET Insurance Underwriters
+
+financial_examiner:
+  id: financial_examiner
+  title: Financial Examiner
+  onetCode: "13-2061.00"
+  category: finance
+  riskPercent: 95
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Automated compliance auditing
+    - AI-driven transaction pattern recognition
+    - Neural ledger verification
+  quip: "You were the sheriff of the financial trails. The new law is written in CUDA cores and has zero tolerance for human error."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-2061.00
+      title: O*NET Financial Examiners
+
+brokerage_clerk:
+  id: brokerage_clerk
+  title: Brokerage Clerk
+  onetCode: "43-4011.00"
+  category: finance
+  riskPercent: 88
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - Automated record keeping of securities
+    - AI-managed trade documentation tracking
+    - Neural stock price movement logging
+  quip: "Tracking trades used to be a job. Now it's a log file that nobody reads because the machines already settled the accounts."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-4011.00
+      title: O*NET Brokerage Clerks
+
+procurement_clerk:
+  id: procurement_clerk
+  title: Procurement Clerk
+  onetCode: "43-3061.00"
+  category: finance
+  riskPercent: 82
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - AI-automated purchase order generation
+    - Neural vendor selection optimization
+    - Automated inventory level forecasting
+  quip: "Buying things for the company? The AI already ordered 500 laptops based on a predicted hiring surge that it also orchestrated."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-3061.00
+      title: O*NET Procurement Clerks
+
+billing_clerk:
+  id: billing_clerk
+  title: Billing and Posting Clerk
+  onetCode: "43-3021.00"
+  category: finance
+  riskPercent: 85
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - Automated invoice generation
+    - Neural credit/debit posting
+    - AI-managed account delinquency detection
+  quip: "The check is in the mail. And by mail, I mean a digital packet that the AI already processed while you were stamping the envelope."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-3021.00
+      title: O*NET Billing and Posting Clerks
+
+credit_authorizer:
+  id: credit_authorizer
+  title: Credit Authorizer
+  onetCode: "43-4041.00"
+  category: finance
+  riskPercent: 78
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI-driven credit limit determination
+    - Neural repayment probability modeling
+    - Automated investigation of credit histories
+  quip: "You decided who got credit. Now the machine decided your career is maxed out."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-4041.00
+      title: O*NET Credit Authorizers, Checkers, and Clerks
+
+budget_analyst:
+  id: budget_analyst
+  title: Budget Analyst
+  onetCode: "13-2031.00"
+  category: finance
+  riskPercent: 72
+  timeline:
+    minYears: 2
+    maxYears: 6
+  exposureFactors:
+    - Automated budget proposal synthesis
+    - AI-driven cost-benefit analysis
+    - Neural fiscal impact forecasting
+  quip: "You were the gatekeeper of the company's funds. The gate is now a piece of code that doesn't accept bribes or excuses."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-2031.00
+      title: O*NET Budget Analysts
+
+cost_estimator:
+  id: cost_estimator
+  title: Cost Estimator
+  onetCode: "13-1051.00"
+  category: finance
+  riskPercent: 68
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - AI-automated material/labor cost calculation
+    - Neural project duration simulation
+    - Automated bid response generation
+  quip: "Estimating costs used to be an art. Now it's a calculation that's 99.9% accurate and 100% human-free."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1051.00
+      title: O*NET Cost Estimators
+
+treasurer_controller:
+  id: treasurer_controller
+  title: Treasurer and Controller
+  onetCode: "11-3031.01"
+  category: finance
+  riskPercent: 55
+  timeline:
+    minYears: 5
+    maxYears: 10
+  exposureFactors:
+    - AI-driven financial strategy modeling
+    - Automated treasury management orchestration
+    - Neural cash flow optimization
+  quip: "Controlling the treasury? The machine already knows where every cent is, where it's going, and why it doesn't need your signature."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-3031.01
+      title: O*NET Treasurers and Controllers
+
+fin_quant_analyst:
+  id: fin_quant_analyst
+  title: Financial Quantitative Analyst
+  onetCode: "13-2099.01"
+  category: finance
+  riskPercent: 48
+  timeline:
+    minYears: 4
+    maxYears: 9
+  exposureFactors:
+    - AI-driven alpha generation models
+    - Neural risk-parity optimization
+    - Automated derivative pricing strategies
+  quip: "You spent years learning stochastic calculus just for a LLM to guess the bridge better than you ever could."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-2099.01
+      title: O*NET Financial Quantitative Analysts

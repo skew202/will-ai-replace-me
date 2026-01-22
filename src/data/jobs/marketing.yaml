@@ -1,5 +1,5 @@
 # Marketing Jobs - AI Exposure Data
-# Sources: PwC AI Jobs Barometer 2025
+# Sources: PwC AI Jobs Barometer 2025, O*NET, AMRO, EIG
 
 copywriter:
   id: copywriter
@@ -90,3 +90,331 @@ marketing_analyst:
   sources:
     - url: https://www.pwccn.com/en/issues/generative-ai/global-ai-jobs-barometer-jun2025.html
       title: PwC Global AI Jobs Barometer
+
+pr_specialist:
+  id: pr_specialist
+  title: Public Relations Specialist
+  onetCode: "27-3031.00"
+  category: marketing
+  riskPercent: 68
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI-generated press releases
+    - Automated sentiment tracking
+    - Crisis response modeling
+  quip: "Spinning the news is easy for an AI. It doesn't have a conscience to get in the way."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-3031.00
+      title: O*NET Public Relations Specialists
+
+brand_manager:
+  id: brand_manager
+  title: Brand Manager
+  onetCode: "11-2021.00"
+  category: marketing
+  riskPercent: 45
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - Real-time brand sentiment monitoring
+    - Automated competitor analysis
+    - Generative brand asset consistency
+  quip: "Algorithms never get bored of the same logo or have a mid-life crisis. Consistency, managed."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-2021.00
+      title: O*NET Marketing Managers
+    - url: https://amro-asia.org/labor-market-exposure-to-ai-from-genai-to-future-agi/
+      title: AMRO GenAI Labor Market Study
+
+ad_sales_agent:
+  id: ad_sales_agent
+  title: Advertising Sales Agent
+  onetCode: "41-3011.00"
+  category: marketing
+  riskPercent: 67
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - AI-driven lead scoring
+    - Automated initial outreach
+    - Dynamic inventory pricing
+  quip: "Selling things people don't need is a logic problem an AI solved in seconds. Empathy was always optional."
+  sources:
+    - url: https://www.onetonline.org/link/summary/41-3011.00
+      title: O*NET Advertising Sales Agents
+    - url: https://eig.org/ai-and-jobs/
+      title: EIG AI and Jobs Report
+
+media_buyer:
+  id: media_buyer
+  title: Media Buyer
+  onetCode: "13-1161.00"
+  category: marketing
+  riskPercent: 84
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - Programmatic ad bidding automation
+    - Cross-channel budget rebalancing
+    - Predictive campaign modeling
+  quip: "Why pay a human to click 'buy' when a bot can waste your entire budget with 100% efficiency?"
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1161.00
+      title: O*NET Market Research Analysts
+
+email_marketing_specialist:
+  id: email_marketing_specialist
+  title: Email Marketing Specialist
+  onetCode: "13-1161.00"
+  category: marketing
+  riskPercent: 92
+  timeline:
+    minYears: 1
+    maxYears: 2
+  exposureFactors:
+    - LLM-generated subject lines
+    - Automated A/B testing
+    - Hyper-personalized send optimization
+  quip: "Spam is just a conversation between two bots now. You're just the one paying for the electricity."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1161.00
+      title: O*NET Market Research Analysts
+
+product_manager_marketing:
+  id: product_manager_marketing
+  title: Product Manager (Marketing)
+  onetCode: "11-2021.00"
+  category: marketing
+  riskPercent: 52
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - Market trend synthesis
+    - Customer feedback clustering
+    - Automated roadmap prioritization
+  quip: "Prioritizing a roadmap is just math. The 'vision' was always just a series of lucky guesses anyway."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-2021.00
+      title: O*NET Marketing Managers
+
+technical_seo_specialist:
+  id: technical_seo_specialist
+  title: Technical SEO Specialist
+  onetCode: "13-1161.01"
+  category: marketing
+  riskPercent: 86
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - Automated technical site audits
+    - Schema markup generation
+    - Log file crawl optimization
+  quip: "Optimizing for a machine using another machine. The human is just a very slow middleman."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1161.01
+      title: O*NET Search Marketing Strategists
+
+marketing_coordinator:
+  id: marketing_coordinator
+  title: Marketing Coordinator
+  onetCode: "13-1161.00"
+  category: marketing
+  riskPercent: 74
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Campaign report automation
+    - Project coordination bots
+    - Routine social media posting
+  quip: "Coordinating humans is hard. Coordinating API calls is easy. Guess which one we kept?"
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1161.00
+      title: O*NET Market Research Analysts
+
+internal_communications_manager:
+  id: internal_communications_manager
+  title: Internal Communications Manager
+  onetCode: "11-2032.00"
+  category: marketing
+  riskPercent: 64
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - Generative corporate memos
+    - Employee sentiment analysis
+    - Automated intranet management
+  quip: "The corporate 'we-are-family' email is finally being written by something as cold-blooded as the C-suite."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-2032.00
+      title: O*NET Public Relations Managers
+
+customer_insights_manager:
+  id: customer_insights_manager
+  title: Customer Insights Manager
+  onetCode: "13-1161.00"
+  category: marketing
+  riskPercent: 84
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Automated qualitative survey analysis
+    - Real-time consumer sentiment mapping
+    - AI-generated persona synthesis
+  quip: "Crunching numbers to find 'human truths'—as if humans were anything more than predictable data points."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1161.00
+      title: O*NET Market Research Analysts
+
+affiliate_marketing_manager:
+  id: affiliate_marketing_manager
+  title: Affiliate Marketing Manager
+  onetCode: "11-2021.00"
+  category: marketing
+  riskPercent: 68
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - Automated partner screening algorithms
+    - Dynamic commission optimization bots
+    - Fraudulent traffic detection AI
+  quip: "Managing a network of middle-men is redundant when the algorithm is the ultimate middle-man."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-2021.00
+      title: O*NET Marketing Managers
+
+account_executive_agency:
+  id: account_executive_agency
+  title: Account Executive (Agency)
+  onetCode: "41-3011.00"
+  category: marketing
+  riskPercent: 45
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - AI-facilitated sales pipeline management
+    - Automated project status reporting
+    - LLM-assisted client proposal generation
+  quip: "Keeping clients happy is just automated reporting and a fake smile. AI has both."
+  sources:
+    - url: https://www.onetonline.org/link/summary/41-3011.00
+      title: O*NET Advertising Sales Agents
+
+creative_strategist:
+  id: creative_strategist
+  title: Creative Strategist
+  onetCode: "13-1161.00"
+  category: marketing
+  riskPercent: 46
+  timeline:
+    minYears: 4
+    maxYears: 8
+  exposureFactors:
+    - AI-aided concept ideation and moodboarding
+    - High-velocity creative testing automation
+    - Semantic brand alignment tracking
+  quip: "Strategy is just pattern recognition with a cooler name. The AI recognized the pattern years ago."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1161.00
+      title: O*NET Market Research Analysts
+
+market_research_interviewer:
+  id: market_research_interviewer
+  title: Market Research Interviewer
+  onetCode: "43-4111.00"
+  category: marketing
+  riskPercent: 85
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Automated survey administration
+    - Real-time sentiment extraction
+    - AI-generated qualitative summaries
+  quip: "The bot will listen to your opinions. It won't care, but it will listen very accurately."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-4111.00
+      title: O*NET Interviewers
+
+growth_marketer:
+  id: growth_marketer
+  title: Growth Marketer
+  onetCode: "13-1161.01"
+  category: marketing
+  riskPercent: 72
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - Automated A/B testing at scale
+    - AI-driven algorithmic bidding
+    - Predictive churn modeling
+  quip: "Growth hacking is just math, and the machine is much better at arithmetic than you are."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1161.01
+      title: O*NET Search Marketing Strategists
+
+brand_strategist:
+  id: brand_strategist
+  title: Brand Strategist
+  onetCode: "11-2021.00"
+  category: marketing
+  riskPercent: 45
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - Automated competitor monitoring
+    - AI-generated brand voice guidelines
+    - Consumer trend predictive analysis
+  quip: "Defining a 'vibe' is the last refuge of the human marketer. At least until the bot learns how to feel cool."
+  sources:
+    - url: https://www.onetonline.org/link/summary/11-2021.00
+      title: O*NET Marketing Managers
+
+media_relations_specialist:
+  id: media_relations_specialist
+  title: Media Relations Specialist
+  onetCode: "27-3031.00"
+  category: marketing
+  riskPercent: 62
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Automated reporter database management
+    - Generative AI press pitches
+    - Real-time media sentiment tracking
+  quip: "Journalists already ignore your emails; now they can ignore emails written by a bot."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-3031.00
+      title: O*NET Public Relations Specialists
+
+direct_mail_specialist:
+  id: direct_mail_specialist
+  title: Direct Mail Specialist
+  onetCode: "13-1161.00"
+  category: marketing
+  riskPercent: 82
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Hyper-personalized mail copy generation
+    - Automated list segmentation
+    - Predictive response modeling
+  quip: "AI ensures your physical spam is perfectly tailored to your trash can's dimensions."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1161.00
+      title: O*NET Market Research Analysts

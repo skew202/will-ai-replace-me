@@ -1,6 +1,8 @@
 ---
 import '@/styles/global.css';
 
+import SearchPalette from '@/components/Search/SearchPalette';
+
 interface Props {
   title: string;
   description?: string;
@@ -45,6 +47,7 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
     <title>{title}</title>
   </head>
   <body class="min-h-screen bg-surface-950 text-surface-100">
+    <SearchPalette client:idle />
     <slot />
   </body>
 </html>

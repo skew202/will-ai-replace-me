@@ -1,0 +1,178 @@
+# Media, News & Content Jobs - AI Exposure Data
+# Sources: PwC AI Jobs Barometer 2025, Wharton Budget Model, AMRO, O*NET
+
+news_anchor:
+  id: news_anchor
+  title: News Anchor
+  onetCode: "27-3023.00"
+  category: media
+  riskPercent: 78
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Real-time neural lip-syncing and deepfake persona generation
+    - Automated news script synthesis from real-time wire feeds
+    - 24/7 autonomous broadcast presence without human fatigue
+  quip: "A perfectly symmetrical face reading scripts it didn't write to an audience that's already been replaced by engagement bots."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-3023.00
+      title: O*NET News Analysts, Reporters, and Journalists
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2024/4/12/generative-ai-and-the-labor-market
+      title: Wharton GenAI Labor Market Study
+    - url: https://www.pwc.com/gx/en/issues/artificial-intelligence/ai-jobs-barometer.html
+      title: PwC AI Jobs Barometer 2025
+
+fact_checker:
+  id: fact_checker
+  title: Fact Checker
+  onetCode: "43-9081.00"
+  category: media
+  riskPercent: 85
+  timeline:
+    minYears: 2
+    maxYears: 4
+  exposureFactors:
+    - Large-scale semantic verification against global knowledge graphs
+    - Automated cross-referencing of conflicting data sources
+    - Real-time hallucination detection in generated content
+  quip: "The lonely janitor of reality, sweeping up the digital vomit of a billion hallucinations."
+  sources:
+    - url: https://www.onetonline.org/link/summary/43-9081.00
+      title: O*NET Proofreaders and Copy Markers
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2024/4/12/generative-ai-and-the-labor-market
+      title: Wharton GenAI Labor Market Study
+    - url: https://www.amro-asia.org/wp-content/uploads/2024/05/AMRO-Analytical-Note-Gen-AI-and-Labor-Markets.pdf
+      title: AMRO GenAI Labor Market Study
+
+media_planner:
+  id: media_planner
+  title: Media Planner
+  onetCode: "13-1161.01"
+  category: media
+  riskPercent: 72
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - Automated algorithmic ad placement and inventory management
+    - Predictive sentiment analysis for audience targeting
+    - Real-time budget reallocation based on AI performance metrics
+  quip: "Buying pixels and attention spans in a graveyard of organic interest."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1161.01
+      title: O*NET Search Marketing Strategists
+    - url: https://www.pwc.com/gx/en/issues/artificial-intelligence/ai-jobs-barometer.html
+      title: PwC AI Jobs Barometer 2025
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2024/4/12/generative-ai-and-the-labor-market
+      title: Wharton GenAI Labor Market Study
+
+content_moderator:
+  id: content_moderator
+  title: Content Moderator
+  onetCode: "27-3099.00"
+  category: media
+  riskPercent: 92
+  timeline:
+    minYears: 1
+    maxYears: 2
+  exposureFactors:
+    - Real-time multimodal filtering of text, image, and video
+    - Automated detection of subtle policy violations and bias
+    - High-speed pattern recognition of extremist symbology
+  quip: "A human shield for the silicon gods, absorbing the internet's worst impulses so the servers stay clean."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-3099.00
+      title: O*NET Media and Communication Workers, All Other
+    - url: https://www.pwc.com/gx/en/issues/artificial-intelligence/ai-jobs-barometer.html
+      title: PwC AI Jobs Barometer 2025
+    - url: https://www.amro-asia.org/wp-content/uploads/2024/05/AMRO-Analytical-Note-Gen-AI-and-Labor-Markets.pdf
+      title: AMRO GenAI Labor Market Study
+
+news_producer:
+  id: news_producer
+  title: News Producer
+  onetCode: "27-2012.03"
+  category: media
+  riskPercent: 65
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - AI-driven story sourcing and news cycle prioritization
+    - Automated wire-service aggregation and summary drafting
+    - Real-time broadcast rundown and logistics optimization
+  quip: "Manufacturing the illusion of importance for a news cycle that spins faster than human consciousness can process."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-2012.03
+      title: O*NET Media Programming Directors
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2024/4/12/generative-ai-and-the-labor-market
+      title: Wharton GenAI Labor Market Study
+    - url: https://eig.org/ai-and-jobs/
+      title: EIG AI and Jobs Report
+
+script_writer:
+  id: script_writer
+  title: Script Writer
+  onetCode: "27-3043.05"
+  category: media
+  riskPercent: 82
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Automated narrative structure and dialogue generation
+    - Algorithmic 'punch-up' for specific audience demographics
+    - Real-time plot-hole and continuity monitoring
+  quip: "Begging the algorithm for a 'B-plot' that won't get flagged by the sentiment-optimization filter."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-3043.05
+      title: O*NET Poets, Lyricists and Creative Writers
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2024/4/12/generative-ai-and-the-labor-market
+      title: Wharton GenAI Labor Market Study
+    - url: https://www.pwc.com/gx/en/issues/artificial-intelligence/ai-jobs-barometer.html
+      title: PwC AI Jobs Barometer 2025
+
+broadcast_technician:
+  id: broadcast_technician
+  title: Broadcast Technician
+  onetCode: "27-4012.00"
+  category: media
+  riskPercent: 58
+  timeline:
+    minYears: 5
+    maxYears: 8
+  exposureFactors:
+    - Automated signal optimization and troubleshooting
+    - AI-managed remote transmission and cloud-streaming
+    - Predictive maintenance of broadcast hardware
+  quip: "The last guy in the room with a screwdriver, fixing the cage for the bird that already flew away."
+  sources:
+    - url: https://www.onetonline.org/link/summary/27-4012.00
+      title: O*NET Broadcast Technicians
+    - url: https://www.pwc.com/gx/en/issues/artificial-intelligence/ai-jobs-barometer.html
+      title: PwC AI Jobs Barometer 2025
+    - url: https://eig.org/ai-and-jobs/
+      title: EIG AI and Jobs Report
+
+media_research_analyst:
+  id: media_research_analyst
+  title: Media Research Analyst
+  onetCode: "13-1161.00"
+  category: media
+  riskPercent: 75
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Automated consumer behavior modeling and prediction
+    - Synthetic focus group and persona simulation
+    - Real-time automated competitive landscape mapping
+  quip: "Counting the heartbeats of a dying industry and calling it 'audience growth'."
+  sources:
+    - url: https://www.onetonline.org/link/summary/13-1161.00
+      title: O*NET Market Research Analysts and Marketing Specialists
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2024/4/12/generative-ai-and-the-labor-market
+      title: Wharton GenAI Labor Market Study
+    - url: https://www.pwc.com/gx/en/issues/artificial-intelligence/ai-jobs-barometer.html
+      title: PwC AI Jobs Barometer 2025
