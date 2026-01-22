@@ -25,15 +25,21 @@ export interface Job {
 }
 
 export type JobCategory =
-    | 'technology'
-    | 'finance'
-    | 'legal'
-    | 'marketing'
     | 'admin'
     | 'creative'
-    | 'research'
-    | 'healthcare'
     | 'education'
+    | 'engineering'
+    | 'finance'
+    | 'government'
+    | 'healthcare'
+    | 'legal'
+    | 'logistics'
+    | 'marketing'
+    | 'media'
+    | 'realestate'
+    | 'research'
+    | 'sales'
+    | 'technology'
     | 'other';
 
 export interface TimelineRange {
