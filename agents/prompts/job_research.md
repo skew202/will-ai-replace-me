@@ -30,7 +30,7 @@ Research the following occupation and provide structured data about its AI/autom
     - {factor 1}
     - {factor 2}
     - {factor 3}
-  quip: "{Ricky Gervais-style dark one-liner about this job}"
+  quip: "{Dark, sardonic one-liner about this job}"
   sources:
     - url: {source_url}
       title: {source_title}
@@ -53,7 +53,7 @@ Research the following occupation and provide structured data about its AI/autom
 
 ## Quip Guidelines
 
-Write in the style of Ricky Gervais: dry, observational, merciless about corporate absurdity, but intellectually sharp. The humor should punch at the situation, not the worker.
+Write dark, sardonic humor: dry, observational, merciless about corporate absurdity, but intellectually sharp. The humor should punch at the situation, not the worker.
 
 ---
 

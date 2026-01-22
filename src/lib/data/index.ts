@@ -66,7 +66,7 @@ function parseQuotesYaml(raw: string): Quote[] {
 
 interface QuipsData {
     general: string[];
-    sixt_style: string[];
+    headlines: string[];
     share_templates: string[];
 }
 
@@ -189,6 +189,6 @@ export function getQuips(): QuipsData {
  */
 export function getRandomQuip(): string {
     const quips = getQuips();
-    const all = [...quips.general, ...quips.sixt_style];
+    const all = [...quips.general, ...quips.headlines];
     return all[Math.floor(Math.random() * all.length)];
 }

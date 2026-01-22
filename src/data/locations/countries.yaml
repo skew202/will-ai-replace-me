@@ -13,7 +13,6 @@ AE:
   modifierYears: -1.5
   label: Fast Lane
   adoptionIndex: 0.89
-  note: "#1 globally in working-age AI adoption (~64%)"
 
 SG:
   code: SG
@@ -22,7 +21,6 @@ SG:
   modifierYears: -1.0
   label: Fast Lane
   adoptionIndex: 0.85
-  note: "~61% working-age AI adoption, strong gov strategy"
 
 US:
   code: US
@@ -31,7 +29,6 @@ US:
   modifierYears: -1.0
   label: Fast Lane
   adoptionIndex: 0.85
-  note: ">85% enterprise adoption, dominant private investment"
 
 CN:
   code: CN
@@ -40,7 +37,6 @@ CN:
   modifierYears: -0.8
   label: Fast Lane
   adoptionIndex: 0.82
-  note: "Top 3 globally, strong industrial deployment"
 
 IL:
   code: IL
@@ -49,7 +45,6 @@ IL:
   modifierYears: -1.0
   label: Fast Lane
   adoptionIndex: 0.84
-  note: "Startup nation, high AI R&D intensity"
 
 # Tier 2: Fast (modifier: -0.5 years)
 GB:
@@ -59,7 +54,6 @@ GB:
   modifierYears: -0.5
   label: Early Adopter
   adoptionIndex: 0.75
-  note: "~75% enterprise adoption, strong in finance/safety"
 
 SE:
   code: SE
@@ -141,7 +135,6 @@ DE:
   modifierYears: 0
   label: Standard
   adoptionIndex: 0.68
-  note: "Strong industrial AI, ~70% adoption"
 
 FR:
   code: FR
@@ -230,7 +223,6 @@ IN:
   modifierYears: 0
   label: Standard
   adoptionIndex: 0.58
-  note: "Large talent pool, rising fast"
 
 MY:
   code: MY
@@ -320,7 +312,6 @@ ZA:
   modifierYears: 1.0
   label: Slow Burn
   adoptionIndex: 0.38
-  note: "Below global average, SMB adoption low"
 
 EG:
   code: EG

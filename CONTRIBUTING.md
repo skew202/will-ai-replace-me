@@ -78,7 +78,7 @@ ISO_CODE:
 
 ## Tone Guidelines
 
-Our dark humor follows the Ricky Gervais style:
+Our dark humor style:
 - Dry and observational
 - Merciless about corporate absurdity
 - Intellectually sharp

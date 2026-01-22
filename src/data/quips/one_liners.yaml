@@ -1,6 +1,5 @@
 # Dark Humor One-Liners
-# Ricky Gervais-style + Sixt-inspired sardonic copy
-# For random display throughout the site
+# Sardonic copy for random display throughout the site
 
 general:
   - "My company says AI won't replace us, it'll 'free us for higher-value work'—which is HR's way of saying 'updating your LinkedIn.'"
@@ -24,7 +23,7 @@ general:
   - "The future of work is hybrid: half humans pretending to work, half machines pretending to listen."
   - "Existential dread used to be about death. Now it's about the next software update."
 
-sixt_style:
+headlines:
   - "Too Human for the Job? Rent an Algorithm."
   - "Your Boss Chose the AI. You Can Still Choose Your Exit Strategy."
   - "Career Stalled? At Least the Bots Are Moving Fast."
