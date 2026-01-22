@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+/* Custom theme for will-ai-replace.me */
+@theme {
+  /* Danger-forward color palette */
+  --color-danger-50: oklch(0.97 0.01 15);
+  --color-danger-100: oklch(0.93 0.03 15);
+  --color-danger-200: oklch(0.85 0.08 15);
+  --color-danger-300: oklch(0.75 0.15 15);
+  --color-danger-400: oklch(0.65 0.22 15);
+  --color-danger-500: oklch(0.55 0.28 15);
+  --color-danger-600: oklch(0.50 0.28 15);
+  --color-danger-700: oklch(0.42 0.25 15);
+  --color-danger-800: oklch(0.35 0.20 15);
+  --color-danger-900: oklch(0.25 0.12 15);
+  --color-danger-950: oklch(0.15 0.05 15);
+
+  /* Warning accents */
+  --color-warning-400: oklch(0.75 0.18 45);
+  --color-warning-500: oklch(0.65 0.22 45);
+  --color-warning-600: oklch(0.55 0.20 45);
+
+  /* Dark theme base */
+  --color-surface-50: oklch(0.98 0 0);
+  --color-surface-100: oklch(0.95 0 0);
+  --color-surface-200: oklch(0.90 0 0);
+  --color-surface-800: oklch(0.20 0.005 280);
+  --color-surface-900: oklch(0.14 0.005 280);
+  --color-surface-950: oklch(0.08 0.005 280);
+
+  /* Typography */
+  --font-display: 'Inter', 'SF Pro Display', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Spacing scale for editorial feel */
+  --spacing-prose: 1.75rem;
+}
+
+/* Base layer overrides */
+@layer base {
+  html {
+    @apply bg-surface-950 text-surface-100 antialiased;
+    font-family: var(--font-body);
+  }
+
+  body {
+    @apply min-h-screen;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply font-bold tracking-tight;
+  }
+
+  /* Focus states */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-danger-500;
+  }
+}
+
+/* Utility classes for the site */
+@layer utilities {
+  .text-gradient-danger {
+    @apply bg-gradient-to-r from-danger-400 to-danger-600 bg-clip-text text-transparent;
+  }
+
+  .glass-card {
+    @apply bg-surface-900/80 backdrop-blur-xl border border-surface-800 rounded-2xl;
+  }
+
+  .timeline-bar {
+    @apply relative h-3 rounded-full bg-surface-800 overflow-hidden;
+  }
+
+  .timeline-fill {
+    @apply absolute inset-y-0 left-0 bg-gradient-to-r from-danger-500 to-warning-500 rounded-full;
+    transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+/* Animation keyframes */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-danger {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out forwards;
+}
+
+.animate-pulse-danger {
+  animation: pulse-danger 2s ease-in-out infinite;
+}
