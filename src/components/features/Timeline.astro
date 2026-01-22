@@ -1,0 +1,102 @@
+---
+/**
+ * NYT/WSJ-quality timeline visualization
+ * Clean, editorial aesthetic with subtle animations
+ */
+
+interface Props {
+  minYear: number;
+  maxYear: number;
+  riskPercent: number;
+}
+
+const { minYear, maxYear, riskPercent } = Astro.props;
+const currentYear = new Date().getFullYear();
+
+// Calculate years until impact
+const yearsUntilMin = minYear - currentYear;
+const yearsUntilMax = maxYear - currentYear;
+
+// Progress calculation (how far along we are)
+const maxRange = 10; // 10 years max on timeline
+const progressPercent = Math.min(100, ((maxRange - yearsUntilMax) / maxRange) * 100 + 20);
+
+// Risk color
+const riskColor = riskPercent >= 75 ? 'danger' : riskPercent >= 50 ? 'warning' : 'surface';
+---
+
+<div class="timeline-container">
+  <!-- Year markers -->
+  <div class="flex justify-between text-sm text-surface-500 mb-3">
+    <span>{currentYear}</span>
+    <span>{currentYear + 5}</span>
+    <span>{currentYear + 10}</span>
+  </div>
+  
+  <!-- Timeline bar -->
+  <div class="relative h-4 rounded-full bg-surface-800 overflow-hidden">
+    <!-- Background grid lines -->
+    <div class="absolute inset-0 flex">
+      {[...Array(10)].map((_, i) => (
+        <div class="flex-1 border-r border-surface-700/50" />
+      ))}
+    </div>
+    
+    <!-- Impact zone -->
+    <div 
+      class="absolute h-full transition-all duration-1000 ease-out"
+      style={`left: ${(yearsUntilMin / maxRange) * 100}%; width: ${((yearsUntilMax - yearsUntilMin) / maxRange) * 100}%;`}
+    >
+      <div class:list={[
+        "h-full rounded-full animate-pulse-danger",
+        riskColor === 'danger' && 'bg-gradient-to-r from-danger-600 to-danger-400',
+        riskColor === 'warning' && 'bg-gradient-to-r from-warning-600 to-warning-400',
+        riskColor === 'surface' && 'bg-gradient-to-r from-surface-500 to-surface-400',
+      ]} />
+    </div>
+    
+    <!-- Current position marker -->
+    <div class="absolute top-0 bottom-0 w-0.5 bg-surface-100 left-0" />
+  </div>
+  
+  <!-- Impact range annotation -->
+  <div class="mt-6 flex justify-center">
+    <div class="inline-flex flex-col items-center">
+      <div class="flex items-baseline gap-1">
+        <span class="text-4xl lg:text-5xl font-bold text-surface-100">
+          {minYear === maxYear ? minYear : `${minYear}–${maxYear}`}
+        </span>
+      </div>
+      <p class="mt-2 text-surface-400">
+        Significant disruption expected
+      </p>
+    </div>
+  </div>
+  
+  <!-- Years remaining callout -->
+  <div class="mt-8 grid grid-cols-2 gap-4 text-center">
+    <div class="rounded-xl bg-surface-800/50 p-4">
+      <p class="text-3xl font-bold text-surface-100">
+        {yearsUntilMin}–{yearsUntilMax}
+      </p>
+      <p class="text-sm text-surface-400 mt-1">years remaining</p>
+    </div>
+    <div class="rounded-xl bg-surface-800/50 p-4">
+      <p class:list={[
+        "text-3xl font-bold",
+        riskPercent >= 75 && 'text-danger-400',
+        riskPercent >= 50 && riskPercent < 75 && 'text-warning-400',
+        riskPercent < 50 && 'text-surface-100',
+      ]}>
+        {riskPercent}%
+      </p>
+      <p class="text-sm text-surface-400 mt-1">disruption risk</p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .timeline-container {
+    @apply w-full;
+  }
+</style>

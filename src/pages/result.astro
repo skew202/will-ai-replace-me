@@ -1,0 +1,154 @@
+---
+import BaseLayout from '@components/layouts/BaseLayout.astro';
+import Timeline from '@components/features/Timeline.astro';
+import QuoteCarousel from '@components/features/QuoteCarousel.astro';
+import ShareButtons from '@components/features/ShareButtons.astro';
+import { getJobById, getLocationByCode, getAllQuotes } from '@lib/data';
+import { calculatePrediction, formatTimeline, getRiskLevel, getTargetYear } from '@lib/prediction';
+
+// Get query params
+const jobId = Astro.url.searchParams.get('job');
+const countryCode = Astro.url.searchParams.get('country') || 'US';
+
+// Fetch data
+const job = jobId ? getJobById(jobId) : null;
+const location = getLocationByCode(countryCode);
+
+// Redirect if no job found
+if (!job || !location) {
+  return Astro.redirect('/');
+}
+
+// Calculate prediction
+const prediction = calculatePrediction(job, location);
+const riskLevel = getRiskLevel(prediction.adjustedRisk);
+const targetYear = getTargetYear(prediction.adjustedTimeline);
+const timelineDisplay = formatTimeline(prediction.adjustedTimeline);
+
+// Page metadata
+const pageTitle = `${job.title} - ${prediction.adjustedRisk}% AI Disruption Risk`;
+const pageDescription = `AI says ${job.title} has a ${prediction.adjustedRisk}% disruption risk by ${timelineDisplay}. In ${location.name}: ${location.label}.`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <main class="relative min-h-screen overflow-hidden">
+    <!-- Background -->
+    <div class="absolute inset-0 bg-gradient-to-br from-surface-950 via-surface-900 to-surface-950" />
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--color-danger-950)_0%,_transparent_50%)]" />
+    
+    <div class="relative z-10 mx-auto max-w-4xl px-6 py-12 lg:py-20">
+      <!-- Back link -->
+      <a href="/" class="inline-flex items-center gap-2 text-surface-400 hover:text-surface-100 transition-colors mb-12">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+        Try another job
+      </a>
+      
+      <!-- Result Header -->
+      <header class="text-center mb-16">
+        <p class="text-surface-400 text-lg mb-2">Your role as</p>
+        <h1 class="text-4xl lg:text-5xl font-bold text-surface-100 mb-6">
+          {job.title}
+        </h1>
+        
+        <!-- Risk badge -->
+        <div class="inline-flex items-center gap-2 rounded-full px-6 py-2" 
+             class:list={[
+               riskLevel === 'critical' && 'bg-danger-600/20 text-danger-400',
+               riskLevel === 'high' && 'bg-danger-600/15 text-danger-400',
+               riskLevel === 'medium' && 'bg-warning-500/15 text-warning-400',
+               riskLevel === 'low' && 'bg-green-500/15 text-green-400',
+             ]}>
+          <span class="text-2xl font-bold">{prediction.adjustedRisk}%</span>
+          <span>disruption risk</span>
+        </div>
+      </header>
+      
+      <!-- Timeline Section - The Star -->
+      <section class="glass-card p-8 lg:p-12 mb-12">
+        <h2 class="text-sm font-medium uppercase tracking-wider text-surface-400 mb-8">
+          Impact Timeline
+        </h2>
+        
+        <Timeline 
+          minYear={targetYear.min}
+          maxYear={targetYear.max}
+          riskPercent={prediction.adjustedRisk}
+        />
+        
+        <!-- Location modifier -->
+        <div class="mt-8 flex items-center justify-center gap-3 text-surface-300">
+          <span class="w-2 h-2 rounded-full"
+                class:list={[
+                  location.tier === 1 && 'bg-danger-500',
+                  location.tier === 2 && 'bg-warning-500',
+                  location.tier === 3 && 'bg-surface-400',
+                  location.tier === 4 && 'bg-green-500',
+                ]} />
+          <span>
+            In <strong class="text-surface-100">{location.name}</strong>: 
+            <span class:list={[
+              location.modifierYears < 0 && 'text-danger-400',
+              location.modifierYears === 0 && 'text-surface-400',
+              location.modifierYears > 0 && 'text-green-400',
+            ]}>
+              {location.modifierYears < 0 
+                ? `${Math.abs(location.modifierYears)} year${Math.abs(location.modifierYears) !== 1 ? 's' : ''} faster` 
+                : location.modifierYears > 0 
+                  ? `${location.modifierYears} year${location.modifierYears !== 1 ? 's' : ''} slower`
+                  : 'baseline'
+              }
+            </span>
+            ({location.label})
+          </span>
+        </div>
+      </section>
+      
+      <!-- Exposure Factors -->
+      <section class="glass-card p-8 lg:p-12 mb-12">
+        <h2 class="text-sm font-medium uppercase tracking-wider text-surface-400 mb-6">
+          AI Exposure Factors
+        </h2>
+        
+        <ul class="flex flex-wrap gap-3">
+          {job.exposureFactors.map((factor) => (
+            <li class="rounded-lg bg-surface-800 px-4 py-2 text-surface-200">
+              {factor}
+            </li>
+          ))}
+        </ul>
+      </section>
+      
+      <!-- Quip -->
+      <section class="text-center mb-12">
+        <blockquote class="text-xl lg:text-2xl italic text-surface-300 max-w-2xl mx-auto">
+          "{job.quip}"
+        </blockquote>
+      </section>
+      
+      <!-- Expert Quotes -->
+      <section class="mb-12">
+        <h2 class="text-sm font-medium uppercase tracking-wider text-surface-400 mb-6 text-center">
+          What Davos Elites Are Saying
+        </h2>
+        
+        <QuoteCarousel quotes={prediction.quotes} />
+      </section>
+      
+      <!-- Share -->
+      <section class="text-center">
+        <h2 class="text-sm font-medium uppercase tracking-wider text-surface-400 mb-6">
+          Share Your Fate
+        </h2>
+        
+        <ShareButtons 
+          job={job.title}
+          risk={prediction.adjustedRisk}
+          year={targetYear.max}
+          location={location.name}
+        />
+      </section>
+    </div>
+  </main>
+</BaseLayout>

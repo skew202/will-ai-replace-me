@@ -1,0 +1,56 @@
+---
+/**
+ * Quote carousel for Davos expert quotes
+ */
+
+import type { Quote } from '@/types';
+
+interface Props {
+  quotes: Quote[];
+}
+
+const { quotes } = Astro.props;
+---
+
+<div class="quote-carousel">
+  <div class="grid gap-6 md:grid-cols-3">
+    {quotes.map((quote, index) => (
+      <article 
+        class="glass-card p-6 transition-all duration-300 hover:scale-[1.02] hover:border-surface-600"
+        style={`animation-delay: ${index * 0.1}s;`}
+      >
+        <!-- Quote -->
+        <blockquote class="text-surface-200 text-sm leading-relaxed mb-4">
+          "{quote.quote}"
+        </blockquote>
+        
+        <!-- Attribution -->
+        <footer class="border-t border-surface-800 pt-4">
+          <cite class="not-italic">
+            <p class="font-semibold text-surface-100">{quote.author}</p>
+            <p class="text-xs text-surface-500">{quote.role}</p>
+            {quote.sourceUrl ? (
+              <a 
+                href={quote.sourceUrl} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="text-xs text-danger-400 hover:text-danger-300 mt-1 inline-block"
+              >
+                {quote.source} ↗
+              </a>
+            ) : (
+              <p class="text-xs text-surface-500 mt-1">{quote.source}</p>
+            )}
+          </cite>
+        </footer>
+        
+        <!-- Sardonic caption -->
+        {quote.quip && (
+          <p class="mt-4 text-xs italic text-surface-500 border-l-2 border-danger-600/50 pl-3">
+            {quote.quip}
+          </p>
+        )}
+      </article>
+    ))}
+  </div>
+</div>

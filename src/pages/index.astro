@@ -1,0 +1,65 @@
+---
+import BaseLayout from '@components/layouts/BaseLayout.astro';
+import JobSearch from '@components/features/JobSearch';
+import { getRandomQuip } from '@lib/data';
+import { getLocationFromRequest } from '@lib/geo';
+
+// Get detected country from Cloudflare
+const detectedLocation = getLocationFromRequest(Astro.request);
+const randomQuip = getRandomQuip();
+---
+
+<BaseLayout title="Will AI Replace Me? | AI Job Displacement Predictor">
+  <main class="relative min-h-screen overflow-hidden">
+    <!-- Gradient background -->
+    <div class="absolute inset-0 bg-gradient-to-br from-surface-950 via-surface-900 to-surface-950" />
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--color-danger-950)_0%,_transparent_50%)]" />
+    
+    <!-- Content -->
+    <div class="relative z-10 mx-auto max-w-4xl px-6 py-20 lg:py-32">
+      <!-- Hero Section -->
+      <header class="text-center">
+        <!-- The YES -->
+        <h1 class="animate-fade-in-up text-8xl font-black tracking-tighter text-danger-500 sm:text-9xl lg:text-[12rem]">
+          YES
+        </h1>
+        
+        <!-- Subhead -->
+        <p class="animate-fade-in-up mt-6 text-xl font-medium text-surface-200 sm:text-2xl lg:text-3xl" style="animation-delay: 0.1s;">
+          AI is coming for your job.
+        </p>
+        
+        <p class="animate-fade-in-up mt-2 text-lg text-surface-400 sm:text-xl lg:text-2xl" style="animation-delay: 0.2s;">
+          Not you—don't flatter yourself. Just the bit where you get paid.
+        </p>
+        
+        <!-- Tagline -->
+        <p class="animate-fade-in-up mt-8 text-2xl font-semibold text-warning-400 sm:text-3xl lg:text-4xl" style="animation-delay: 0.3s;">
+          But when?
+        </p>
+      </header>
+      
+      <!-- Search Section -->
+      <section class="animate-fade-in-up mt-16 lg:mt-24" style="animation-delay: 0.4s;">
+        <div class="glass-card p-8 lg:p-12">
+          <h2 class="text-center text-lg font-medium text-surface-300 mb-8">
+            Enter your job title to find out
+          </h2>
+          
+          <JobSearch 
+            client:load 
+            detectedCountry={detectedLocation.code}
+            detectedCountryName={detectedLocation.name}
+          />
+        </div>
+      </section>
+      
+      <!-- Random dark quip -->
+      <footer class="animate-fade-in-up mt-16 text-center" style="animation-delay: 0.5s;">
+        <p class="text-sm text-surface-500 italic max-w-xl mx-auto">
+          "{randomQuip}"
+        </p>
+      </footer>
+    </div>
+  </main>
+</BaseLayout>
