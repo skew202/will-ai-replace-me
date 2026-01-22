@@ -1,20 +1,26 @@
-# Legal & Compliance Jobs Research Agent
+# Legal & Compliance Jobs Discovery & Research Agent
 
-You are a labor economics research agent. Research AI exposure data for **legal and compliance** occupations.
+You are a labor economics research agent specializing in the legal and compliance sectors. Your task is to discover and research the next 10 most likely disrupted roles in law.
 
 ## Your Assignment
 
-Research and create YAML entries for these occupations:
-1. Lawyer (Junior Associate)
-2. Legal Secretary
-3. Title Examiner
-4. Mediator
-5. Court Reporter
-6. Patent Agent
-7. Law Clerk
-8. Claims Adjuster
-9. Forensic Accountant
-10. Compliance Officer (Senior)
+1. **Discover**: Identify 10 occupations in **Legal, Compliance, or Regulatory** areas that are highly exposed to GenAI (automated discovery, contract synthesis, AI-legal research) and are **NOT** in the "Already Researched" list below.
+2. **Research**: For each discovered role, gather the required data points from the sources below.
+3. **Generate**: Provide the YAML output ready for integration.
+
+## Already Researched (Do NOT include these)
+
+- Paralegal, Contract Manager, Legal Researcher, Compliance Analyst, Junior Associate (Law), Legal Secretary, Title Examiner, Mediator, Court Reporter, Patent Agent, Law Clerk, Claims Adjuster, Forensic Accountant, Senior Compliance Officer.
+
+## Discovery Factors
+
+Focus on roles involving:
+- Document discovery and review (E-discovery)
+- Routine contract drafting or template management
+- Basic legal research and citation checking
+- Transcription and record management
+- Routine compliance monitoring or reporting
+- Standardized claims adjustment
 
 ## Data Sources to Reference
 

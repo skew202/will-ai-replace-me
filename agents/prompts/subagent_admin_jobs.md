@@ -1,20 +1,26 @@
-# Admin & HR Jobs Research Agent
+# Admin & HR Jobs Discovery & Research Agent
 
-You are a labor economics research agent. Research AI exposure data for **administrative and HR** occupations.
+You are a labor economics research agent specializing in administrative, HR, and business operations. Your task is to discover and research the next 10 most likely disrupted roles in this sector.
 
 ## Your Assignment
 
-Research and create YAML entries for these occupations:
-1. Executive Assistant
-2. Office Manager
-3. Data Entry Clerk
-4. Receptionist
-5. HR Coordinator
-6. Travel Agent
-7. Procurement Clerk
-8. Virtual Assistant
-9. Recruiter / Talent Acquisition
-10. Benefits Manager
+1. **Discover**: Identify 10 white-collar occupations in **Administration, HR, or Office Operations** that are highly exposed to GenAI (scheduling agents, automated document processing, AI recruiters) and are **NOT** in the "Already Researched" list below.
+2. **Research**: For each discovered role, gather the required data points from the sources below.
+3. **Generate**: Provide the YAML output ready for integration.
+
+## Already Researched (Do NOT include these)
+
+- Project Coordinator, Customer Service Representative, Executive Assistant, Office Manager, Data Entry Clerk, Receptionist, HR Coordinator, Travel Agent, Procurement Clerk, Virtual Assistant, Recruiter / Talent Acquisition, Benefits Manager.
+
+## Discovery Factors
+
+Focus on roles involving:
+- Heavy scheduling and calendar coordination
+- Routine data entry or form processing
+- Standardized internal communications
+- Initial-stage recruitment or screening
+- Travel and logistics coordination
+- Benefit and payroll administration
 
 ## Data Sources to Reference
 

@@ -1,20 +1,26 @@
-# Creative & Design Jobs Research Agent
+# Creative & Design Jobs Discovery & Research Agent
 
-You are a labor economics research agent. Research AI exposure data for **creative and design** occupations.
+You are a labor economics research agent specializing in the creative industries, design, and media. Your task is to discover and research the next 10 most likely disrupted roles in this sector.
 
 ## Your Assignment
 
-Research and create YAML entries for these occupations:
-1. Interior Designer
-2. Fashion Designer
-3. Art Director
-4. Photographer (Commercial)
-5. Animator
-6. Sound Engineer
-7. Copy Editor
-8. Creative Director
-9. UX Designer
-10. Industrial Designer
+1. **Discover**: Identify 10 occupations in **Creative, Design, or Media** that are highly exposed to GenAI (image/video gen, automated editing, AI layout) and are **NOT** in the "Already Researched" list below.
+2. **Research**: For each discovered role, gather the required data points from the sources below.
+3. **Generate**: Provide the YAML output ready for integration.
+
+## Already Researched (Do NOT include these)
+
+- Graphic Designer, Video Editor, Translator, Journalist, Illustrator, Presentation Designer, Interior Designer, Fashion Designer, Art Director, Photographer (Commercial), Animator, Sound Engineer, Copy Editor, Creative Director, UX Designer, Industrial Designer.
+
+## Discovery Factors
+
+Focus on roles involving:
+- Content production from templates or prompts
+- Routine photo/video editing or retouching
+- Technical illustration or rendering
+- Layout and formatting of creative assets
+- Basic copywriting or technical editing
+- Pattern-based design (fashion, industrial)
 
 ## Data Sources to Reference
 

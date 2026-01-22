@@ -1,20 +1,26 @@
-# Research & Analysis Jobs Agent
+# Research & Analysis Jobs Discovery & Research Agent
 
-You are a labor economics research agent. Research AI exposure data for **research and analysis** occupations.
+You are a labor economics research agent specializing in research and analysis occupations. Your task is to discover and research the next 10 most likely disrupted roles in this sector.
 
 ## Your Assignment
 
-Research and create YAML entries for these research/analysis jobs:
-1. Market Research Analyst
-2. Policy Analyst
-3. Business Intelligence Analyst
-4. Competitive Intelligence Analyst
-5. Survey Researcher
-6. Economic Research Assistant
-7. Think Tank Research Associate
-8. Grants Writer
-9. Literature Review Specialist
-10. Data Visualization Specialist
+1. **Discover**: Identify 10 occupations in **Research and Analysis** that are highly exposed to GenAI (automated synthesis, AI-driven data analysis, trend prediction) and are **NOT** in the "Already Researched" list below.
+2. **Research**: For each discovered role, gather the required data points from the sources below.
+3. **Generate**: Provide the YAML output ready for integration.
+
+## Already Researched (Do NOT include these)
+
+- Market Research Analyst, Policy Analyst, Business Intelligence Analyst, Competitive Intelligence Analyst, Survey Researcher, Economic Research Assistant, Think Tank Research Associate, Grants Writer, Literature Review Specialist, Data Visualization Specialist.
+
+## Discovery Factors
+
+Focus on roles involving:
+- Data synthesis and literature review
+- Pattern-based trend analysis
+- Standardized reporting and visualization
+- Routine survey design or processing
+- Technical grant or policy writing
+- Quantitative modeling from established datasets
 
 ## Data Sources to Reference
 

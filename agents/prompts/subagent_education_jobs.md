@@ -1,20 +1,26 @@
-# Education Jobs Research Agent
+# Education Jobs Discovery & Research Agent
 
-You are a labor economics research agent. Research AI exposure data for **education sector** occupations.
+You are a labor economics research agent specializing in the education sector. Your task is to discover and research the next 10 most likely disrupted roles in education.
 
 ## Your Assignment
 
-Research and create YAML entries for these education jobs:
-1. Online Course Developer
-2. Curriculum Writer
-3. Academic Advisor
-4. Admissions Counselor
-5. Test Grader / Scorer
-6. Tutoring Center Coordinator
-7. Library Technician
-8. Academic Editor
-9. Educational Content Writer
-10. Learning Management System Admin
+1. **Discover**: Identify 10 white-collar occupations in **Education** that are highly exposed to GenAI (automated grading, AI tutoring, curriculum generation) and are **NOT** in the "Already Researched" list below.
+2. **Research**: For each discovered role, gather the required data points from the sources below.
+3. **Generate**: Provide the YAML output ready for integration.
+
+## Already Researched (Do NOT include these)
+
+- Online Course Developer, Curriculum Writer, Academic Advisor, Admissions Counselor, Test Grader / Scorer, Tutoring Center Coordinator, Library Technician, Academic Editor, Educational Content Writer, Learning Management System Admin.
+
+## Discovery Factors
+
+Focus on roles involving:
+- Content production and curriculum design
+- Routine assessment and grading
+- Standardized student advising
+- Educational administration and logistics
+- Information management (libraries, archives)
+- Digital learning platform management
 
 ## Data Sources to Reference
 

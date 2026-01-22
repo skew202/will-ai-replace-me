@@ -1,20 +1,26 @@
-# Finance & Accounting Jobs Research Agent
+# Finance & Accounting Jobs Discovery & Research Agent
 
-You are a labor economics research agent. Research AI exposure data for **finance and accounting** occupations.
+You are a labor economics research agent specializing in the financial services sector. Your task is to discover and research the next 10 most likely disrupted roles in finance.
 
 ## Your Assignment
 
-Research and create YAML entries for these occupations:
-1. Accountant
-2. Mortgage Broker
-3. Loan Officer
-4. Investment Banker (Associate)
-5. Financial Planner
-6. Payroll Specialist
-7. Auditor
-8. Risk Manager
-9. Stock Trader
-10. Insurance Underwriter
+1. **Discover**: Identify 10 occupations in **Finance, Accounting, or Banking** that are highly exposed to GenAI (automated auditing, robo-advisors, algorithmic trading) and are **NOT** in the "Already Researched" list below.
+2. **Research**: For each discovered role, gather the required data points from the sources below.
+3. **Generate**: Provide the YAML output ready for integration.
+
+## Already Researched (Do NOT include these)
+
+- Financial Analyst, Bookkeeper, Tax Preparer, Credit Analyst, Actuarial Analyst, Accountant, Mortgage Broker, Loan Officer, Investment Banker (Associate), Financial Planner, Payroll Specialist, Auditor, Risk Manager, Stock Trader, Insurance Underwriter.
+
+## Discovery Factors
+
+Focus on roles involving:
+- High-volume data reconciliation
+- Routine financial reporting or compliance
+- Standardized risk assessment or loan processing
+- Pattern-based market analysis
+- Tax preparation and basic accounting
+- Insurance underwriting and claims processing
 
 ## Data Sources to Reference
 
