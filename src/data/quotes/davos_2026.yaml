@@ -1,0 +1,66 @@
+# Davos 2026 Expert Quotes on AI Job Displacement
+# Sources: Verified from perplexity research
+
+- author: Dario Amodei
+  role: CEO, Anthropic
+  quote: "AI could wipe out half of all entry-level white-collar jobs."
+  source: Davos 2026
+  sourceUrl: https://uk.news.yahoo.com/ai-davos-2026-useful-safe-151435319.html
+  quip: "He still has his. Funny that."
+  category: displacement
+
+- author: Dario Amodei
+  role: CEO, Anthropic
+  quote: "A combination of significant GDP growth alongside high unemployment rates. The economy cannot restructure fast enough."
+  source: Davos 2026
+  sourceUrl: https://www.reddit.com/r/agi/comments/1qibd5f/what_amodei_and_hassabis_said_about_agi_timelines/
+  quip: "GDP goes up. Your job goes down. Economics."
+  category: economy
+
+- author: Demis Hassabis
+  role: CEO, Google DeepMind
+  quote: "New, more rewarding jobs will be created."
+  source: Davos 2026
+  sourceUrl: https://uk.news.yahoo.com/ai-davos-2026-useful-safe-151435319.html
+  quip: "Rewarding for whom wasn't specified."
+  category: optimism
+
+- author: Demis Hassabis
+  role: CEO, Google DeepMind
+  quote: "The decline could be offset by the incredible tools available to everyone. Become skilled in these tools rather than just chasing traditional internships."
+  source: Davos 2026
+  sourceUrl: https://uk.news.yahoo.com/ai-davos-2026-useful-safe-151435319.html
+  quip: "Learn the tools that replace you. Career advice from the top."
+  category: adaptation
+
+- author: Demis Hassabis
+  role: CEO, Google DeepMind
+  quote: "Once AGI arrives, the job market will enter uncharted territory, potentially with not enough jobs, raising questions about meaning and purpose beyond mere compensation."
+  source: Davos 2026
+  sourceUrl: https://uk.news.yahoo.com/ai-davos-2026-useful-safe-151435319.html
+  quip: "Purpose beyond compensation. Also known as 'unpaid.'"
+  category: agi
+
+- author: Yuval Noah Harari
+  role: Historian & Author
+  quote: "AI will take over language, law, and power. Whoever controls AI systems that generate and interpret language will effectively mediate work, contracts, and institutions."
+  source: Davos 2026
+  sourceUrl: https://www.youtube.com/watch?v=oJB7JNWo58w
+  quip: "He writes about the future. You'll live it."
+  category: power
+
+- author: Kristalina Georgieva
+  role: Managing Director, IMF
+  quote: "AI will hit services and white-collar work much harder than previous waves of automation. We need massive upskilling and social protections."
+  source: Davos 2026
+  sourceUrl: https://www.weforum.org/stories/2026/01/how-ai-will-affect-work-in-different-industries/
+  quip: "Upskilling. For when your skills become worthless."
+  category: policy
+
+- author: Alex Karp
+  role: CEO, Palantir
+  quote: "Building, deploying, and profiting from AI at an industrial scale."
+  source: Davos 2026
+  sourceUrl: https://qz.com/davos-2026-preview-trump-ai-geopolitics-tariffs-war
+  quip: "Profiting. Not you, though."
+  category: industry

@@ -1,0 +1,92 @@
+# Finance Jobs - AI Exposure Data
+# Sources: PwC AI Jobs Barometer 2025, EIG AI and Jobs Report
+
+financial_analyst:
+  id: financial_analyst
+  title: Financial Analyst
+  onetCode: "13-2051.00"
+  category: finance
+  riskPercent: 75
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Spreadsheet automation
+    - Earnings note drafting
+    - Template valuation models
+  quip: "Your Excel skills impressed everyone. The AI doesn't care about impressions."
+  sources:
+    - url: https://www.pwccn.com/en/issues/generative-ai/global-ai-jobs-barometer-jun2025.html
+      title: PwC Global AI Jobs Barometer
+
+bookkeeper:
+  id: bookkeeper
+  title: Bookkeeper
+  onetCode: "43-3031.00"
+  category: finance
+  riskPercent: 88
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - Transaction coding automation
+    - Receipt scanning AI
+    - Automated reconciliation
+  quip: "Balancing the books is now just balancing your job hunt."
+  sources:
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth
+      title: Wharton Budget Model
+
+tax_preparer:
+  id: tax_preparer
+  title: Tax Preparer
+  onetCode: "13-2082.00"
+  category: finance
+  riskPercent: 85
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - Form auto-completion
+    - Tax code interpretation AI
+    - Deduction optimization
+  quip: "The government will still take your money. Just not through you."
+  sources:
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth
+      title: Wharton Budget Model
+
+credit_analyst:
+  id: credit_analyst
+  title: Credit Analyst
+  onetCode: "13-2041.00"
+  category: finance
+  riskPercent: 70
+  timeline:
+    minYears: 2
+    maxYears: 6
+  exposureFactors:
+    - Risk model automation
+    - Document analysis AI
+    - Credit scoring optimization
+  quip: "You assessed risk for a living. Ironic, isn't it?"
+  sources:
+    - url: https://www.pwccn.com/en/issues/generative-ai/global-ai-jobs-barometer-jun2025.html
+      title: PwC Global AI Jobs Barometer
+
+actuarial_analyst:
+  id: actuarial_analyst
+  title: Actuarial Analyst
+  onetCode: "15-2011.00"
+  category: finance
+  riskPercent: 62
+  timeline:
+    minYears: 4
+    maxYears: 8
+  exposureFactors:
+    - Risk model automation
+    - Report generation
+    - Statistical analysis AI
+  quip: "You calculated probabilities. This one was just harder to accept."
+  sources:
+    - url: https://eig.org/wp-content/uploads/2025/08/EIG-AI-and-Jobs.pdf
+      title: EIG AI and Jobs Report

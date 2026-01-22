@@ -1,0 +1,95 @@
+# Technology Jobs - AI Exposure Data
+# Sources: O*NET, PwC AI Jobs Barometer 2025, Wharton Budget Model
+
+software_developer:
+  id: software_developer
+  title: Software Developer
+  onetCode: "15-1252.00"
+  category: technology
+  riskPercent: 72
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - GenAI code completion
+    - VLLM reasoning agents
+    - Automated testing
+    - Code review automation
+  quip: "AI writes better commit messages than you. That was the easy part."
+  sources:
+    - url: https://www.onetonline.org/link/summary/15-1252.00
+      title: O*NET Software Developers
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth
+      title: Wharton Budget Model GenAI Impact
+
+qa_tester:
+  id: qa_tester
+  title: QA Tester
+  onetCode: "15-1253.00"
+  category: technology
+  riskPercent: 78
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Automated test generation
+    - AI-driven test case design
+    - Visual regression AI
+  quip: "You found bugs. Now AI finds bugs in your job security."
+  sources:
+    - url: https://amro-asia.org/wp-content/uploads/2025/11/GenAI_Labour_Huang2025_20251107.pdf
+      title: AMRO GenAI Labor Market Study
+
+data_analyst:
+  id: data_analyst
+  title: Data Analyst
+  onetCode: "15-2051.00"
+  category: technology
+  riskPercent: 68
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Natural language querying
+    - Auto-generated dashboards
+    - AI insight extraction
+  quip: "SQL was your superpower. Now everyone speaks to the database."
+  sources:
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+data_engineer:
+  id: data_engineer
+  title: Data Engineer
+  onetCode: "15-1243.00"
+  category: technology
+  riskPercent: 58
+  timeline:
+    minYears: 4
+    maxYears: 8
+  exposureFactors:
+    - Automated ETL pipelines
+    - Self-healing data systems
+    - Schema inference AI
+  quip: "Your pipelines are beautiful. The AI's are cheaper."
+  sources:
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth
+      title: Wharton Budget Model GenAI Impact
+
+technical_writer:
+  id: technical_writer
+  title: Technical Writer
+  onetCode: "27-3042.00"
+  category: technology
+  riskPercent: 82
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - API doc generation from code
+    - Knowledge base automation
+    - Context-aware documentation
+  quip: "Clear, concise documentation. Machines were always better at that."
+  sources:
+    - url: https://eig.org/wp-content/uploads/2025/08/EIG-AI-and-Jobs.pdf
+      title: EIG AI and Jobs Report

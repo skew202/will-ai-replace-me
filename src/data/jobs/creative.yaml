@@ -1,0 +1,110 @@
+# Creative & Media Jobs - AI Exposure Data
+# Sources: PwC AI Jobs Barometer 2025, AMRO GenAI Study
+
+graphic_designer:
+  id: graphic_designer
+  title: Graphic Designer
+  onetCode: "27-1024.00"
+  category: creative
+  riskPercent: 75
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - Image generation AI
+    - Template design automation
+    - Brand asset generation
+  quip: "Every pixel you agonized over? Done in 3 seconds now."
+  sources:
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+video_editor:
+  id: video_editor
+  title: Video Editor
+  onetCode: "27-4032.00"
+  category: creative
+  riskPercent: 68
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Auto-editing AI
+    - Color grading automation
+    - B-roll generation
+  quip: "You told stories with cuts. AI just cut your story short."
+  sources:
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+translator:
+  id: translator
+  title: Translator
+  onetCode: "27-3091.00"
+  category: creative
+  riskPercent: 85
+  timeline:
+    minYears: 0
+    maxYears: 3
+  exposureFactors:
+    - Neural machine translation
+    - Context-aware translation
+    - Real-time interpretation
+  quip: "Lost in translation? So is your job."
+  sources:
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+journalist:
+  id: journalist
+  title: Journalist
+  onetCode: "27-3023.00"
+  category: creative
+  riskPercent: 65
+  timeline:
+    minYears: 2
+    maxYears: 6
+  exposureFactors:
+    - News article generation
+    - Data journalism automation
+    - Summary writing AI
+  quip: "You broke stories. AI just broke your budget."
+  sources:
+    - url: https://amro-asia.org/wp-content/uploads/2025/11/GenAI_Labour_Huang2025_20251107.pdf
+      title: AMRO GenAI Labor Market Study
+
+illustrator:
+  id: illustrator
+  title: Illustrator
+  onetCode: "27-1013.00"
+  category: creative
+  riskPercent: 72
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - AI image generation
+    - Style transfer
+    - Vector automation
+  quip: "Your art was unique. Until it became a training example."
+  sources:
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+presentation_designer:
+  id: presentation_designer
+  title: Presentation Designer
+  onetCode: "27-1024.00"
+  category: creative
+  riskPercent: 80
+  timeline:
+    minYears: 1
+    maxYears: 3
+  exposureFactors:
+    - Slide generation AI
+    - Layout automation
+    - Visual suggestion AI
+  quip: "You made decks pop. Now a prompt makes them appear."
+  sources:
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025

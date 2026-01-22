@@ -1,0 +1,47 @@
+# Dark Humor One-Liners
+# Ricky Gervais-style + Sixt-inspired sardonic copy
+# For random display throughout the site
+
+general:
+  - "My company says AI won't replace us, it'll 'free us for higher-value work'—which is HR's way of saying 'updating your LinkedIn.'"
+  - "Open-plan offices were invented so management could watch you being unproductive in real time."
+  - "The AI doesn't take lunch breaks, holidays, or sick days. That's why it's getting your promotion."
+  - "They said 'AI will handle the boring tasks.' Then realized that was 90% of everyone's job description."
+  - "Corporate life is just waiting to be automated, one pointless meeting at a time."
+  - "Your boss calls AI a 'copilot' because 'replacement pilot' didn't test well with focus groups."
+  - "First they tracked your keystrokes, then they tracked your webcam. Next they'll just rent your chair to the algorithm."
+  - "Good news: the company survived the downturn. Bad news: only the company survived."
+  - "The AI can do your job in seconds, but it still takes six weeks to get a laptop approved."
+  - "We used to worry robots would take our jobs. Now we worry they'll have to sit through the same status calls."
+  - "Your performance review is now automated, which saves time when they copy-paste 'expendable.'"
+  - "They replaced half the team with a chatbot. The disturbing part is that the small talk improved."
+  - "Humans do 'strategic thinking'; machines do 'execution.' That's why the humans are on fixed-term contracts."
+  - "AI doesn't hate you. It just optimizes you out of the budget."
+  - "Every new tool 'empowers' workers. Funny how empowerment always comes with headcount reduction."
+  - "Your job is safe, they said. Then they trained the model on your email archive."
+  - "We're not obsolete, we're 'transitioning'—which is corporate for 'please clear your desk.'"
+  - "You're not burned out; you're just running an outdated operating system."
+  - "The future of work is hybrid: half humans pretending to work, half machines pretending to listen."
+  - "Existential dread used to be about death. Now it's about the next software update."
+
+sixt_style:
+  - "Too Human for the Job? Rent an Algorithm."
+  - "Your Boss Chose the AI. You Can Still Choose Your Exit Strategy."
+  - "Career Stalled? At Least the Bots Are Moving Fast."
+  - "Meetings Are Now Between the CEO and the Model. You Weren't Invited."
+  - "Automation Didn't Take Your Job. It Took Your Future, Your Desk, and Your Coffee Mug."
+  - "CV: 20 Years Experience. AI: Read It in 0.3 Seconds, Still Said No."
+  - "Your Replacement Has No Pulse, No Pension, and No Complaints."
+  - "The Good News: Productivity Soared. The Bad News: You Were the Productivity."
+  - "HR Updated the Headcount Plan. It Now Starts with 'Ctrl + A, Delete.'"
+  - "Work Smarter, Not Harder. Or Let the Model Do Both and Stay Home."
+  - "In Case of Redundancy, Break Glass. Inside: A Prompt Engineer Course."
+  - "Your Job Was 'Future-Proof' Until the Future Showed Up."
+  - "Humans: Great for Vision and Values. AI: Great for Actually Doing the Work."
+  - "The Board Voted Unanimously: Keep the AI, Send Regrets to the Humans."
+  - "Ever Felt Invisible at Work? Wait Till the Dashboard Stops Counting You."
+
+share_templates:
+  - "AI says my job as {job} in {location} has a {risk}% disruption risk by {year} 😱 Check yours at will-ai-replace.me"
+  - "According to Davos experts, my career as a {job} is toast by {year}. At least I found out before my boss did. will-ai-replace.me"
+  - "My {job} role: {risk}% AI disruption risk. In {location}: add another year off the timeline. Lovely. will-ai-replace.me"

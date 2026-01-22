@@ -1,0 +1,92 @@
+# Marketing Jobs - AI Exposure Data
+# Sources: PwC AI Jobs Barometer 2025
+
+copywriter:
+  id: copywriter
+  title: Copywriter
+  onetCode: "27-3043.00"
+  category: marketing
+  riskPercent: 85
+  timeline:
+    minYears: 0
+    maxYears: 3
+  exposureFactors:
+    - AI content generation
+    - A/B copy variants
+    - Brand voice automation
+  quip: "Your words moved people. Now they move to the unemployment line."
+  sources:
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+content_marketer:
+  id: content_marketer
+  title: Content Marketer
+  onetCode: "27-3031.00"
+  category: marketing
+  riskPercent: 80
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - Blog post generation
+    - Content calendar automation
+    - SEO content AI
+  quip: "Content is king. AI just staged a coup."
+  sources:
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+seo_specialist:
+  id: seo_specialist
+  title: SEO Specialist
+  onetCode: "15-1299.08"
+  category: marketing
+  riskPercent: 75
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - AI keyword research
+    - Auto-optimization tools
+    - Technical SEO automation
+  quip: "You optimized for algorithms. They optimized you out."
+  sources:
+    - url: https://www.pwccn.com/en/issues/generative-ai/global-ai-jobs-barometer-jun2025.html
+      title: PwC Global AI Jobs Barometer
+
+social_media_manager:
+  id: social_media_manager
+  title: Social Media Manager
+  onetCode: "27-3031.00"
+  category: marketing
+  riskPercent: 72
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - Post generation AI
+    - Scheduling automation
+    - Engagement prediction
+  quip: "You built engagement. AI builds it without the burnout."
+  sources:
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+marketing_analyst:
+  id: marketing_analyst
+  title: Marketing Analyst
+  onetCode: "13-1161.00"
+  category: marketing
+  riskPercent: 70
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Campaign analysis automation
+    - Attribution modeling AI
+    - Performance reporting
+  quip: "You measured ROI. Yours just turned negative."
+  sources:
+    - url: https://www.pwccn.com/en/issues/generative-ai/global-ai-jobs-barometer-jun2025.html
+      title: PwC Global AI Jobs Barometer

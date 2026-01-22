@@ -1,0 +1,467 @@
+# Country AI Adoption Tiers
+# Sources: Microsoft AI Economy Institute 2025, Stanford AI Index
+# Tier 1 = Leader (fastest adoption, -1 to -2 years on timeline)
+# Tier 2 = Fast (above average)
+# Tier 3 = Moderate (average)
+# Tier 4 = Emerging (below average, +1 to +2 years)
+
+# Tier 1: Leaders (modifier: -1 to -2 years)
+AE:
+  code: AE
+  name: United Arab Emirates
+  tier: 1
+  modifierYears: -1.5
+  label: Fast Lane
+  adoptionIndex: 0.89
+  note: "#1 globally in working-age AI adoption (~64%)"
+
+SG:
+  code: SG
+  name: Singapore
+  tier: 1
+  modifierYears: -1.0
+  label: Fast Lane
+  adoptionIndex: 0.85
+  note: "~61% working-age AI adoption, strong gov strategy"
+
+US:
+  code: US
+  name: United States
+  tier: 1
+  modifierYears: -1.0
+  label: Fast Lane
+  adoptionIndex: 0.85
+  note: ">85% enterprise adoption, dominant private investment"
+
+CN:
+  code: CN
+  name: China
+  tier: 1
+  modifierYears: -0.8
+  label: Fast Lane
+  adoptionIndex: 0.82
+  note: "Top 3 globally, strong industrial deployment"
+
+IL:
+  code: IL
+  name: Israel
+  tier: 1
+  modifierYears: -1.0
+  label: Fast Lane
+  adoptionIndex: 0.84
+  note: "Startup nation, high AI R&D intensity"
+
+# Tier 2: Fast (modifier: -0.5 years)
+GB:
+  code: GB
+  name: United Kingdom
+  tier: 2
+  modifierYears: -0.5
+  label: Early Adopter
+  adoptionIndex: 0.75
+  note: "~75% enterprise adoption, strong in finance/safety"
+
+SE:
+  code: SE
+  name: Sweden
+  tier: 2
+  modifierYears: -0.5
+  label: Early Adopter
+  adoptionIndex: 0.74
+
+NL:
+  code: NL
+  name: Netherlands
+  tier: 2
+  modifierYears: -0.5
+  label: Early Adopter
+  adoptionIndex: 0.73
+
+FI:
+  code: FI
+  name: Finland
+  tier: 2
+  modifierYears: -0.5
+  label: Early Adopter
+  adoptionIndex: 0.72
+
+DK:
+  code: DK
+  name: Denmark
+  tier: 2
+  modifierYears: -0.5
+  label: Early Adopter
+  adoptionIndex: 0.72
+
+KR:
+  code: KR
+  name: South Korea
+  tier: 2
+  modifierYears: -0.5
+  label: Early Adopter
+  adoptionIndex: 0.74
+
+JP:
+  code: JP
+  name: Japan
+  tier: 2
+  modifierYears: -0.5
+  label: Early Adopter
+  adoptionIndex: 0.71
+
+AU:
+  code: AU
+  name: Australia
+  tier: 2
+  modifierYears: -0.5
+  label: Early Adopter
+  adoptionIndex: 0.70
+
+CA:
+  code: CA
+  name: Canada
+  tier: 2
+  modifierYears: -0.5
+  label: Early Adopter
+  adoptionIndex: 0.72
+
+CH:
+  code: CH
+  name: Switzerland
+  tier: 2
+  modifierYears: -0.5
+  label: Early Adopter
+  adoptionIndex: 0.73
+
+# Tier 3: Moderate (modifier: 0 years - baseline)
+DE:
+  code: DE
+  name: Germany
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.68
+  note: "Strong industrial AI, ~70% adoption"
+
+FR:
+  code: FR
+  name: France
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.66
+
+IT:
+  code: IT
+  name: Italy
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.58
+
+ES:
+  code: ES
+  name: Spain
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.60
+
+PL:
+  code: PL
+  name: Poland
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.56
+
+CZ:
+  code: CZ
+  name: Czech Republic
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.55
+
+AT:
+  code: AT
+  name: Austria
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.62
+
+BE:
+  code: BE
+  name: Belgium
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.63
+
+IE:
+  code: IE
+  name: Ireland
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.68
+
+PT:
+  code: PT
+  name: Portugal
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.54
+
+NZ:
+  code: NZ
+  name: New Zealand
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.64
+
+IN:
+  code: IN
+  name: India
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.58
+  note: "Large talent pool, rising fast"
+
+MY:
+  code: MY
+  name: Malaysia
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.52
+
+TH:
+  code: TH
+  name: Thailand
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.48
+
+VN:
+  code: VN
+  name: Vietnam
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.45
+
+PH:
+  code: PH
+  name: Philippines
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.44
+
+# Tier 4: Emerging (modifier: +1 to +2 years)
+BR:
+  code: BR
+  name: Brazil
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.42
+
+MX:
+  code: MX
+  name: Mexico
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.40
+
+AR:
+  code: AR
+  name: Argentina
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.35
+
+CL:
+  code: CL
+  name: Chile
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.38
+
+CO:
+  code: CO
+  name: Colombia
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.34
+
+PE:
+  code: PE
+  name: Peru
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.32
+
+ZA:
+  code: ZA
+  name: South Africa
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.38
+  note: "Below global average, SMB adoption low"
+
+EG:
+  code: EG
+  name: Egypt
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.30
+
+NG:
+  code: NG
+  name: Nigeria
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.25
+
+KE:
+  code: KE
+  name: Kenya
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.28
+
+ID:
+  code: ID
+  name: Indonesia
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.40
+
+PK:
+  code: PK
+  name: Pakistan
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.22
+
+BD:
+  code: BD
+  name: Bangladesh
+  tier: 4
+  modifierYears: 2.0
+  label: Slow Burn
+  adoptionIndex: 0.20
+
+TR:
+  code: TR
+  name: Turkey
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.42
+
+RU:
+  code: RU
+  name: Russia
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.45
+
+UA:
+  code: UA
+  name: Ukraine
+  tier: 4
+  modifierYears: 1.5
+  label: Slow Burn
+  adoptionIndex: 0.38
+
+RO:
+  code: RO
+  name: Romania
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.42
+
+HU:
+  code: HU
+  name: Hungary
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.44
+
+GR:
+  code: GR
+  name: Greece
+  tier: 4
+  modifierYears: 1.0
+  label: Slow Burn
+  adoptionIndex: 0.40
+
+SA:
+  code: SA
+  name: Saudi Arabia
+  tier: 3
+  modifierYears: 0
+  label: Standard
+  adoptionIndex: 0.55
+
+QA:
+  code: QA
+  name: Qatar
+  tier: 3
+  modifierYears: -0.5
+  label: Early Adopter
+  adoptionIndex: 0.62
+
+HK:
+  code: HK
+  name: Hong Kong
+  tier: 2
+  modifierYears: -0.5
+  label: Early Adopter
+  adoptionIndex: 0.75
+
+TW:
+  code: TW
+  name: Taiwan
+  tier: 2
+  modifierYears: -0.5
+  label: Early Adopter
+  adoptionIndex: 0.70
+
+NO:
+  code: "NO"
+  name: Norway
+  tier: 2
+  modifierYears: -0.5
+  label: Early Adopter
+  adoptionIndex: 0.72
+
+LU:
+  code: LU
+  name: Luxembourg
+  tier: 2
+  modifierYears: -0.5
+  label: Early Adopter
+  adoptionIndex: 0.68

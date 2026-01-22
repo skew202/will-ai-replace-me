@@ -1,0 +1,111 @@
+# Admin & HR Jobs - AI Exposure Data
+# Sources: Wharton Budget Model, PwC AI Jobs Barometer 2025
+
+executive_assistant:
+  id: executive_assistant
+  title: Executive Assistant
+  onetCode: "43-6011.00"
+  category: admin
+  riskPercent: 78
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Inbox triage AI
+    - Meeting scheduling automation
+    - Travel booking AI
+    - Draft communications
+  quip: "You kept the executive organized. Now an app does."
+  sources:
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth
+      title: Wharton Budget Model
+
+administrative_assistant:
+  id: administrative_assistant
+  title: Administrative Assistant
+  onetCode: "43-6014.00"
+  category: admin
+  riskPercent: 82
+  timeline:
+    minYears: 1
+    maxYears: 4
+  exposureFactors:
+    - Document processing AI
+    - Scheduling automation
+    - Data entry automation
+  quip: "Jack of all trades. Master of none. Replaced by one."
+  sources:
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth
+      title: Wharton Budget Model
+
+hr_coordinator:
+  id: hr_coordinator
+  title: HR Coordinator
+  onetCode: "13-1071.00"
+  category: admin
+  riskPercent: 72
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - CV screening AI
+    - Initial outreach automation
+    - Policy Q&A chatbots
+  quip: "You screened candidates. Now you're screening job boards."
+  sources:
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+recruiter:
+  id: recruiter
+  title: Recruiter
+  onetCode: "13-1071.00"
+  category: admin
+  riskPercent: 68
+  timeline:
+    minYears: 2
+    maxYears: 6
+  exposureFactors:
+    - AI sourcing
+    - Candidate matching
+    - Outreach automation
+  quip: "You found talent. AI just found you redundant."
+  sources:
+    - url: https://www.pwchk.com/en/press-room/press-releases/pr-130625.html
+      title: PwC AI Jobs Barometer 2025
+
+project_coordinator:
+  id: project_coordinator
+  title: Project Coordinator
+  onetCode: "13-1082.00"
+  category: admin
+  riskPercent: 65
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - Status reporting automation
+    - Risk log AI
+    - Documentation generation
+  quip: "You kept projects on track. AI doesn't need coffee breaks."
+  sources:
+    - url: https://www.pwccn.com/en/issues/generative-ai/global-ai-jobs-barometer-jun2025.html
+      title: PwC Global AI Jobs Barometer
+
+customer_service_rep:
+  id: customer_service_rep
+  title: Customer Service Representative
+  onetCode: "43-4051.00"
+  category: admin
+  riskPercent: 88
+  timeline:
+    minYears: 0
+    maxYears: 3
+  exposureFactors:
+    - Multimodal chatbots
+    - TTS/STT automation
+    - Sentiment analysis
+  quip: "Thank you for your patience. Your call is now being handled by a model."
+  sources:
+    - url: https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth
+      title: Wharton Budget Model

@@ -1,0 +1,74 @@
+# Legal Jobs - AI Exposure Data
+# Sources: AMRO GenAI Study, EIG AI and Jobs Report
+
+paralegal:
+  id: paralegal
+  title: Paralegal
+  onetCode: "23-2011.00"
+  category: legal
+  riskPercent: 80
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Document drafting automation
+    - Legal discovery AI
+    - Case law research
+  quip: "You did the legwork. Now the leg is a server rack."
+  sources:
+    - url: https://amro-asia.org/wp-content/uploads/2025/11/GenAI_Labour_Huang2025_20251107.pdf
+      title: AMRO GenAI Labor Market Study
+
+contract_manager:
+  id: contract_manager
+  title: Contract Manager
+  onetCode: "11-3061.00"
+  category: legal
+  riskPercent: 72
+  timeline:
+    minYears: 3
+    maxYears: 6
+  exposureFactors:
+    - Clause comparison AI
+    - Policy mapping automation
+    - Contract generation
+  quip: "You read the fine print. AI reads it faster and doesn't need coffee."
+  sources:
+    - url: https://eig.org/wp-content/uploads/2025/08/EIG-AI-and-Jobs.pdf
+      title: EIG AI and Jobs Report
+
+legal_researcher:
+  id: legal_researcher
+  title: Legal Researcher
+  onetCode: "23-2011.00"
+  category: legal
+  riskPercent: 78
+  timeline:
+    minYears: 2
+    maxYears: 5
+  exposureFactors:
+    - Case law AI search
+    - Precedent analysis
+    - Legal brief research
+  quip: "Your research was thorough. AI's is instantaneous."
+  sources:
+    - url: https://amro-asia.org/wp-content/uploads/2025/11/GenAI_Labour_Huang2025_20251107.pdf
+      title: AMRO GenAI Labor Market Study
+
+compliance_analyst:
+  id: compliance_analyst
+  title: Compliance Analyst
+  onetCode: "13-1041.00"
+  category: legal
+  riskPercent: 68
+  timeline:
+    minYears: 3
+    maxYears: 7
+  exposureFactors:
+    - Regulatory monitoring AI
+    - Policy document analysis
+    - Compliance reporting automation
+  quip: "You ensured compliance. Now you'll comply with the layoff notice."
+  sources:
+    - url: https://eig.org/wp-content/uploads/2025/08/EIG-AI-and-Jobs.pdf
+      title: EIG AI and Jobs Report
