@@ -5,8 +5,9 @@
   "description": "AI job displacement predictor with dark humor",
   "scripts": {
     "dev": "pnpm build:search && astro dev",
-    "build": "pnpm build:search && astro build",
+    "build": "pnpm build:search && pnpm build:og && astro build",
     "build:search": "tsx scripts/build-search-index.ts",
+    "build:og": "tsx scripts/generate-og-images.ts",
     "preview": "astro preview",
     "check": "astro check",
     "lint": "eslint src --ext .ts,.tsx,.astro",
@@ -20,20 +21,22 @@
     "minisearch": "^7.2.0",
     "preact": "^10.25.0",
     "satori": "^0.19.1",
-    "satori-html": "^0.3.2",
-    "yaml": "^2.7.0"
+    "satori-html": "^0.3.2"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.0",
+    "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/vite": "^4.0.0",
     "@types/node": "^22.19.7",
+    "glob": "^13.0.0",
     "prettier": "^3.4.0",
     "prettier-plugin-astro": "^0.14.0",
     "prettier-plugin-tailwindcss": "^0.6.0",
     "tailwindcss": "^4.0.0",
     "tsx": "^4.21.0",
     "typescript": "^5.7.0",
-    "wrangler": "^4.59.3"
+    "wrangler": "^4.59.3",
+    "yaml": "^2.8.2"
   },
   "packageManager": "pnpm@9.15.0"
 }

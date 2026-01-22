@@ -29,7 +29,7 @@ const timelineDisplay = formatTimeline(prediction.adjustedTimeline);
 // Page metadata
 const pageTitle = `${job.title} - ${prediction.adjustedRisk}% AI Disruption Risk`;
 const pageDescription = `AI says ${job.title} has a ${prediction.adjustedRisk}% disruption risk by ${timelineDisplay}. In ${location.name}: ${location.label}.`;
-const ogImage = `/open-graph/${job.id}.png`;
+const ogImage = `/og/${job.id}.png`;
 ---
 
 <BaseLayout title={pageTitle} description={pageDescription} image={ogImage}>
