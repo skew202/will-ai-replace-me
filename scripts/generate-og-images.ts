@@ -4,19 +4,29 @@ import { Resvg } from '@resvg/resvg-js';
 import fs from 'fs';
 import path from 'path';
 import YAML from 'yaml';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const fontUrl = 'https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff';
 
 function loadAllJobs() {
-    const jobsDir = path.join(process.cwd(), 'src', 'data', 'jobs');
+    const jobsDir = path.join(__dirname, '..', 'src', 'data', 'jobs');
+    console.log('🔍 Looking in:', jobsDir);
     const files = fs.readdirSync(jobsDir).filter(f => f.endsWith('.yaml'));
+    console.log(`📁 Found ${files.length} YAML files`);
 
     const allJobs: any[] = [];
     for (const file of files) {
         const filePath = path.join(jobsDir, file);
         const content = fs.readFileSync(filePath, 'utf-8');
-        const jobs = YAML.parse(content);
-        if (Array.isArray(jobs)) {
+        const data = YAML.parse(content);
+
+        // Jobs are stored as objects with job IDs as keys
+        if (data && typeof data === 'object') {
+            const jobs = Object.values(data);
             allJobs.push(...jobs);
         }
     }
@@ -26,7 +36,7 @@ function loadAllJobs() {
 async function generateOGImages() {
     console.log('🎨 Generating OpenGraph images...');
 
-    const outputDir = path.join(process.cwd(), 'public', 'og');
+    const outputDir = path.join(__dirname, '..', 'public', 'og');
     if (!fs.existsSync(outputDir)) {
         fs.mkdirSync(outputDir, { recursive: true });
     }
