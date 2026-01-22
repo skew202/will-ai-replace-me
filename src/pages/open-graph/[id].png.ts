@@ -3,16 +3,26 @@ import { getJobById } from '@/lib/data';
 import satori from 'satori';
 import { html } from 'satori-html';
 import { Resvg, initWasm } from '@resvg/resvg-wasm';
-import resvgWasm from '@resvg/resvg-wasm/index_bg.wasm';
-
-// Initialize WASM globally once
-try {
-  await initWasm(resvgWasm);
-} catch (e) {
-  console.error('Resvg WASM initialization failed:', e);
-}
 
 const fontUrl = 'https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff';
+
+// Function to load WASM dynamically
+async function loadWasm() {
+  try {
+    // @ts-ignore
+    const wasm = await import('@resvg/resvg-wasm/index_bg.wasm');
+    if (wasm.default) {
+      await initWasm(wasm.default);
+      return true;
+    }
+  } catch (e) {
+    console.error('Failed to initialize Resvg WASM:', e);
+  }
+  return false;
+}
+
+// Initialize once
+const wasmReady = loadWasm();
 
 export const GET: APIRoute = async ({ params }) => {
   const { id } = params;
@@ -26,6 +36,9 @@ export const GET: APIRoute = async ({ params }) => {
   if (!job) {
     return new Response('Job not found', { status: 404 });
   }
+
+  // Ensure WASM is loaded (or at least tried)
+  await wasmReady;
 
   // Load font
   const fontData = await fetch(fontUrl).then((res) => res.arrayBuffer());
@@ -75,22 +88,33 @@ export const GET: APIRoute = async ({ params }) => {
     ],
   });
 
-  // Convert to PNG
-  const resvg = new Resvg(svg, {
-    fitTo: {
-      mode: 'width',
-      value: 1200,
-    },
-  });
+  try {
+    // Convert to PNG
+    const resvg = new Resvg(svg, {
+      fitTo: {
+        mode: 'width',
+        value: 1200,
+      },
+    });
 
-  const image = resvg.render();
-  const png = image.asPng();
+    const image = resvg.render();
+    const png = image.asPng();
 
-  return new Response(png, {
-    headers: {
-      'Content-Type': 'image/png',
-      // Cache for 1 day at edge, 1 year if immutable
-      'Cache-Control': 'public, max-age=86400, s-maxage=31536000',
-    },
-  });
+    return new Response(png as unknown as BodyInit, {
+      headers: {
+        'Content-Type': 'image/png',
+        // Cache for 1 day at edge, 1 year if immutable
+        'Cache-Control': 'public, max-age=86400, s-maxage=31536000',
+      },
+    });
+  } catch (e) {
+    console.error('PNG conversion failed, falling back to SVG:', e);
+    return new Response(svg, {
+      headers: {
+        'Content-Type': 'image/svg+xml',
+        // Cache for 1 day at edge, 1 year if immutable
+        'Cache-Control': 'public, max-age=86400, s-maxage=31536000',
+      },
+    });
+  }
 };
