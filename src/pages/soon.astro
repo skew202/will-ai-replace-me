@@ -54,17 +54,12 @@ const ogImage = `/og/${job.id}.png`;
           {job.title}
         </h1>
         
-        <!-- Risk badge -->
-        <div class="inline-flex items-center gap-2 rounded-full px-6 py-2" 
-             class:list={[
-               riskLevel === 'critical' && 'bg-danger-600/20 text-danger-400',
-               riskLevel === 'high' && 'bg-danger-600/15 text-danger-400',
-               riskLevel === 'medium' && 'bg-warning-500/15 text-warning-400',
-               riskLevel === 'low' && 'bg-green-500/15 text-green-400',
-             ]}>
-          <span class="text-2xl font-bold">{prediction.adjustedRisk}%</span>
-          <span>disruption risk</span>
-        </div>
+
+
+        <!-- Quip -->
+        <blockquote class="text-xl italic text-surface-300 max-w-2xl mx-auto">
+          "{job.quip}"
+        </blockquote>
       </header>
       
       <!-- Timeline Section - The Star -->
@@ -102,7 +97,6 @@ const ogImage = `/og/${job.id}.png`;
                   : 'baseline'
               }
             </span>
-            ({location.label})
           </span>
         </div>
       </section>
@@ -122,12 +116,7 @@ const ogImage = `/og/${job.id}.png`;
         </ul>
       </section>
       
-      <!-- Quip -->
-      <section class="text-center mb-12">
-        <blockquote class="text-xl lg:text-2xl italic text-surface-300 max-w-2xl mx-auto">
-          "{job.quip}"
-        </blockquote>
-      </section>
+
       
       <!-- Expert Quotes -->
       <section class="mb-12">
@@ -150,6 +139,22 @@ const ogImage = `/og/${job.id}.png`;
           year={targetYear.max}
           location={location.name}
         />
+      </section>
+
+      <!-- Escape Hatch -->
+      <section class="mt-24 pt-12 border-t border-surface-800/50 text-center">
+        <p class="text-surface-400 mb-6 italic">
+          "I don't like these odds."
+        </p>
+        <a href="/not" class="group inline-flex items-center gap-3 px-8 py-4 bg-emerald-950/30 border border-emerald-900/50 rounded-xl hover:bg-emerald-900/40 hover:border-emerald-500/50 transition-all duration-300">
+          <div class="flex flex-col items-start text-left">
+            <span class="text-xs font-bold uppercase tracking-wider text-emerald-500">Career Pivot Protocol</span>
+            <span class="text-emerald-100 font-bold">See the 10 Safest Jobs</span>
+          </div>
+          <svg class="w-5 h-5 text-emerald-500 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </a>
       </section>
     </div>
   </main>

@@ -1,0 +1,43 @@
+---
+import BaseLayout from '@components/layouts/BaseLayout.astro';
+import { getRandomQuip } from '@lib/data';
+
+const randomQuip = getRandomQuip();
+---
+
+<BaseLayout title="404: Page Not Found | Will AI Replace Me?">
+  <main class="relative min-h-screen overflow-hidden flex flex-col items-center justify-center text-center">
+    <!-- Gradient background (Same as Home) -->
+    <div class="absolute inset-0 bg-gradient-to-br from-surface-950 via-surface-900 to-surface-950" />
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--color-surface-800)_0%,_transparent_60%)] opacity-30" />
+    
+    <div class="relative z-10 px-6 max-w-4xl mx-auto">
+      
+      <!-- Massive 404 -->
+      <h1 class="animate-fade-in-up text-[8rem] sm:text-[10rem] lg:text-[12rem] font-black tracking-tighter text-surface-200/10 leading-none select-none">
+        404
+      </h1>
+      
+      <div class="animate-fade-in-up -mt-4 lg:-mt-8" style="animation-delay: 0.1s;">
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-surface-100 mb-6">
+          The algorithm deleted this page.
+        </h2>
+        
+        <p class="text-xl text-surface-400 font-serif italic max-w-2xl mx-auto leading-relaxed px-4 mb-12">
+          "{randomQuip}"
+        </p>
+
+        <a 
+          href="/" 
+          class="inline-flex items-center gap-2 px-8 py-4 bg-surface-100 text-surface-950 rounded-full font-bold hover:bg-white hover:scale-105 transition-all duration-300"
+        >
+            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            Back to Safety
+        </a>
+      </div>
+
+    </div>
+  </main>
+</BaseLayout>

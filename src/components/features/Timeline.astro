@@ -13,13 +13,19 @@ interface Props {
 const { minYear, maxYear, riskPercent } = Astro.props;
 const currentYear = new Date().getFullYear();
 
-// Calculate years until impact
+// Calculate years until impact relative to now
 const yearsUntilMin = minYear - currentYear;
 const yearsUntilMax = maxYear - currentYear;
 
-// Progress calculation (how far along we are)
-const maxRange = 10; // 10 years max on timeline
-const progressPercent = Math.min(100, ((maxRange - yearsUntilMax) / maxRange) * 100 + 20);
+// Timeline settings
+const maxRange = 5; // 5 years max (2026-2031)
+
+// Calculate progress through current year (how much of 2026 is gone)
+const now = new Date();
+const startOfYear = new Date(currentYear, 0, 1);
+const endOfYear = new Date(currentYear + 1, 0, 1);
+const yearProgress = (now.getTime() - startOfYear.getTime()) / (endOfYear.getTime() - startOfYear.getTime());
+const currentYearProgressPercent = (yearProgress / maxRange) * 100;
 
 // Risk color
 const riskColor = riskPercent >= 75 ? 'danger' : riskPercent >= 50 ? 'warning' : 'surface';
@@ -29,22 +35,29 @@ const riskColor = riskPercent >= 75 ? 'danger' : riskPercent >= 50 ? 'warning' :
   <!-- Year markers -->
   <div class="flex justify-between text-sm text-surface-500 mb-3">
     <span>{currentYear}</span>
+    <!-- Middle marker roughly at 2.5 years -->
+    <span class="hidden sm:block">{currentYear + 2}</span>
     <span>{currentYear + 5}</span>
-    <span>{currentYear + 10}</span>
   </div>
   
   <!-- Timeline bar -->
   <div class="relative h-4 rounded-full bg-surface-800 overflow-hidden">
     <!-- Background grid lines -->
     <div class="absolute inset-0 flex">
-      {[...Array(10)].map((_, i) => (
+      {[...Array(5)].map((_, i) => (
         <div class="flex-1 border-r border-surface-700/50" />
       ))}
     </div>
+
+    <!-- 2026 Past Indicator (Already gone) -->
+    <div 
+      class="absolute h-full bg-surface-600/30 border-r border-surface-500/50 z-0"
+      style={`left: 0; width: ${currentYearProgressPercent}%;`}
+    ></div>
     
     <!-- Impact zone -->
     <div 
-      class="absolute h-full transition-all duration-1000 ease-out"
+      class="absolute h-full transition-all duration-1000 ease-out z-10 opacity-80"
       style={`left: ${(yearsUntilMin / maxRange) * 100}%; width: ${((yearsUntilMax - yearsUntilMin) / maxRange) * 100}%;`}
     >
       <div class:list={[
@@ -52,11 +65,15 @@ const riskColor = riskPercent >= 75 ? 'danger' : riskPercent >= 50 ? 'warning' :
         riskColor === 'danger' && 'bg-gradient-to-r from-danger-600 to-danger-400',
         riskColor === 'warning' && 'bg-gradient-to-r from-warning-600 to-warning-400',
         riskColor === 'surface' && 'bg-gradient-to-r from-surface-500 to-surface-400',
+        yearsUntilMin < 0 && 'rounded-l-none' // Square off if starting before now
       ]} />
     </div>
     
-    <!-- Current position marker -->
-    <div class="absolute top-0 bottom-0 w-0.5 bg-surface-100 left-0" />
+    <!-- Current position marker (Today) -->
+    <div 
+      class="absolute top-0 bottom-0 w-0.5 bg-surface-100 z-20 shadow-[0_0_10px_rgba(255,255,255,0.5)]"
+      style={`left: ${currentYearProgressPercent}%;`}
+    />
   </div>
   
   <!-- Impact range annotation -->
@@ -77,7 +94,7 @@ const riskColor = riskPercent >= 75 ? 'danger' : riskPercent >= 50 ? 'warning' :
   <div class="mt-8 grid grid-cols-2 gap-4 text-center">
     <div class="rounded-xl bg-surface-800/50 p-4">
       <p class="text-3xl font-bold text-surface-100">
-        {yearsUntilMin}–{yearsUntilMax}
+        {Math.max(0, yearsUntilMin)}–{yearsUntilMax}
       </p>
       <p class="text-sm text-surface-400 mt-1">years remaining</p>
     </div>
@@ -91,6 +108,20 @@ const riskColor = riskPercent >= 75 ? 'danger' : riskPercent >= 50 ? 'warning' :
         {riskPercent}%
       </p>
       <p class="text-sm text-surface-400 mt-1">disruption risk</p>
+      <div class="group relative inline-block cursor-help">
+        <p class="text-xs text-surface-500 mt-2 leading-tight underline decoration-dotted decoration-surface-600 underline-offset-2 transition-colors group-hover:text-surface-300">
+          Based on current model capabilities. Assumes no further AI acceleration.
+        </p>
+        
+        <!-- Tooltip -->
+        <div class="pointer-events-none absolute bottom-full left-1/2 mb-3 -translate-x-1/2 w-64 rounded-lg bg-surface-900 border border-surface-700 p-3 text-xs leading-relaxed text-surface-200 opacity-0 shadow-xl transition-all duration-200 group-hover:opacity-100 group-hover:translate-y-0 translate-y-2 z-50 text-left">
+          <div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-3 h-3 rotate-45 bg-surface-900 border-b border-r border-surface-700"></div>
+          <p>
+            <strong class="text-surface-100 block mb-1">The Compounding Effect</strong>
+            Standard forecasts ignore "recursive self-improvement." Scientists are closing the loop: letting AI design, train, and improve the next generation of AI. Once that cycle starts, progress won't be linear—it will be exponential.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </div>

@@ -1,6 +1,3 @@
-# Davos 2026 Expert Quotes on AI Job Displacement
-# Sources: Verified from perplexity research
-
 - author: Dario Amodei
   role: CEO, Anthropic
   quote: "AI could wipe out half of all entry-level white-collar jobs."
@@ -64,3 +61,43 @@
   sourceUrl: https://qz.com/davos-2026-preview-trump-ai-geopolitics-tariffs-war
   quip: "Profiting. Not you, though."
   category: industry
+
+- author: Jensen Huang
+  role: CEO, NVIDIA
+  quote: "This is the largest infrastructure buildout in human history. It will create six-figure jobs for tradecraft—plumbers, electricians, steel workers."
+  source: Davos 2026 (Discussion with Larry Fink)
+  sourceUrl: https://www.youtube.com/watch?v=eqpkLUUDvNg
+  quip: "Finally, a billionaire promises six-figure jobs. Too bad you need a blowtorch instead of a bachelor's degree."
+  category: adaptation
+
+- author: Jensen Huang
+  role: CEO, NVIDIA
+  quote: "You program a computer by saying to the computer, 'How do I program you?' If you don't know how to use an AI, just go up to it and ask."
+  source: Davos 2026 (Discussion with Larry Fink)
+  sourceUrl: https://www.youtube.com/watch?v=eqpkLUUDvNg
+  quip: "Step 1: Ask the machine. Step 2: Do what it says. Step 3: Realize you're training your replacement."
+  category: adaptation
+
+- author: Jensen Huang
+  role: CEO, NVIDIA
+  quote: "The distinction between task and purpose is crucial. AI excels at scalable, repetitive tasks—but the deeper human purpose involves judgment, empathy, and creativity in novel contexts."
+  source: Davos 2026 Framework
+  sourceUrl: https://www.youtube.com/watch?v=eqpkLUUDvNg
+  quip: "Task vs. purpose. Guess which one pays the rent."
+  category: adaptation
+
+- author: Satya Nadella
+  role: CEO, Microsoft
+  quote: "AI is a cognitive amplifier that gives every knowledge worker access to infinite minds. It's a guardian angel that handles routine tasks so professionals can focus on what matters."
+  source: Davos 2026
+  sourceUrl: https://www.youtube.com/watch?v=MqdvwO2dBRU
+  quip: "Access to infinite minds, but you're still stuck in a meeting that could have been an email."
+  category: augmentation
+
+- author: Satya Nadella
+  role: CEO, Microsoft
+  quote: "It might not be AI that takes your job, but the person who knows how to use it. The hardest part is changing how people work—we need skilling to become better providers in the real economy."
+  source: Davos 2026
+  sourceUrl: https://www.businessinsider.com/microsoft-ceo-satya-nadella-knowledge-work-evolution-ai-agents-2025-2
+  quip: "Translation: Learn to boss around the bots or get bossed around by someone who does."
+  category: adaptation

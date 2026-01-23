@@ -63,13 +63,17 @@ export default function JobSearch({ detectedCountry, detectedCountryName }: Prop
     }, [query, searchEngine]);
 
     const handleSelect = useCallback((result: SearchResult) => {
-        window.location.href = `/soon?as=${result.id}&in=${selectedCountry}`;
+        if (result.riskPercent < 20) {
+            window.location.href = `/not?as=${result.id}&in=${selectedCountry}`;
+        } else {
+            window.location.href = `/soon?as=${result.id}&in=${selectedCountry}`;
+        }
     }, [selectedCountry]);
 
     const handleSubmit = useCallback((e: Event) => {
         e.preventDefault();
         if (filteredJobs.length > 0) {
-            handleSelect(filteredJobs[0]);
+            handleSelect(filteredJobs[0] as unknown as SearchResult);
         }
     }, [filteredJobs, handleSelect]);
 
@@ -110,7 +114,7 @@ export default function JobSearch({ detectedCountry, detectedCountryName }: Prop
                             <li key={result.id}>
                                 <button
                                     type="button"
-                                    onMouseDown={() => handleSelect(result)}
+                                    onMouseDown={() => handleSelect(result as unknown as SearchResult)}
                                     class="w-full px-6 py-3 text-left transition-colors hover:bg-surface-800"
                                 >
                                     <span class="font-medium text-surface-100">{result.title}</span>

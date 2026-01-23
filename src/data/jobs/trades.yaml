@@ -180,3 +180,21 @@ aged_care_worker:
   sources:
     - url: https://humanefutureofwork.com/kai-fu-lee-on-the-future-of-work/
       title: Kai-Fu Lee on Compassion
+
+septic_tank_servicer:
+  id: septic_tank_servicer
+  title: Septic Tank Servicer
+  onetCode: "47-4071.00"
+  category: trades
+  riskPercent: 1
+  timeline:
+    minYears: 20
+    maxYears: 40
+  exposureFactors:
+    - Extreme sensory environment (robots lack olfactory tolerance)
+    - Unstructured, hazardous biological waste management
+    - High "disgust factor" barrier to entry for Silicon Valley developers
+  quip: "The only job Silicon Valley is afraid to disrupt. Code smells are metaphorical; this smell is real, and it pays better than your first three startups combined."
+  sources:
+    - url: https://www.onetonline.org/link/summary/47-4071.00
+      title: O*NET Septic Tank Servicers

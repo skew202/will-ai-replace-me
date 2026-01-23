@@ -1,4 +1,4 @@
-# Admin & HR Jobs - AI Exposure Data
+# Admin and HR Jobs - AI Exposure Data
 # Sources: Wharton Budget Model, PwC AI Jobs Barometer 2025
 
 executive_assistant:
@@ -132,7 +132,7 @@ hr_assistant:
 
 comp_and_benefits_specialist:
   id: comp_and_benefits_specialist
-  title: Compensation & Benefits Specialist
+  title: Compensation and Benefits Specialist
   onetCode: "13-1141.00"
   category: admin
   riskPercent: 55
@@ -150,7 +150,7 @@ comp_and_benefits_specialist:
 
 training_specialist:
   id: training_specialist
-  title: Training & Development Specialist
+  title: Training and Development Specialist
   onetCode: "13-1151.00"
   category: admin
   riskPercent: 45
@@ -276,7 +276,7 @@ training_coordinator:
 
 occ_health_safety_spec:
   id: occ_health_safety_spec
-  title: Occupational Health & Safety Specialist
+  title: Occupational Health and Safety Specialist
   onetCode: "19-5011.00"
   category: admin
   riskPercent: 32

@@ -1,6 +1,3 @@
-# Dark Humor One-Liners
-# Sardonic copy for random display throughout the site
-
 general:
   - "My company says AI won't replace us, it'll 'free us for higher-value work'—which is HR's way of saying 'updating your LinkedIn.'"
   - "Open-plan offices were invented so management could watch you being unproductive in real time."
@@ -239,6 +236,17 @@ headlines:
   - "Your contribution: Ingested. Your presence: Unnecessary."
   - "The final update: Your redundancy."
   - "Silicon Valley's promise: A future for everyone (who can code a model)."
+  - "You learned to code. The code learned to code back."
+  - "Your byline just became 'Edited by a Human.'"
+  - "Billable hours went from your time to compute time."
+  - "The focus group is now a prompt."
+  - "Your Excel model got replaced by a model that doesn't need Excel."
+  - "The jobs they told you were 'future-proof' just got a new expiration date."
+  - "Your core competency is now an AI's warm-up exercise."
+  - "AI handles the entropy. You handle the existential dread."
+  - "Evolution sounds nice until you realize you're the one being naturally selected out."
+  - "They didn't lie. They just forgot to mention the fine print was in binary."
+  - "The future of work is working on the future. For some of you."
 
 share_templates:
   - "AI says my job as {job} in {location} has a {risk}% disruption risk by {year} 😱 Check yours at will-ai-replace.me"

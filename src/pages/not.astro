@@ -1,0 +1,138 @@
+---
+import BaseLayout from '@components/layouts/BaseLayout.astro';
+import { getAllJobs } from '@lib/data';
+
+// 1. Get and sort data
+const allJobs = getAllJobs();
+
+// Filter: Top 10 safest by riskPercent (asc) then timeline.maxYears (desc)
+const safeJobs = allJobs
+  .sort((a, b) => {
+    // Primary sort: Low Risk first
+    if (a.riskPercent !== b.riskPercent) {
+      return a.riskPercent - b.riskPercent;
+    }
+    // Secondary sort: Long timeline max (survival duration)
+    return b.timeline.maxYears - a.timeline.maxYears;
+  })
+  .slice(0, 10);
+
+const highlightId = Astro.url.searchParams.get('as');
+
+const pageTitle = "NO | The Safest Jobs Leaderboard";
+const pageDescription = "The Top 10 professions least likely to be replaced by AI.";
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <main class="relative min-h-screen">
+    <!-- Gradient background (Matches Home) -->
+    <div class="absolute inset-0 bg-gradient-to-br from-surface-950 via-surface-900 to-surface-950" />
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--color-surface-800)_0%,_transparent_40%)] opacity-30" />
+
+    <div class="relative z-10 mx-auto max-w-4xl px-6 py-20 lg:py-32">
+      
+      <!-- Component: Hero (Matches Home structure) -->
+      <header class="text-center mb-16 lg:mb-24">
+        <!-- Massive Heading -->
+        <h1 class="animate-fade-in-up text-[7rem] font-black tracking-[-0.02em] text-emerald-500 sm:text-[8rem] lg:text-[10rem] leading-none">
+          NO
+        </h1>
+        
+        <!-- Subhead -->
+        <p class="animate-fade-in-up mt-8 text-[1.375rem] font-medium text-surface-100 sm:text-[1.75rem] lg:text-[2rem] leading-tight tracking-[-0.01em]" style="animation-delay: 0.1s;">
+          AI is not yet coming for your job.
+        </p>
+
+        <p class="animate-fade-in-up mt-6 text-[1.25rem] text-surface-300 font-normal sm:text-[1.5rem] leading-relaxed max-w-2xl mx-auto" style="animation-delay: 0.2s;">
+          The last professions standing in the age of silicon.
+        </p>
+      </header>
+
+      <!-- Component: Leaderboard Card (Matches Home Search Card) -->
+      <section class="animate-fade-in-up" style="animation-delay: 0.3s;">
+        <div class="glass-card p-6 lg:p-12">
+          <h2 class="text-center text-[1rem] font-bold uppercase tracking-widest text-surface-400 mb-10">
+            Disruption Resistance Leaderboard
+          </h2>
+          
+          <div class="space-y-4">
+            {safeJobs.map((job, index) => (
+              <div class:list={[
+                "group relative flex items-center gap-6 p-4 rounded-xl transition-all duration-300 border-b border-surface-800/50 last:border-0 pb-6 mb-2",
+                job.id === highlightId ? "bg-emerald-950/30 border-emerald-500/50 shadow-[0_0_30px_rgba(16,185,129,0.1)] scale-[1.02]" : "hover:bg-surface-800/50"
+              ]}>
+                
+                <!-- Rank -->
+                <div class="hidden sm:block text-3xl font-black text-surface-700 tabular-nums font-mono w-12 text-center group-hover:text-emerald-500/50 transition-colors">
+                  {String(index + 1).padStart(2, '0')}
+                </div>
+                
+                <div class="flex-grow">
+                  <div class="flex flex-col lg:flex-row lg:items-baseline gap-2 lg:gap-4">
+                    <h3 class="text-xl lg:text-2xl font-bold text-surface-100 group-hover:text-emerald-400 transition-colors">
+                      {job.title}
+                    </h3>
+                  </div>
+                  
+                  <div class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm mt-2">
+                    <!-- Specific Reason Badge -->
+                    {job.exposureFactors[0] && (
+                         <span class="text-surface-400 italic">
+                           "{job.exposureFactors[0]}"
+                         </span>
+                    )}
+                    
+                    <div class="flex items-center gap-2 ml-auto">
+                        <div class="px-2 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-mono text-xs font-bold">
+                            RISK: {job.riskPercent}%
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- Purpose / Book Promo Section -->
+      <section class="mt-24 mb-32">
+         <div class="text-center relative overflow-hidden">
+           <blockquote class="text-xl lg:text-2xl font-serif italic text-surface-300 mb-8 leading-relaxed max-w-2xl mx-auto">
+              "Machines dominate the task. Humans define the purpose."
+            </blockquote>
+            
+
+         </div>
+      </section>
+
+      <!-- Bottom Section: The "BUT" for Robots -->
+      <section class="mt-24 pt-20 border-t border-surface-800/50 text-center animate-fade-in-up" style="animation-delay: 0.4s;">
+         <div class="opacity-60 hover:opacity-100 transition-opacity duration-700 group cursor-pointer">
+             <a href="#" class="block">
+                <!-- Massive Heading -->
+                <h2 class="text-[7rem] font-black tracking-[-0.02em] text-danger-500 sm:text-[8rem] lg:text-[10rem] leading-none mb-4 group-hover:scale-105 transition-transform duration-500">
+                  BUT
+                </h2>
+                
+                <!-- Subhead -->
+                <p class="text-[1.375rem] font-medium text-surface-100 sm:text-[1.75rem] lg:text-[2rem] leading-tight tracking-[-0.01em] mb-6">
+                  Robots are coming for your job.
+                </p>
+
+                <p class="text-[1.5rem] text-surface-300 font-normal italic px-4 leading-relaxed max-w-4xl mx-auto mb-8">
+                  "Once the software finishes with the white-collar world, the hardware will arrive for the rest."
+                </p>
+
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-surface-700 bg-surface-900/50 text-surface-400 font-mono text-sm group-hover:border-danger-500/50 group-hover:text-danger-400 transition-colors">
+                   will-robots-replace.me
+                   <span class="inline-block w-2 h-2 rounded-full bg-danger-500 animate-pulse ml-2"></span>
+                </div>
+             </a>
+         </div>
+      </section>
+
+    </div>
+  </main>
+</BaseLayout>
