@@ -118,7 +118,7 @@ export default function JobSearch({ detectedCountry, detectedCountryName }: Prop
                                     class="w-full px-6 py-3 text-left transition-colors hover:bg-surface-800"
                                 >
                                     <span class="font-medium text-surface-100">{result.title}</span>
-                                    <span class="ml-2 text-sm text-danger-400">
+                                    <span class={`ml-2 text-sm ${result.riskPercent < 20 ? 'text-emerald-400' : 'text-danger-400'}`}>
                                         {result.riskPercent}% risk
                                     </span>
                                 </button>
